@@ -429,9 +429,11 @@ Jos käyttäjä on tällä hetkellä sisäänkirjautuneena, käyttäjä kirjataa
 );
 
 /** French (Français)
+ * @author IAlex
  * @author Peter17
  */
 $messages['fr'] = array(
+	'disableaccount-desc' => 'Permet aux administrateurs de désactiver des comptes individuels.',
 	'right-disableaccount' => 'Désactiver des comptes',
 	'disableaccount' => 'Désactiver un compte utilisateur',
 	'disableaccount-user' => 'Nom d’utilisateur :',
