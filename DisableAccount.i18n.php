@@ -981,6 +981,7 @@ Jeśli użytkownik jest obecnie gdziekolwiek zalogowany, zostanie natychmiast wy
  * @author Dragonòt
  */
 $messages['pms'] = array(
+	'disableaccount-desc' => "A përmëtt a j'aministrador ëd disabilité dij cont andividuaj.",
 	'right-disableaccount' => 'Disabilité dij cont',
 	'disableaccount' => 'Disabìlita un cont utent',
 	'disableaccount-user' => 'Stranòm:',
