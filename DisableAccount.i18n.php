@@ -70,11 +70,12 @@ As die gebruiker tans aangeteken is, sal hy onmiddellik uitgeteken word.
 
 /** Arabic (العربية)
  * @author Ciphers
+ * @author OsamaK
  */
 $messages['ar'] = array(
 	'right-disableaccount' => 'تعطيل الحسابات',
 	'disableaccount' => 'تعطيل حساب مستخدم',
-	'disableaccount-user' => 'اسم المستخدم :',
+	'disableaccount-user' => 'اسم المستخدم:',
 	'disableaccount-confirm' => 'تعطيل حساب المستخدم هذا. 
 المستخدم لن يكون قادرا على تسجيل الدخول، إعادة تعيين كلمة المرور الخاصة به، أو تلقي إعلامات البريد الإلكتروني. 
 إذا تم تسجيل المستخدم حاليا في أي مكان، سيتم تسجيله على الفور. 
@@ -511,8 +512,11 @@ $messages['gu'] = array(
 	'disableaccount-success' => 'સભ્ય ખાતું "$1" કાયમી ધોરણે પ્રતિબંધીત કરાયું',
 );
 
-/** Hebrew (עברית) */
+/** Hebrew (עברית)
+ * @author Amire80
+ */
 $messages['he'] = array(
+	'disableaccount-desc' => 'אפשרות שמפעילים יבטלו חשבונות מסוימים',
 	'right-disableaccount' => 'ביטול חשבונות',
 	'disableaccount' => 'ביטול חשבון משתמש',
 	'disableaccount-user' => 'שם משתמש:',
@@ -1014,6 +1018,7 @@ $messages['ps'] = array(
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
+	'disableaccount-desc' => 'Permite que os administradores desactivem contas individuais.',
 	'right-disableaccount' => 'Desactivar contas',
 	'disableaccount' => 'Desactivar uma conta',
 	'disableaccount-user' => 'Nome de utilizador:',
