@@ -178,11 +178,13 @@ $messages['bjn'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Wikitanvir
  */
 $messages['bn'] = array(
 	'right-disableaccount' => 'অ্যাকাউন্ট নিস্ক্রিয়',
 	'disableaccount' => 'কোন ব্যবহারকারী অ্যাকাউন্ট নিস্ক্রিয়',
 	'disableaccount-user' => 'ব্যবহারকারী নাম:',
+	'disableaccount-nosuchuser' => '"$1" নামে কোনো ব্যবহারকারী অ্যাকাউন্ট নেই।',
 );
 
 /** Breton (Brezhoneg)
@@ -621,6 +623,7 @@ Si le usator es actualmente authenticate alicubi, su session essera immediatemen
  * @author IvanLanin
  */
 $messages['id'] = array(
+	'disableaccount-desc' => 'Memungkinkan administrator untuk menonaktifkan akun individu.',
 	'right-disableaccount' => 'Menonaktifkan akun',
 	'disableaccount' => 'Penonaktifan akun pengguna',
 	'disableaccount-user' => 'Nama pengguna:',
@@ -1100,6 +1103,7 @@ Dacă utilizatorul este autentificat în acest moment, sesiunea sa va fi închei
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'disableaccount-desc' => 'Permette a le amministrature de desabbilità le cunde utinde individuale.',
 	'right-disableaccount' => 'Disabbilete le cunde utinde',
 	'disableaccount' => "Disabbilete 'nu cunde utende",
 	'disableaccount-user' => "Nome de l'utende:",
