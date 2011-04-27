@@ -1210,6 +1210,7 @@ $messages['si'] = array(
  * @author Helix84
  */
 $messages['sk'] = array(
+	'disableaccount-desc' => 'Umožňuje správcom zakázať jednotlivé účty.',
 	'right-disableaccount' => 'Zakázať účty',
 	'disableaccount' => 'Zakázať používateľský účet',
 	'disableaccount-user' => 'Používateľské meno:',
@@ -1428,6 +1429,7 @@ $messages['vep'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
+	'disableaccount-desc' => 'Cho phép bảo quản viên vô hiệu hóa tài khoản.',
 	'right-disableaccount' => 'Vô hiệu hóa tài khoản',
 	'disableaccount' => 'Vô hiệu hóa tài khoản người dùng',
 	'disableaccount-user' => 'Tên người dùng:',
@@ -1480,8 +1482,10 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author PhiLiP
+ * @author 阿pp
  */
 $messages['zh-hans'] = array(
+	'disableaccount-desc' => '使管理员可以禁用单个帐户。',
 	'right-disableaccount' => '禁用账户',
 	'disableaccount' => '禁用用户账户',
 	'disableaccount-user' => '用户名：',
