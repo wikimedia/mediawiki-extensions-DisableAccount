@@ -856,6 +856,7 @@ $messages['mk'] = array(
  * @author Praveenp
  */
 $messages['ml'] = array(
+	'disableaccount-desc' => 'ഒറ്റയൊറ്റ അംഗത്വങ്ങൾ പ്രവർത്തനരഹിതമാക്കാൻ കാര്യനിർവ്വാഹകരെ അനുവദിക്കുക',
 	'right-disableaccount' => 'അംഗത്വങ്ങൾ പ്രവർത്തനരഹിതമാക്കൽ',
 	'disableaccount' => 'ഉപയോക്തൃഅംഗത്വം പ്രവർത്തനരഹിതമാക്കുക',
 	'disableaccount-user' => 'ഉപയോക്തൃനാമം:',
@@ -894,6 +895,13 @@ $messages['my'] = array(
 	'disableaccount-mustconfirm' => 'ဤအကောင့်ကို ပိတ်လိုကြောင်း အတည်ပြုရမည် ဖြစ်သည်။',
 	'disableaccount-nosuchuser' => 'အသုံးပြုသူအကောင့် "$1" မတည်ရှိပါ။',
 	'disableaccount-success' => 'အသုံးပြုသူအကောင့် "$1" ကို ရာသက်ပန် ပိတ်ထားလိုက်သည်။',
+);
+
+/** Erzya (Эрзянь)
+ * @author Botuzhaleny-sodamo
+ */
+$messages['myv'] = array(
+	'disableaccount-user' => 'Совицянь леметь:',
 );
 
 /** Low German (Plattdüütsch)
@@ -971,6 +979,7 @@ $messages['or'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
+	'disableaccount-desc' => 'Umożliwia administratorom wyłączanie poszczególnych kont.',
 	'right-disableaccount' => 'Wyłączanie kont',
 	'disableaccount' => 'Wyłącz konto użytkownika',
 	'disableaccount-user' => 'Nazwa użytkownika',
