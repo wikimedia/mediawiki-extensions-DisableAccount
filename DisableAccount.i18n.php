@@ -181,10 +181,13 @@ $messages['bjn'] = array(
  * @author Wikitanvir
  */
 $messages['bn'] = array(
+	'disableaccount-desc' => 'প্রশাসকগণকে একক কোনো অ্যাকাউন্ট নিষ্ক্রিয় করার অনুমতি দাও।',
 	'right-disableaccount' => 'অ্যাকাউন্ট নিস্ক্রিয়',
 	'disableaccount' => 'কোন ব্যবহারকারী অ্যাকাউন্ট নিস্ক্রিয়',
 	'disableaccount-user' => 'ব্যবহারকারী নাম:',
+	'disableaccount-mustconfirm' => 'আপনাকে অবশ্যই নিশ্চিত করতে হবে যে আপনি এই অ্যাকাউন্ট নিষ্ক্রিয় করতে চান।',
 	'disableaccount-nosuchuser' => '"$1" নামে কোনো ব্যবহারকারী অ্যাকাউন্ট নেই।',
+	'disableaccount-success' => 'ব্যাবহারকারী অ্যাকাউন্ট "$1" স্থায়ীভাবে নিষ্ক্রিয় করা হয়েছে।',
 );
 
 /** Breton (Brezhoneg)
@@ -245,9 +248,11 @@ $messages['ckb'] = array(
 );
 
 /** Czech (Česky)
+ * @author Jkjk
  * @author Mormegil
  */
 $messages['cs'] = array(
+	'disableaccount-desc' => 'Umožňuje správcům zakázat jednotlivé účty.',
 	'right-disableaccount' => 'Deaktivování účtů',
 	'disableaccount' => 'Deaktivace uživatelského účtu',
 	'disableaccount-user' => 'Uživatelské jméno:',
@@ -346,6 +351,7 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'disableaccount-desc' => 'Permesas al administrantoj forbari individuajn kontojn.',
 	'right-disableaccount' => 'Malŝalti kontojn',
 	'disableaccount' => 'Malŝalti konton de uzanto',
 	'disableaccount-user' => 'Salutnomo:',
@@ -1343,6 +1349,13 @@ $messages['te'] = array(
 	'disableaccount-mustconfirm' => 'ఈ ఖాతాని అచేతనించదలచుకున్నారు మీరు తప్పనిసరిగా నిర్ధారించాలి.',
 	'disableaccount-nosuchuser' => '"$1" అనే వాడుకరి ఖాతా లేనే లేదు.',
 	'disableaccount-success' => '"$1" అనే వాడుకరి ఖాతాని శాశ్వతంగా అచేతనం చేసారు.',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'disableaccount-user' => "Naran uza-na'in:",
 );
 
 /** Thai (ไทย)
