@@ -777,6 +777,7 @@ $messages['ku-latn'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'disableaccount-desc' => 'Erlaabt et Administratuere fir eenzel Benotzerkonten ze desaktivéieren.',
 	'right-disableaccount' => 'Benotzerkonten desaktivéieren',
 	'disableaccount' => 'E Benotzerkont desaktivéieren',
 	'disableaccount-user' => 'Benotzernumm:',
@@ -1428,6 +1429,7 @@ $messages['tyv'] = array(
  * @author Тест
  */
 $messages['uk'] = array(
+	'disableaccount-desc' => 'Дозволяє адміністраторам вимикати окремі облікові записи.',
 	'right-disableaccount' => 'Вимкнення облікових записів',
 	'disableaccount' => 'Відключення облікового запису користувача',
 	'disableaccount-user' => "Ім'я користувача:",
