@@ -961,8 +961,10 @@ $messages['nn'] = array(
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Nghtwlkr
+ * @author Sjurhamre
  */
 $messages['no'] = array(
+	'disableaccount-desc' => 'Lar administratorer deaktivere individuelle kontoer',
 	'right-disableaccount' => 'Deaktivere kontoer',
 	'disableaccount' => 'Deaktiver en brukerkonto',
 	'disableaccount-user' => 'Brukernavn:',
