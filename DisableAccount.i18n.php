@@ -646,6 +646,7 @@ Jika pengguna saat ini sedang masuk di mana saja, mereka akan segera dikeluarkan
  * @author Beta16
  */
 $messages['it'] = array(
+	'disableaccount-desc' => 'Consente agli amministratori di disattivare gli account individuali.',
 	'right-disableaccount' => 'Disabilitare gli account',
 	'disableaccount' => 'Disabilitare account utente',
 	'disableaccount-user' => 'Nome utente:',
