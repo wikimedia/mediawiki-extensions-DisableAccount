@@ -982,7 +982,7 @@ Om denne brukeren er pålogget et sted vil den umiddelbart bli logget ut.
  * @author Odisha1
  */
 $messages['or'] = array(
-	'disableaccount-user' => 'ବ୍ୟବହାରକାରିକର ନାଆଁ:',
+	'disableaccount-user' => 'ବ୍ୟବାହରକାରୀଙ୍କର ନାଆଁ:',
 );
 
 /** Polish (Polski)
