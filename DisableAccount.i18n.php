@@ -98,9 +98,14 @@ $messages['as'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
+	'disableaccount-desc' => 'Permite que los alministradores desactiven cuentes individuales.',
 	'right-disableaccount' => 'Desactivar cuentes',
 	'disableaccount' => "Desactivar una cuenta d'usuariu",
 	'disableaccount-user' => "Nome d'usuariu:",
+	'disableaccount-confirm' => "Desactivar esta cuenta d'usuariu.
+L'usuariu nun podrá entrar al sistema, reaniciar la contraseña o recibir avisos per corréu.
+Si l'usuariu ta coneutáu, se-y desconectará darréu.
+''Ten en cuenta que desactivar una cuenta nun ye reversible ensin la intervención d'un alministrador del sistema.''",
 	'disableaccount-mustconfirm' => 'Tienes de confirmar que quies desactivar esta cuenta.',
 	'disableaccount-nosuchuser' => 'La cuenta d\'usuariu "$1" nun esiste.',
 	'disableaccount-success' => 'La cuenta d\'usuariu "$1" se desactivó de mou permanente.',
@@ -1073,6 +1078,7 @@ Se neste momento o usuário estiver autenticado em algum lugar, ele sairá de im
  * @author AlimanRuna
  */
 $messages['qu'] = array(
+	'disableaccount-desc' => "Kaywanqa kamachiqkuna sapa rakiqunakunata hark'aytam atinku.",
 	'right-disableaccount' => "Rakiqunakunata hark'ay",
 	'disableaccount' => "Ruraqpa rakiqunanta hark'ay",
 	'disableaccount-user' => 'Ruraqpa sutin:',
