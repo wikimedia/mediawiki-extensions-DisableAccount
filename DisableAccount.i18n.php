@@ -73,6 +73,7 @@ As die gebruiker tans aangeteken is, sal hy onmiddellik uitgeteken word.
  * @author OsamaK
  */
 $messages['ar'] = array(
+	'disableaccount-desc' => 'تسمح للإداريين بتعطيل الحسابات الفردية.',
 	'right-disableaccount' => 'تعطيل الحسابات',
 	'disableaccount' => 'تعطيل حساب مستخدم',
 	'disableaccount-user' => 'اسم المستخدم:',
@@ -1062,6 +1063,7 @@ Se neste momento o utilizador estiver autenticado algures, sairá de imediato.
  * @author Giro720
  */
 $messages['pt-br'] = array(
+	'disableaccount-desc' => 'Permite que os administradores desativem contas individuais.',
 	'right-disableaccount' => 'Desativar contas',
 	'disableaccount' => 'Desativar uma conta',
 	'disableaccount-user' => 'Nome de usuário:',
@@ -1328,8 +1330,10 @@ $messages['su'] = array(
 
 /** Swedish (Svenska)
  * @author Boivie
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'disableaccount-desc' => 'Låter administratörer inaktivera enskilda konton.',
 	'right-disableaccount' => 'Inaktivera konton',
 	'disableaccount' => 'Inaktivera ett användarkonto',
 	'disableaccount-user' => 'Användarnamn:',
