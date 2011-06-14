@@ -222,6 +222,7 @@ M'emañ kevreet bremañ an implijer un tu bennak e vo digevreet kerkent.
  * @author CERminator
  */
 $messages['bs'] = array(
+	'disableaccount-desc' => 'Daje administratorima mogućnost da onemoguće pojedinačne račune.',
 	'right-disableaccount' => 'Onemogućavanje računa',
 	'disableaccount' => 'Onemogućavanje korisničkog računa',
 	'disableaccount-user' => 'Korisničko ime:',
