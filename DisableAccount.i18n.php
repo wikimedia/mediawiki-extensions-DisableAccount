@@ -1019,7 +1019,7 @@ Jeśli użytkownik jest obecnie gdziekolwiek zalogowany, zostanie natychmiast wy
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'disableaccount-desc' => "A përmëtt a j'aministrador ëd disabilité dij cont andividuaj.",
+	'disableaccount-desc' => "A përmët a j'aministrator ëd disabilité dij cont andividuaj.",
 	'right-disableaccount' => 'Disabilité dij cont',
 	'disableaccount' => 'Disabìlita un cont utent',
 	'disableaccount-user' => 'Stranòm:',
@@ -1506,7 +1506,7 @@ $messages['yi'] = array(
  */
 $messages['yo'] = array(
 	'right-disableaccount' => 'Ìdálẹ́kun àwọn àkópamọ́',
-	'disableaccount-user' => 'Orúkọ́ oníṣe:',
+	'disableaccount-user' => 'Orúkọ oníṣe:',
 );
 
 /** Cantonese (粵語) */
