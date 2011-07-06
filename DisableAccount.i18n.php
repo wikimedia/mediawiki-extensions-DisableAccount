@@ -742,6 +742,7 @@ $messages['km'] = array(
  * @author Kwj2772
  */
 $messages['ko'] = array(
+	'disableaccount-desc' => '관리자가 특정 계정을 비활성화할 수 있도록 하는 기능',
 	'right-disableaccount' => '계정을 비활성화하기',
 	'disableaccount' => '계정을 비활성화하기',
 	'disableaccount-user' => '계정 이름:',
