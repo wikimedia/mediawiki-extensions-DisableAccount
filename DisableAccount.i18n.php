@@ -281,6 +281,7 @@ Pokud je uživatel kdekoli přihlášen, bude okamžitě odhlášen.
  * @author Lloffiwr
  */
 $messages['cy'] = array(
+	'disableaccount-desc' => 'Yn caniatau i weinyddwyr analluogi cyfrifon penodol.',
 	'right-disableaccount' => 'Analluogi cyfrifon',
 	'disableaccount' => 'Analluogi cyfrif defnyddiwr',
 	'disableaccount-user' => 'Enw defnyddiwr:',
