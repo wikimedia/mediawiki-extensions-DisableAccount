@@ -892,10 +892,11 @@ $messages['ml'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Kurniasan
  */
 $messages['ms'] = array(
-	'right-disableaccount' => 'Matikan akaun',
+	'right-disableaccount' => 'Mematikan akaun',
 	'disableaccount' => 'Lumpuhkan akaun pengguna',
 	'disableaccount-user' => 'Nama pengguna:',
 	'disableaccount-confirm' => "Lumpuhkan akaun pengguna ini.
