@@ -896,6 +896,7 @@ $messages['ml'] = array(
  * @author Kurniasan
  */
 $messages['ms'] = array(
+	'disableaccount-desc' => 'Membolehkan pentadbir mematikan akaun individu.',
 	'right-disableaccount' => 'Mematikan akaun',
 	'disableaccount' => 'Lumpuhkan akaun pengguna',
 	'disableaccount-user' => 'Nama pengguna:',
