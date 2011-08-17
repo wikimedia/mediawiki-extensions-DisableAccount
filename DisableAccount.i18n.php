@@ -377,9 +377,11 @@ Se la uzulo nun estas salutinta ie ajn, li estas tuj malsalutigitota.
 );
 
 /** Spanish (Español)
+ * @author DJ Nietzsche
  * @author Sanbec
  */
 $messages['es'] = array(
+	'disableaccount-desc' => 'Permite a los administradores desactivar cuentas individuales.',
 	'right-disableaccount' => 'Deshabilitar cuentas',
 	'disableaccount' => 'Deshabilitar una cuenta de usuario',
 	'disableaccount-user' => 'Nombre de usuario:',
@@ -939,6 +941,7 @@ $messages['nds'] = array(
 );
 
 /** Nepali (नेपाली)
+ * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
  */
 $messages['ne'] = array(
@@ -1186,7 +1189,7 @@ $messages['rue'] = array(
 	'disableaccount-success' => 'Конто хоснователя "$1" было заказане настало.',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
