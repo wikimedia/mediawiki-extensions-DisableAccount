@@ -420,9 +420,11 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Americophile
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'disableaccount-desc' => 'به مدیران این اجازه را می‌دهد تا حساب‌های شخصی را غیرفعال کنند.',
 	'right-disableaccount' => 'غیر فعال کردن حساب‌ها',
 	'disableaccount' => 'غیر فعال کردن یک حساب کاربری',
 	'disableaccount-user' => 'نام کاربری:',
