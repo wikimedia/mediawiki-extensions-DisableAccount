@@ -1129,6 +1129,7 @@ Sche l'utilisader è actualmain annunzià vegn el immediatamain sortì dal siste
  * @author Minisarm
  */
 $messages['ro'] = array(
+	'disableaccount-desc' => 'Permite administratorilor să dezactiveze conturi individuale.',
 	'right-disableaccount' => 'Dezactivează conturi',
 	'disableaccount' => 'Dezactivare cont de utilizator',
 	'disableaccount-user' => 'Nume de utilizator:',
