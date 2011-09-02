@@ -834,10 +834,16 @@ $messages['ln'] = array(
 );
 
 /** Lithuanian (Lietuvių)
+ * @author Eitvys200
  * @author Garas
  */
 $messages['lt'] = array(
+	'disableaccount-desc' => 'Leisti administratoriams išjungti atskiras sąskaitas.',
+	'right-disableaccount' => 'Išjungti sąskaitas',
+	'disableaccount' => 'Išjungti vartotojo sąskaitą',
 	'disableaccount-user' => 'Naudotojo vardas:',
+	'disableaccount-mustconfirm' => 'Jūs turite patvirtinti, kad jūs norite išjungti šią sąskaitą.',
+	'disableaccount-nosuchuser' => 'Vartotojo paskyrą "$1" neegzistuoja.',
 );
 
 /** Latgalian (Latgaļu)
