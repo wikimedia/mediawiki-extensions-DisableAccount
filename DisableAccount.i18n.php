@@ -1186,6 +1186,7 @@ $messages['ru'] = array(
  * @author Gazeb
  */
 $messages['rue'] = array(
+	'disableaccount-desc' => 'Доволює адміністраторам заказати єднотливы конта.',
 	'right-disableaccount' => 'Заказати конта',
 	'disableaccount' => 'Заказати конто хоснователя',
 	'disableaccount-user' => 'Імя хоснователя:',
