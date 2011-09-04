@@ -347,6 +347,7 @@ Jolic wužywaŕ jo tuchylu hynźi pśizjawjony, buźo se ned wótzjawiś.
  * @author Glavkos
  */
 $messages['el'] = array(
+	'disableaccount-desc' => 'Επιτρέπει στους διαχειριστές να απενεργοποιήσουν ατομικούς λογαριασμούς.',
 	'right-disableaccount' => 'Απενεργοποίηση λογαριασμών',
 	'disableaccount' => 'Απενεργοποίηση λογαριασμού χρήστη',
 	'disableaccount-user' => 'Όνομα χρήστη:',
@@ -440,8 +441,10 @@ $messages['fa'] = array(
 /** Finnish (Suomi)
  * @author Crt
  * @author Nike
+ * @author Olli
  */
 $messages['fi'] = array(
+	'disableaccount-desc' => 'Järjestelmänvalvojat voivat poistaa käytöstä yksittäisiä tilejä.',
 	'right-disableaccount' => 'Poistaa tunnuksia käytöstä',
 	'disableaccount' => 'Käyttäjätunnuksen poistaminen käytöstä',
 	'disableaccount-user' => 'Käyttäjätunnus',
@@ -476,6 +479,7 @@ Si l’utilisateur est actuellement identifié quelque part, il sera immédiatem
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'disableaccount-desc' => 'Pèrmèt ux administrators de dèsactivar des comptos endividuèls.',
 	'right-disableaccount' => 'Dèsactivar des comptos',
 	'disableaccount' => 'Dèsactivar un compto utilisator',
 	'disableaccount-user' => 'Nom d’utilisator :',
@@ -677,9 +681,11 @@ Tutte le attuali connessioni dell'utente, saranno immediatamente terminate.
 );
 
 /** Japanese (日本語)
+ * @author Schu
  * @author 青子守歌
  */
 $messages['ja'] = array(
+	'disableaccount-desc' => '管理者が個々のアカウントを無効にすることを可能にします。',
 	'right-disableaccount' => 'アカウントを無効化',
 	'disableaccount' => '利用者アカウントを無効化',
 	'disableaccount-user' => '利用者名：',
@@ -1118,6 +1124,7 @@ Maypipas yaykusqa kaspaqa, tuyllapi qarqusqam kanqa.
  * @author Gion-andri
  */
 $messages['rm'] = array(
+	'disableaccount-desc' => "Lubescha ad administraturs da deactivar contos d'utilisader inividuals.",
 	'right-disableaccount' => 'Deactivar contos',
 	'disableaccount' => "Deactivar in conto d'utilisader",
 	'disableaccount-user' => "Num d'utilisader:",
