@@ -1565,9 +1565,11 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Anakmalaysia
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
+	'disableaccount-desc' => '允許管理員禁用個人賬戶。',
 	'right-disableaccount' => '禁用帳號',
 	'disableaccount' => '禁用用戶賬戶',
 	'disableaccount-user' => '用戶名：',
