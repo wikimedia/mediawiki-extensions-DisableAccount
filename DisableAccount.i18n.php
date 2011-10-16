@@ -510,9 +510,11 @@ Se o usuario está conectado, sairá ao anonimato inmediatamente.
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
+	'disableaccount-desc' => "Macht's für Ammane mögli, einzelni Benutzerchonte z deaktiviere",
 	'right-disableaccount' => 'Benutzerkonto deaktiviere',
 	'disableaccount' => 'E Benutzerkonto deaktiviere',
 	'disableaccount-user' => 'Benutzername:',
