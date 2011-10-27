@@ -603,6 +603,7 @@ Ako je suradnik trenutno prijavljen negdje, odmah će biti odjavljen.
  * @author Michawiki
  */
 $messages['hsb'] = array(
+	'disableaccount-desc' => 'Zmóžnja administratoram jednotliwe konta znjemóžnić',
 	'right-disableaccount' => 'Konta znjemóžnić',
 	'disableaccount' => 'Wužiwarske konto znjemóžnić',
 	'disableaccount-user' => 'Wužiwarske mjeno:',
