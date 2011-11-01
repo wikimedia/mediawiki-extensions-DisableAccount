@@ -331,6 +331,7 @@ Sofern der Benutzer momentan angemeldet ist, wird er umgehend abgemeldet.
  * @author Michawiki
  */
 $messages['dsb'] = array(
+	'disableaccount-desc' => 'Zmóžnja administratoram jadnotliwe konta znjemóžniś.',
 	'right-disableaccount' => 'Konta znjemóžniś',
 	'disableaccount' => 'Wužywarske konto znjemóžniś',
 	'disableaccount-user' => 'Wužywarske mě:',
