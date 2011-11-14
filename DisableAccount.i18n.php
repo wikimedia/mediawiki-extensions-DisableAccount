@@ -1022,6 +1022,13 @@ $messages['or'] = array(
 	'disableaccount-user' => 'ବ୍ୟବାହରକାରୀଙ୍କର ନାଆଁ:',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'disableaccount-user' => 'Yuuser-Naame:',
+);
+
 /** Polish (Polski)
  * @author Sp5uhe
  */
