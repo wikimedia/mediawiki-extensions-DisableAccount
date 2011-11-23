@@ -175,7 +175,7 @@ $messages['bg'] = array(
 	'disableaccount-nosuchuser' => 'Потребителската сметка "$1" не съществува.',
 );
 
-/** Bahasa Banjar (Bahasa Banjar)
+/** Banjar (Bahasa Banjar)
  * @author J Subhi
  */
 $messages['bjn'] = array(
@@ -575,7 +575,7 @@ $messages['hi'] = array(
 ''कृपया श्यान दें कि किसी अक्षम खाते को बिना प्रशासक के हस्तक्षेप के प्रतिवर्ती नहीं किया जा सकता।",
 );
 
-/** Fiji Hindi (Latin) (Fiji Hindi (Latin))
+/** Fiji Hindi (Latin script) (Fiji Hindi)
  * @author Thakurji
  */
 $messages['hif-latn'] = array(
@@ -619,8 +619,10 @@ Jeli wužiwar je tuchwilu druhdźe přizjewjeny, budźe so hnydom wotzjewjeć.
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Dj
  */
 $messages['hu'] = array(
+	'disableaccount-desc' => 'Lehetőséget biztosít az adminisztrátoroknak felhasználói fiókok letiltását.',
 	'right-disableaccount' => 'fiókok letiltása',
 	'disableaccount' => 'Felhasználói fiók letiltása',
 	'disableaccount-user' => 'Felhasználónév:',
@@ -795,7 +797,7 @@ Wann dä Metmaacher ööhnzwoh enjelogg es, flüsh hä tirag_eruß.
 	'disableaccount-success' => 'Däm Metmaacher „$1“ singe Zohjang es op Duur stell jelaat.',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1240,7 +1242,7 @@ $messages['sco'] = array(
 	'disableaccount-user' => 'Uisername:',
 );
 
-/** Serbo-Croatian (Srpskohrvatski / Српскохрватски)
+/** Serbo-Croatian (Srpskohrvatski)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -1325,7 +1327,7 @@ Nëse përdoruesi është aktualisht i identifikuar ndokund, ai do të dalë men
 	'disableaccount-success' => 'Llogaria e përdoruesit "$1" është çaktiviyuar përgjithmonë.',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1462,7 +1464,7 @@ Eğer kullanıcı bir yerde giriş yapmış ise, hemen çıkış yapılacak.
 	'disableaccount-success' => '"$1" kullanıcı hesabı kalıcı olarak devre dışı bırakıldı.',
 );
 
-/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+/** Tatar (Cyrillic script) (Татарча)
  * @author Bulatbulat
  */
 $messages['tt-cyrl'] = array(
