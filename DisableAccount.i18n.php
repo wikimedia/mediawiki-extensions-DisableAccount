@@ -484,9 +484,9 @@ $messages['frp'] = array(
 	'right-disableaccount' => 'Dèsactivar des comptos',
 	'disableaccount' => 'Dèsactivar un compto utilisator',
 	'disableaccount-user' => 'Nom d’utilisator :',
-	'disableaccount-confirm' => "Dèsactivar cél compto utilisator.
-L’utilisator porrat pas més sè branchiér, ni tornar inicialisar son mot de pâssa, ni recêvre des notificacions per mèssageria èlèctronica.
-Se l’utilisator est orendrêt branchiê a quârqu’un sens, serat dèbranchiê d’abôrd.
+	'disableaccount-confirm' => "Dèsactivar cél compto usanciér.
+L’usanciér porrat pas més sè branchiér, ni tornar inicialisar son contresegno, ni recêvre des notificacions per mèssageria èlèctronica.
+Se l’usanciér est orendrêt branchiê a quârqu’un sens, serat dèbranchiê d’abôrd.
 ''Notâd que la dèsactivacion d’un compto est pas revèrsibla sen entèrvencion d’un administrator sistèmo.''",
 	'disableaccount-mustconfirm' => 'Vos dête confirmar que vos souhètâd dèsactivar cél compto.',
 	'disableaccount-nosuchuser' => 'Lo compto utilisator « $1 » ègziste pas.',
