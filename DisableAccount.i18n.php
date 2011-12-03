@@ -482,15 +482,15 @@ Si l’utilisateur est actuellement identifié quelque part, il sera immédiatem
 $messages['frp'] = array(
 	'disableaccount-desc' => 'Pèrmèt ux administrators de dèsactivar des comptos endividuèls.',
 	'right-disableaccount' => 'Dèsactivar des comptos',
-	'disableaccount' => 'Dèsactivar un compto utilisator',
-	'disableaccount-user' => 'Nom d’utilisator :',
+	'disableaccount' => 'Dèsactivar un compto usanciér',
+	'disableaccount-user' => 'Nom d’usanciér :',
 	'disableaccount-confirm' => "Dèsactivar cél compto usanciér.
 L’usanciér porrat pas més sè branchiér, ni tornar inicialisar son contresegno, ni recêvre des notificacions per mèssageria èlèctronica.
 Se l’usanciér est orendrêt branchiê a quârqu’un sens, serat dèbranchiê d’abôrd.
 ''Notâd que la dèsactivacion d’un compto est pas revèrsibla sen entèrvencion d’un administrator sistèmo.''",
 	'disableaccount-mustconfirm' => 'Vos dête confirmar que vos souhètâd dèsactivar cél compto.',
-	'disableaccount-nosuchuser' => 'Lo compto utilisator « $1 » ègziste pas.',
-	'disableaccount-success' => 'Lo compto utilisator « $1 » at étâ dèsactivâ por de bon.',
+	'disableaccount-nosuchuser' => 'Lo compto usanciér « $1 » ègziste pas.',
+	'disableaccount-success' => 'Lo compto usanciér « $1 » at étâ dèsactivâ por de bon.',
 );
 
 /** Galician (Galego)
