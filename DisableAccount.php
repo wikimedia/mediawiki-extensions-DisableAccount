@@ -6,12 +6,19 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Disable Account',
 	'author' => array( 'Andrew Garrett' ),
+	'url' => 'https://www.mediawiki.org/wiki/Extension:DisableAccount',
 	'descriptionmsg' => 'disableaccount-desc',
 );
 
-$wgExtensionMessagesFiles['DisableAccount'] = dirname(__FILE__)."/DisableAccount.i18n.php";
+$dir = dirname( __FILE__ ) . '/';
 
-$wgAutoloadClasses['SpecialDisableAccount'] = dirname(__FILE__)."/SpecialDisableAccount.php";
+// Internationlization files
+$wgExtensionMessagesFiles['DisableAccount'] = $dir . 'DisableAccount.i18n.php';
+$wgExtensionMessagesFiles['DisableAccountAliases'] = $dir . 'DisableAccount.alias.php';
+
+// Special page classes
+$wgAutoloadClasses['SpecialDisableAccount'] = $dir . 'DisableAccount_body.php';
 $wgSpecialPages['DisableAccount'] = 'SpecialDisableAccount';
 
+// Add permission required to use Special:DisableAccount
 $wgAvailableRights[] = 'disableaccount';

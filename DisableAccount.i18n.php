@@ -5,7 +5,7 @@
 $messages = array();
 
 $messages['en'] = array(
-	'disableaccount-desc' => 'Allows administrators to disable individual accounts.',
+	'disableaccount-desc' => 'Allows administrators to disable individual accounts',
 	'right-disableaccount' => 'Disable accounts',
 	'disableaccount' => 'Disable a user account',
 	'disableaccount-user' => 'User name:',
