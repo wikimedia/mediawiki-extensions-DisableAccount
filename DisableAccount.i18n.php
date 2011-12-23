@@ -1343,6 +1343,20 @@ $messages['sr-ec'] = array(
 	'disableaccount-success' => 'Кориснички налог „$1“ је трајно онемогућен.',
 );
 
+/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+$messages['sr-el'] = array(
+	'right-disableaccount' => 'Onemogućavanje naloga',
+	'disableaccount' => 'Onemogući korisnički nalog',
+	'disableaccount-user' => 'Korisničko ime:',
+	'disableaccount-confirm' => "Onemogući ovaj korisnički nalog.
+Ovaj član neće moći da se prijavi, poništi lozinku i prima obaveštenja preko e-pošte.
+Ako je korisnik trenutno prijavljen, odmah će biti odjavljen.
+''Onemogućavanje naloga nije moguće bez posredovanja sistemskog administratora.''",
+	'disableaccount-mustconfirm' => 'Morate potvrditi da želite da onemogućite ovaj nalog.',
+	'disableaccount-nosuchuser' => 'Korisnički nalog „$1“ ne postoji.',
+	'disableaccount-success' => 'Korisnički nalog „$1“ je trajno onemogućen.',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
