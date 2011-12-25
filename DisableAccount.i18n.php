@@ -1003,7 +1003,7 @@ $messages['nn'] = array(
  * @author Nghtwlkr
  * @author Sjurhamre
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'disableaccount-desc' => 'Lar administratorer deaktivere individuelle kontoer',
 	'right-disableaccount' => 'Deaktivere kontoer',
 	'disableaccount' => 'Deaktiver en brukerkonto',
