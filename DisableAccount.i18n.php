@@ -400,6 +400,7 @@ Si el usuario está conectado, será desconectado de inmediato.
  * @author Pikne
  */
 $messages['et'] = array(
+	'disableaccount-desc' => 'Lubab administraatoritel isiklikke kontosid keelata.',
 	'right-disableaccount' => 'Lukustada kontosid',
 	'disableaccount' => 'Kasutajakonto lukustamine',
 	'disableaccount-user' => 'Kasutajanimi:',
@@ -950,6 +951,24 @@ $messages['myv'] = array(
 	'disableaccount-user' => 'Совицянь леметь:',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ * @author Sjurhamre
+ */
+$messages['nb'] = array(
+	'disableaccount-desc' => 'Lar administratorer deaktivere individuelle kontoer',
+	'right-disableaccount' => 'Deaktivere kontoer',
+	'disableaccount' => 'Deaktiver en brukerkonto',
+	'disableaccount-user' => 'Brukernavn:',
+	'disableaccount-confirm' => "Deaktiver denne brukerkontoen.
+Brukeren vil ikke kunne logge inn, tilbakestille sitt passord eller motta e-postvarsler.
+Om denne brukeren er pålogget et sted vil den umiddelbart bli logget ut.
+''Merk at å deaktivere en konto ikke er reversibelt uten inngripen fra en systemadministrator.''",
+	'disableaccount-mustconfirm' => 'Du må bekrefte at du vil deaktivere denne kontoen.',
+	'disableaccount-nosuchuser' => 'Brukerkontoen «$1» finnes ikke.',
+	'disableaccount-success' => 'Brukerkontoen «$1» har blitt permanent deaktivert.',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -999,29 +1018,15 @@ $messages['nn'] = array(
 	'disableaccount-success' => 'Brukarkontoen «$1» er permanent deaktivert.',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Nghtwlkr
- * @author Sjurhamre
- */
-$messages['nb'] = array(
-	'disableaccount-desc' => 'Lar administratorer deaktivere individuelle kontoer',
-	'right-disableaccount' => 'Deaktivere kontoer',
-	'disableaccount' => 'Deaktiver en brukerkonto',
-	'disableaccount-user' => 'Brukernavn:',
-	'disableaccount-confirm' => "Deaktiver denne brukerkontoen.
-Brukeren vil ikke kunne logge inn, tilbakestille sitt passord eller motta e-postvarsler.
-Om denne brukeren er pålogget et sted vil den umiddelbart bli logget ut.
-''Merk at å deaktivere en konto ikke er reversibelt uten inngripen fra en systemadministrator.''",
-	'disableaccount-mustconfirm' => 'Du må bekrefte at du vil deaktivere denne kontoen.',
-	'disableaccount-nosuchuser' => 'Brukerkontoen «$1» finnes ikke.',
-	'disableaccount-success' => 'Brukerkontoen «$1» har blitt permanent deaktivert.',
-);
-
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
  * @author Odisha1
+ * @author Psubhashish
  */
 $messages['or'] = array(
-	'disableaccount-user' => 'ବ୍ୟବାହରକାରୀଙ୍କର ନାଆଁ:',
+	'right-disableaccount' => 'ଖାତା ରଦ୍ଧ କରିବେ',
+	'disableaccount' => 'ବ୍ୟବହାରକାରୀଙ୍କ ଖାତା ରଦ୍ଧ କରିବେ',
+	'disableaccount-user' => 'ବ୍ୟବହାରକାରୀଙ୍କ ନାମ:',
 );
 
 /** Deitsch (Deitsch)
