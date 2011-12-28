@@ -563,13 +563,14 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Ansumang
  * @author Kumar
  * @author रोहित रावत
  */
 $messages['hi'] = array(
 	'right-disableaccount' => 'निष्क्रिय खातों',
 	'disableaccount' => 'कोई उपयोगकर्ता खाते को निष्क्रिय करें',
-	'disableaccount-user' => 'प्रयोक्तानाम:',
+	'disableaccount-user' => 'सदस्य नाम:',
 	'disableaccount-confirm' => "इस प्रयोक्ता खाते को अक्षम करें:
 यह प्रयोक्ता लॉगिन करने, कूटशब्द पुनः सेट करने, या ईमेल सूचनाएं प्राप्त करने में सक्षम नहीं होगा।
 यदि प्रयोक्ता अभी कहीं लॉगिन है, तो वह तुरन्त लॉग आउट कर दिया जाएगा।
