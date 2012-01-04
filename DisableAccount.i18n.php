@@ -54,8 +54,10 @@ Si el usuario está conectado, será desconectado de inmediato.
 
 /** Afrikaans (Afrikaans)
  * @author Naudefj
+ * @author පසිඳු කාවින්ද
  */
 $messages['af'] = array(
+	'disableaccount-desc' => 'Bestuurders in staat stel om individuele rekeninge uit te skakel',
 	'right-disableaccount' => 'Deaktiveer gebruikers',
 	'disableaccount' => "Deaktiveer 'n gebruiker",
 	'disableaccount-user' => 'Gebruikernaam:',
