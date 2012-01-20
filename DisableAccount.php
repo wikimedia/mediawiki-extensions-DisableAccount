@@ -17,7 +17,7 @@ $wgExtensionMessagesFiles['DisableAccount'] = $dir . 'DisableAccount.i18n.php';
 $wgExtensionMessagesFiles['DisableAccountAliases'] = $dir . 'DisableAccount.alias.php';
 
 // Special page classes
-$wgAutoloadClasses['SpecialDisableAccount'] = $dir . 'SpecialDisableAccount.php';
+$wgAutoloadClasses['SpecialDisableAccount'] = $dir . 'DisableAccount_body.php';
 $wgSpecialPages['DisableAccount'] = 'SpecialDisableAccount';
 
 // Add permission required to use Special:DisableAccount
