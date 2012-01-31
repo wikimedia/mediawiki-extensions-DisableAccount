@@ -989,11 +989,12 @@ $messages['nds'] = array(
 /** Nepali (नेपाली)
  * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
+ * @author RajeshPandey
  */
 $messages['ne'] = array(
 	'right-disableaccount' => 'खातालाई अक्षम गर्ने',
 	'disableaccount' => 'प्रयोगकर्ता खाता निस्क्रिय गर्ने',
-	'disableaccount-user' => 'प्रयोगकर्ता-नाम:',
+	'disableaccount-user' => 'प्रयोगकर्ता नाम:',
 	'disableaccount-mustconfirm' => 'तपाईंले यो सुनिश्चित गर्नुपर्छ कि तपाईं यो खाता निस्क्रिय गर्न चाहनुहुन्छ।',
 	'disableaccount-nosuchuser' => 'यो $1 प्रयोगकर्ता खाता छैन।',
 	'disableaccount-success' => '"$1" प्रयोगकर्ता खाता स्थायी रुपले निस्क्रिय गरिएकोछ।',
