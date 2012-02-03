@@ -106,8 +106,8 @@ $messages['ast'] = array(
 	'disableaccount' => "Desactivar una cuenta d'usuariu",
 	'disableaccount-user' => "Nome d'usuariu:",
 	'disableaccount-confirm' => "Desactivar esta cuenta d'usuariu.
-L'usuariu nun podrá entrar al sistema, reaniciar la contraseña o recibir avisos per corréu.
-Si l'usuariu ta coneutáu, se-y desconectará darréu.
+L'usuariu nun podrá entrar al sistema, reaniciar la conseña o recibir avisos per corréu.
+Si l'usuariu ta conectáu n'ayuri, se-y desconectará darréu.
 ''Ten en cuenta que desactivar una cuenta nun ye reversible ensin la intervención d'un alministrador del sistema.''",
 	'disableaccount-mustconfirm' => 'Tienes de confirmar que quies desactivar esta cuenta.',
 	'disableaccount-nosuchuser' => 'La cuenta d\'usuariu "$1" nun esiste.',
