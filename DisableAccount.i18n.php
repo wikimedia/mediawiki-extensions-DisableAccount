@@ -764,6 +764,13 @@ $messages['km'] = array(
 	'disableaccount-success' => 'គណនីអ្នកប្រើប្រាស់ "$1" ត្រូវបានបិទជានិរន្ដន៍។',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author VASANTH S.N.
+ */
+$messages['kn'] = array(
+	'disableaccount-user' => 'ಬಳಕೆದಾರ ಹೆಸರು:',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
