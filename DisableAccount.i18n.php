@@ -1431,6 +1431,13 @@ $messages['sw'] = array(
 	'disableaccount-user' => 'Jina la mtumiaji:',
 );
 
+/** Tamil (தமிழ்)
+ * @author Aswn
+ */
+$messages['ta'] = array(
+	'disableaccount-user' => 'பயனர் பெயர்:',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
