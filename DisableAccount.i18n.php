@@ -696,6 +696,7 @@ Tutte le attuali connessioni dell'utente, saranno immediatamente terminate.
 
 /** Japanese (日本語)
  * @author Schu
+ * @author Shirayuki
  * @author Whym
  * @author 青子守歌
  */
@@ -705,9 +706,9 @@ $messages['ja'] = array(
 	'disableaccount' => '利用者アカウントを無効化',
 	'disableaccount-user' => '利用者名：',
 	'disableaccount-confirm' => "この利用者アカウントを無効化します。
-無効化された利用者は、ログインしたり、パスワードを再設定したり、電子メールの通知を受け取ることができなくなります。
-もしこの利用者がどこかで最近ログインしていた場合、それらはただちにログアウトされます。
-''アカウントの無効化は、システム管理者の関与がなければ撤回できないことに注意してください。''",
+無効化された利用者は、ログイン、パスワードの再設定、通知メールの受信ができなくなります。
+もしこの利用者がどこかでログインしている場合、それらはただちにログアウトされます。
+''アカウントの無効化は、システム管理者の関与なしでは撤回できないことにご注意ください。''",
 	'disableaccount-mustconfirm' => 'このアカウントを本当に無効化しようとしているのかを確認する必要があります。',
 	'disableaccount-nosuchuser' => '利用者アカウント「$1」は存在しません。',
 	'disableaccount-success' => '利用者アカウント「$1」は、永久に無効化されています。',
