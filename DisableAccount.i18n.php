@@ -1028,6 +1028,7 @@ Als de gebruiker op dit moment is aangemeld, wordt deze per direct afgemeld.
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'disableaccount-mustconfirm' => 'Du lyt stadfesta at du ynskjer å deaktivera denne kontoen.',
@@ -1541,7 +1542,7 @@ $messages['uk'] = array(
 	'disableaccount-success' => 'Обліковий запис користувача "$1" відключено назавжди.',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
