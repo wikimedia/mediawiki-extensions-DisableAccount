@@ -701,7 +701,7 @@ Tutte le attuali connessioni dell'utente, saranno immediatamente terminate.
  * @author 青子守歌
  */
 $messages['ja'] = array(
-	'disableaccount-desc' => '管理者が個々のアカウントを無効にすることを可能にします。',
+	'disableaccount-desc' => '管理者が個々のアカウントを無効化できるようにする',
 	'right-disableaccount' => 'アカウントを無効化',
 	'disableaccount' => '利用者アカウントを無効化',
 	'disableaccount-user' => '利用者名：',
