@@ -97,7 +97,7 @@ $messages['as'] = array(
 	'disableaccount-nosuchuser' => '"$1" নামৰ সদস্য একাউন্টৰ অস্তিত্ব নাই ।',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -114,7 +114,7 @@ Si l'usuariu ta conectáu n'ayuri, se-y desconectará darréu.
 	'disableaccount-success' => 'La cuenta d\'usuariu "$1" se desactivó de mou permanente.',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Wertuose
  */
 $messages['az'] = array(
@@ -138,7 +138,7 @@ $messages['ba'] = array(
 	'disableaccount-success' => '"$1" иҫәп яҙмаһы һүндерелгән.',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author Yury Tarasievich
  */
 $messages['be'] = array(
@@ -169,7 +169,7 @@ $messages['be-tarask'] = array(
 	'disableaccount-success' => 'Рахунак удзельніка «$1» быў забаронены назаўсёды.',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -203,7 +203,7 @@ $messages['bn'] = array(
 	'disableaccount-success' => 'ব্যাবহারকারী অ্যাকাউন্ট "$1" স্থায়ীভাবে নিষ্ক্রিয় করা হয়েছে।',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -220,7 +220,7 @@ M'emañ kevreet bremañ an implijer un tu bennak e vo digevreet kerkent.
 	'disableaccount-success' => 'Diweredekaat eo bet ar gont implijer "$1" da vat.',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -237,7 +237,7 @@ Ako je korisnik negdje u međuvremenu prijavljen, bit će automatski odmah odjav
 	'disableaccount-success' => 'Korisnički račun "$1" je trajno onemogućen.',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author El libre
  * @author SMP
  */
@@ -254,14 +254,14 @@ Si l'usuari està fent servir el compte actualment serà immediatament desconnec
 	'disableaccount-success' => 'El compte d\'usuari/a "$1" ha estat permanentment deshabilitat.',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Asoxor
  */
 $messages['ckb'] = array(
 	'disableaccount-user' => 'ناوی بەکارهێنەری:',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jkjk
  * @author Mormegil
  */
@@ -296,7 +296,7 @@ Os yw'r defnyddiwr wedi mewngofnodi rhywle ar hyn o bryd, bydd yn cael ei allgof
 	'disableaccount-success' => 'Analluogwyd cyfrif y defnyddiwr "$1" yn barhaol.',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Sarrus
  */
 $messages['da'] = array(
@@ -380,7 +380,7 @@ Se la uzulo nun estas salutinta ie ajn, li estas tuj malsalutigitota.
 	'disableaccount-success' => 'La konto de uzanto "$1" estis ĉiame malŝaltis.',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author DJ Nietzsche
  * @author Sanbec
  */
@@ -398,7 +398,7 @@ Si el usuario está conectado, será desconectado de inmediato.
 	'disableaccount-success' => 'La cuenta de usuario «$1» ha sido deshabilitada definitivamente.',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  */
 $messages['et'] = array(
@@ -415,7 +415,7 @@ Kui kasutaja on praegu kuskile sisse logitud, logitakse ta koheselt välja.
 	'disableaccount-success' => 'Kasutajakonto "$1" on jäädavalt lukustatud.',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Unai Fdz. de Betoño
  */
 $messages['eu'] = array(
@@ -442,7 +442,7 @@ $messages['fa'] = array(
 	'disableaccount-success' => 'حساب کاربری "$1" برای همیشه غیر فعال شده است.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  * @author Olli
@@ -461,7 +461,7 @@ Jos käyttäjä on tällä hetkellä sisäänkirjautuneena, käyttäjä kirjataa
 	'disableaccount-success' => "Käyttäjätunnus ''$1'' on poistettu käytöstä pysyvästi.",
 );
 
-/** French (Français)
+/** French (français)
  * @author IAlex
  * @author Peter17
  */
@@ -479,7 +479,7 @@ Si l’utilisateur est actuellement identifié quelque part, il sera immédiatem
 	'disableaccount-success' => 'Le compte utilisateur « $1 » a été définitivement désactivé.',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -592,7 +592,7 @@ $messages['hif-latn'] = array(
 	'disableaccount-nosuchuser' => 'Sadasya account "$1" nai hae.',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author SpeedyGonsales
  */
 $messages['hr'] = array(
@@ -625,7 +625,7 @@ Jeli wužiwar je tuchwilu druhdźe přizjewjeny, budźe so hnydom wotzjewjeć.
 	'disableaccount-success' => 'Wužiwarske konto "$1" bu na přeco znjemóžnjene.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  */
@@ -643,7 +643,7 @@ Ha a felhasználó bárhol be van jelentkezve, ki lesz jelentkeztetve.
 	'disableaccount-success' => '„$1” felhasználói fiókja véglegesen le lett tiltva.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -677,7 +677,7 @@ Jika pengguna saat ini sedang masuk di mana saja, mereka akan segera dikeluarkan
 	'disableaccount-success' => 'Akun pengguna "$1" telah dinonaktifkan secara permanen.',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -854,7 +854,7 @@ Es de gebroeker op dit memènt is aangemeld, weurt heer metein aafgemeld.
 	'disableaccount-success' => 'De gebroeker "$1" is permanent oetgesjakeld.',
 );
 
-/** Lingala (Lingála)
+/** Lingala (lingála)
  * @author Moyogo
  */
 $messages['ln'] = array(
@@ -862,7 +862,7 @@ $messages['ln'] = array(
 	'disableaccount-user' => 'Nkómbó ya mosáleli :',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Garas
  */
@@ -875,7 +875,7 @@ $messages['lt'] = array(
 	'disableaccount-nosuchuser' => 'Vartotojo paskyrą "$1" neegzistuoja.',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -896,7 +896,7 @@ $messages['lzh'] = array(
 	'disableaccount-success' => '「$1」之簿已久停簿。',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1026,7 +1026,7 @@ Als de gebruiker op dit moment is aangemeld, wordt deze per direct afgemeld.
 	'disableaccount-success' => 'De gebruiker "$1" is permanent uitgeschakeld.',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1054,7 +1054,7 @@ $messages['pdc'] = array(
 	'disableaccount-user' => 'Yuuser-Naame:',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -1105,7 +1105,7 @@ $messages['ps'] = array(
 	'disableaccount-success' => 'د "$1" کارن ګڼون د تل لپاره ناچارن شو.',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -1122,7 +1122,7 @@ Se neste momento o utilizador estiver autenticado algures, sairá de imediato.
 	'disableaccount-success' => 'A conta de utilizador "$1" foi desactivada permanentemente.',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -1156,7 +1156,7 @@ Maypipas yaykusqa kaspaqa, tuyllapi qarqusqam kanqa.
 	'disableaccount-success' => '"$1" sutiyuq ruraqpa rakiqunanqa wiñaypaq hark\'asqam.',
 );
 
-/** Romansh (Rumantsch)
+/** Romansh (rumantsch)
  * @author Gion-andri
  */
 $messages['rm'] = array(
@@ -1173,7 +1173,7 @@ Sche l'utilisader è actualmain annunzià vegn el immediatamain sortì dal siste
 	'disableaccount-success' => 'Il conto d\'utilisader "$1" è vegnì deactivà premanentamain.',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author Minisarm
  */
@@ -1191,7 +1191,7 @@ Dacă utilizatorul este autentificat în acest moment, sesiunea sa va fi închei
 	'disableaccount-success' => 'Contul de utilizator „$1” a fost definitiv dezactivat.',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1208,7 +1208,7 @@ Ce l'utende jè collegate jndr'à stu mumende, allore avène mise fore. <br />
 	'disableaccount-success' => '\'U cunde utende "$1" ha state disabbilitate pe sembre.',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1242,7 +1242,7 @@ $messages['rue'] = array(
 	'disableaccount-success' => 'Конто хоснователя "$1" было заказане настало.',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -1265,7 +1265,7 @@ $messages['sco'] = array(
 	'disableaccount-user' => 'Uisername:',
 );
 
-/** Serbo-Croatian (Srpskohrvatski)
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -1299,7 +1299,7 @@ $messages['si'] = array(
 	'disableaccount-success' => '"$1" පරිශීලක ගිණුම ස්ථිරවම අක්‍රීය කරන ලදී.',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1316,7 +1316,7 @@ Ak je používateľ momentálne niekde prihlásený, bude okamžite odhlásený.
 	'disableaccount-success' => 'Používateľský účet „$1“ bol natrvalo zakázaný.',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1333,7 +1333,7 @@ Uporabnik se ne bo mogel prijaviti, ponastaviti svojega gesla ali prejemati e-po
 	'disableaccount-success' => 'Uporabniški račun »$1« je trajno onemogočen.',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Cradel
  * @author Olsi
  */
@@ -1350,7 +1350,7 @@ Nëse përdoruesi është aktualisht i identifikuar ndokund, ai do të dalë men
 	'disableaccount-success' => 'Llogaria e përdoruesit "$1" është çaktiviyuar përgjithmonë.',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1366,7 +1366,7 @@ $messages['sr-ec'] = array(
 	'disableaccount-success' => 'Кориснички налог „$1“ је трајно онемогућен.',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'right-disableaccount' => 'Onemogućavanje naloga',
 	'disableaccount' => 'Onemogući korisnički nalog',
@@ -1408,7 +1408,7 @@ $messages['su'] = array(
 	'disableaccount-success' => 'Akun pamaké "$1" geus ditumpurkeun salilana.',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author WikiPhoenix
  */
@@ -1452,7 +1452,7 @@ $messages['te'] = array(
 	'disableaccount-success' => '"$1" అనే వాడుకరి ఖాతాని శాశ్వతంగా అచేతనం చేసారు.',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1508,7 +1508,7 @@ Eğer kullanıcı bir yerde giriş yapmış ise, hemen çıkış yapılacak.
 	'disableaccount-success' => '"$1" kullanıcı hesabı kalıcı olarak devre dışı bırakıldı.',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Bulatbulat
  */
 $messages['tt-cyrl'] = array(
@@ -1523,7 +1523,7 @@ $messages['tyv'] = array(
 	'disableaccount-nosuchuser' => '"$1" деп бүрүткел бижик чок.',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Andrijko Z.
  * @author Yuriy Apostol
  * @author Тест
@@ -1604,7 +1604,7 @@ $messages['yue'] = array(
 	'disableaccount-success' => '用戶戶口 "$1" 已經永久停用咗。',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author PhiLiP
  * @author 阿pp
  */
@@ -1621,7 +1621,7 @@ $messages['zh-hans'] = array(
 	'disableaccount-success' => '用户账户“$1”已被永久禁用。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  * @author Mark85296341
  */
