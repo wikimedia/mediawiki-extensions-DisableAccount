@@ -72,6 +72,11 @@ $specialPageAliases['nl'] = array(
 	'DisableAccount' => array( 'GebruikerUitschakelen' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'DisableAccount' => array( 'Desativar_conta' ),
+);
+
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $specialPageAliases['sr-ec'] = array(
 	'DisableAccount' => array( 'Онемогући_налог' ),

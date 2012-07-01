@@ -153,7 +153,7 @@ $messages['be'] = array(
 	'disableaccount-success' => 'Праца ўдзельніка "$1" забаронена бестэрмінова.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -329,7 +329,7 @@ Sofern der Benutzer momentan angemeldet ist, wird er umgehend abgemeldet.
 	'disableaccount-success' => 'Das Benutzerkonto „$1“ wurde dauerhaft deaktiviert.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -496,7 +496,7 @@ Se l’usanciér est orendrêt branchiê a quârqu’un sens, serat dèbranchiê
 	'disableaccount-success' => 'Lo compto usanciér « $1 » at étâ dèsactivâ por de bon.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -608,7 +608,7 @@ Ako je suradnik trenutno prijavljen negdje, odmah će biti odjavljen.
 	'disableaccount-success' => 'Suradnički račun "$1" je trajno onemogućen.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -1225,7 +1225,7 @@ $messages['ru'] = array(
 	'disableaccount-success' => 'Учетная запись участника «$1» была отключена навсегда.',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
