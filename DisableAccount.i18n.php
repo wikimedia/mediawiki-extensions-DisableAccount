@@ -532,9 +532,11 @@ Wänn dr Benutzer grad aagmäldet isch, wird er sofort abgmäldet.
 );
 
 /** Gujarati (ગુજરાતી)
+ * @author Ashok modhvadia
  * @author Sushant savla
  */
 $messages['gu'] = array(
+	'disableaccount-desc' => 'પ્રબંધકોને વ્યક્તિગત ખાતાઓ નિષ્ક્રિય કરવાની પરવાનગી આપો',
 	'right-disableaccount' => 'ખાતું નિષ્ક્રીય બનાવો',
 	'disableaccount' => 'સભ્યના ખાતા પરપ્રતિબંધ મૂકો',
 	'disableaccount-user' => 'સભ્ય નામ:',
