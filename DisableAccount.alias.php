@@ -87,6 +87,11 @@ $specialPageAliases['sr-ec'] = array(
 	'DisableAccount' => array( 'Онемогући_налог' ),
 );
 
+/** Turkish (Türkçe) */
+$specialPageAliases['tr'] = array(
+	'DisableAccount' => array( 'HesabMenetmek' ),
+);
+
 /** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'DisableAccount' => array( '禁用账户' ),
