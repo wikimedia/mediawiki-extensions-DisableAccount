@@ -121,7 +121,7 @@ $messages['az'] = array(
 	'disableaccount-user' => 'İstifadəçi adı:',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  * @author Рустам Нурыев
  */
@@ -791,7 +791,7 @@ $messages['ko'] = array(
 	'disableaccount-success' => '계정 "$1"이 영구히 비활성화되었습니다.',
 );
 
-/** Karachay-Balkar (Къарачай-Малкъар)
+/** Karachay-Balkar (къарачай-малкъар)
  * @author Iltever
  */
 $messages['krc'] = array(
@@ -962,14 +962,14 @@ $messages['my'] = array(
 	'disableaccount-success' => 'အသုံးပြုသူအကောင့် "$1" ကို ရာသက်ပန် ပိတ်ထားလိုက်သည်။',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
 	'disableaccount-user' => 'Совицянь леметь:',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  * @author Sjurhamre
  */
@@ -1517,7 +1517,7 @@ $messages['tt-cyrl'] = array(
 	'disableaccount-user' => 'Кулланучы исеме:',
 );
 
-/** Tuvinian (Тыва дыл)
+/** Tuvinian (тыва дыл)
  * @author Sborsody
  */
 $messages['tyv'] = array(
@@ -1544,7 +1544,7 @@ $messages['uk'] = array(
 	'disableaccount-success' => 'Обліковий запис користувача "$1" відключено назавжди.',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
