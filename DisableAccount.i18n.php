@@ -329,6 +329,13 @@ Sofern der Benutzer momentan angemeldet ist, wird er umgehend abgemeldet.
 	'disableaccount-success' => 'Das Benutzerkonto „$1“ wurde dauerhaft deaktiviert.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'disableaccount-user' => 'Namey karberi:',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
@@ -806,7 +813,7 @@ $messages['ksh'] = array(
 	'disableaccount-desc' => 'Määd et för de Wiki_Köbeße müjjelesch, einzel Metmaacher stellzelääje.',
 	'right-disableaccount' => 'Zohjäng för Metmaacher still lääje',
 	'disableaccount' => 'Enem Metmaacher singe Zohjang stell lääje',
-	'disableaccount-user' => 'Metmaacher Name:',
+	'disableaccount-user' => 'Metmaacher_Naame:',
 	'disableaccount-confirm' => "Däm Metmaacher singe Zohjang op Duur stell lääje.
 Dä Metmaacher kann dann nit mieh enlogge, sing Paßwoot ändere, udder <i lang=\"en\">e-mail</i> krijje.
 Wann dä Metmaacher ööhnzwoh enjelogg es, flüsh hä tirag_eruß.
