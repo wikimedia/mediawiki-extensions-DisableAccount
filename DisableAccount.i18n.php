@@ -1444,9 +1444,15 @@ $messages['sw'] = array(
 
 /** Tamil (தமிழ்)
  * @author Aswn
+ * @author Karthi.dr
  */
 $messages['ta'] = array(
+	'right-disableaccount' => 'கணக்குகளை முடக்கு',
+	'disableaccount' => 'பயனர் கணக்கை முடக்கு',
 	'disableaccount-user' => 'பயனர் பெயர்:',
+	'disableaccount-mustconfirm' => 'இக்கணக்கை முடக்குவதை நீங்கள் உறுதி செய்ய வேண்டும்.',
+	'disableaccount-nosuchuser' => ' "$1" எனும் பயனர் கணக்கு ஏதும் இல்லை.',
+	'disableaccount-success' => "'' $1 '' எனும் பயனர் கணக்கு நிரந்தரமாக முடக்கப்பட்டுள்ளது.",
 );
 
 /** Telugu (తెలుగు)
