@@ -783,12 +783,13 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'disableaccount-desc' => '관리자가 특정 계정을 비활성화할 수 있도록 하는 기능',
 	'right-disableaccount' => '계정을 비활성화하기',
 	'disableaccount' => '계정을 비활성화하기',
-	'disableaccount-user' => '계정 이름:',
+	'disableaccount-user' => '사용자 이름:',
 	'disableaccount-confirm' => "사용자 계정을 비활성화합니다.
 이 사용자는 로그인하거나 비밀번호를 바꿀 수 없고 이메일 알림을 받을 수 없습니다.
 만약 이 사용자가 로그인되어 있다면, 즉시 로그아웃될 것이니다.
