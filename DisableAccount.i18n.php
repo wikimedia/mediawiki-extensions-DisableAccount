@@ -725,10 +725,14 @@ $messages['ja'] = array(
 
 /** Javanese (Basa Jawa)
  * @author Meursault2004
+ * @author NoiX180
  */
 $messages['jv'] = array(
 	'disableaccount' => 'Nonaktifaké akun panganggo',
 	'disableaccount-user' => 'Jeneng panganggo:',
+	'disableaccount-mustconfirm' => 'Sampéyan kudu mesthèkaké yèn Sampéyan pancèn pingin matèni akun iki.',
+	'disableaccount-nosuchuser' => 'Akun panganggo "$1" ora ana.',
+	'disableaccount-success' => 'Akun panganggo "$1" wis dipatèni permanèn.',
 );
 
 /** Georgian (ქართული)
@@ -956,6 +960,23 @@ Jika pengguna ini sedang log masuk di mana-mana, dia akan log keluar serta-merta
 	'disableaccount-mustconfirm' => 'Anda perlu mengesahkan bahawa anda ingin melumpuhkan akaun ini.',
 	'disableaccount-nosuchuser' => 'Akaun pengguna "$1" tidak wujud.',
 	'disableaccount-success' => 'Akaun pengguna "$1" telah dilumpuhkan selama-lamanya.',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'disableaccount-desc' => 'Tħalli l-amministraturi jiddiżabilitaw kontijiet individwali',
+	'right-disableaccount' => 'Jiddiżabilita l-kontijiet',
+	'disableaccount' => 'Iddiżabilita kont tal-utent',
+	'disableaccount-user' => 'Isem tal-utent:',
+	'disableaccount-confirm' => "Iddiżabilita dan il-kont tal-utent.
+L-utent ma jkunx jista' jidħol fil-kont tiegħu, jirrisettja l-password, jew jirċievi notifiki bil-posta elettronika.
+Jekk l-utent huwa attwalment fil-kont, dan jiġi illogjat 'il barra.
+''Kun af li jekk tiddżabilita kont mhuwiex reversibbli mingħajr intervent tal-amministratur tas-sistema.''",
+	'disableaccount-mustconfirm' => 'Trid tikkonferma li tixtieq tiddiżabilita dan il-kont.',
+	'disableaccount-nosuchuser' => 'Il-kont tal-utent "$1" ma jeżistix.',
+	'disableaccount-success' => 'Il-kont tal-utent "$1" ġie diżabilitat b\'mod permanenti.',
 );
 
 /** Burmese (မြန်မာဘာသာ)
