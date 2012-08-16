@@ -728,6 +728,8 @@ $messages['ja'] = array(
  * @author NoiX180
  */
 $messages['jv'] = array(
+	'disableaccount-desc' => 'Nglilakaké pangurus nutup akun individu',
+	'right-disableaccount' => 'Tutup akun',
 	'disableaccount' => 'Nonaktifaké akun panganggo',
 	'disableaccount-user' => 'Jeneng panganggo:',
 	'disableaccount-mustconfirm' => 'Sampéyan kudu mesthèkaké yèn Sampéyan pancèn pingin matèni akun iki.',
