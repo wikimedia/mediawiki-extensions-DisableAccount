@@ -1581,6 +1581,16 @@ $messages['uk'] = array(
 	'disableaccount-success' => 'Обліковий запис користувача "$1" відключено назавжди.',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'disableaccount-desc' => 'منتظمین انفرادی اکاؤنٹس کو غیر فعال کرنے کے لئے کی اجازت دیتا ہے',
+	'right-disableaccount' => 'اکاؤنٹ غیر فعال کریں',
+	'disableaccount' => 'ایک صارف کا اکاؤنٹ غیر فعال کریں',
+	'disableaccount-user' => 'صارف کا نام:',
+);
+
 /** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
