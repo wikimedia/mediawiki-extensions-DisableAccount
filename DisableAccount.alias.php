@@ -89,7 +89,7 @@ $specialPageAliases['sr-ec'] = array(
 
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
-	'DisableAccount' => array( 'HesabMenetmek' ),
+	'DisableAccount' => array( 'HesabıDevreDışıBırak' ),
 );
 
 /** Simplified Chinese (‪中文（简体）‬) */
