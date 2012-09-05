@@ -67,6 +67,11 @@ $specialPageAliases['mk'] = array(
 	'DisableAccount' => array( 'ОневозможиСметка' ),
 );
 
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'DisableAccount' => array( 'അംഗത്വംസജ്ജമല്ലാതാക്കുക' ),
+);
+
 /** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'DisableAccount' => array( 'Slå_av_konto' ),
