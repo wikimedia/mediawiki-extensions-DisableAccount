@@ -72,7 +72,7 @@ $specialPageAliases['ml'] = array(
 	'DisableAccount' => array( 'അംഗത്വംസജ്ജമല്ലാതാക്കുക' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'DisableAccount' => array( 'Slå_av_konto' ),
 );
@@ -87,7 +87,7 @@ $specialPageAliases['pt-br'] = array(
 	'DisableAccount' => array( 'Desativar_conta' ),
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $specialPageAliases['sr-ec'] = array(
 	'DisableAccount' => array( 'Онемогући_налог' ),
 );
@@ -97,7 +97,7 @@ $specialPageAliases['tr'] = array(
 	'DisableAccount' => array( 'HesabıDevreDışıBırak' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'DisableAccount' => array( '禁用账户' ),
 );
