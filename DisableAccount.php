@@ -10,7 +10,7 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'disableaccount-desc',
 );
 
-$dir = dirname( __FILE__ ) . '/';
+$dir = __DIR__ . '/';
 
 // Internationlization files
 $wgExtensionMessagesFiles['DisableAccount'] = $dir . 'DisableAccount.i18n.php';

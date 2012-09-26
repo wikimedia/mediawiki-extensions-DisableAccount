@@ -34,7 +34,7 @@ class SpecialDisableAccount extends SpecialPage {
 		if ( $u && $u->getID() != 0 ) {
 			return true;
 		} else {
-			return wfMsgExt( 'disableaccount-nosuchuser', 'parseinline', array( $field ) );
+			return wfMessage( 'disableaccount-nosuchuser', array( $field ) )->parse();
 		}
 	}
 
@@ -42,7 +42,7 @@ class SpecialDisableAccount extends SpecialPage {
 		if ( $field ) {
 			return true;
 		} else {
-			return wfMsgExt( 'disableaccount-mustconfirm', 'parseinline' );
+			return wfMessage( 'disableaccount-mustconfirm' )->parse();
 		}
 	}
 
