@@ -153,7 +153,7 @@ $messages['be'] = array(
 	'disableaccount-success' => 'Праца ўдзельніка "$1" забаронена бестэрмінова.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -830,7 +830,7 @@ Wann dä Metmaacher ööhnzwoh enjelogg es, flüsh hä tirag_eruß.
 	'disableaccount-success' => 'Däm Metmaacher „$1“ singe Zohjang es op Duur stell jelaat.',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1000,7 +1000,7 @@ $messages['myv'] = array(
 	'disableaccount-user' => 'Совицянь леметь:',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  * @author Sjurhamre
  */
@@ -1059,7 +1059,7 @@ Als de gebruiker op dit moment is aangemeld, wordt deze per direct afgemeld.
 	'disableaccount-success' => 'De gebruiker "$1" is permanent uitgeschakeld.',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1383,7 +1383,7 @@ Nëse përdoruesi është aktualisht i identifikuar ndokund, ai do të dalë men
 	'disableaccount-success' => 'Llogaria e përdoruesit "$1" është çaktiviyuar përgjithmonë.',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1399,7 +1399,7 @@ $messages['sr-ec'] = array(
 	'disableaccount-success' => 'Кориснички налог „$1“ је трајно онемогућен.',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'right-disableaccount' => 'Onemogućavanje naloga',
 	'disableaccount' => 'Onemogući korisnički nalog',
@@ -1653,7 +1653,7 @@ $messages['yue'] = array(
 	'disableaccount-success' => '用戶戶口 "$1" 已經永久停用咗。',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author PhiLiP
  * @author 阿pp
  */
@@ -1670,7 +1670,7 @@ $messages['zh-hans'] = array(
 	'disableaccount-success' => '用户账户“$1”已被永久禁用。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  * @author Mark85296341
  */
