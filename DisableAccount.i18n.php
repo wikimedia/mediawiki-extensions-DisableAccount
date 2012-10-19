@@ -297,9 +297,11 @@ Os yw'r defnyddiwr wedi mewngofnodi rhywle ar hyn o bryd, bydd yn cael ei allgof
 );
 
 /** Danish (dansk)
+ * @author Kaare
  * @author Sarrus
  */
 $messages['da'] = array(
+	'disableaccount-desc' => 'Giver administratorer mulighed for at deaktivere individuelle konti.',
 	'right-disableaccount' => 'Deaktivere konti',
 	'disableaccount' => 'Deaktivere en brugerkonto',
 	'disableaccount-user' => 'Brugernavn:',
