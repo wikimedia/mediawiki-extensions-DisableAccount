@@ -32,26 +32,6 @@ $messages['qqq'] = array(
 	'disableaccount-confirm' => 'A system administrator here is one having access to the system the wiki is running on beyond that of a sysop or a bureaucrat. In Wikimedia terminology they have \'shell access\'. This message refers to "no return without direct database changes."',
 );
 
-/** Magyar (magázó) (Magyar (magázó))
- * @author Dani
- */
-$messages['hu-formal'] = array(
-	'disableaccount-mustconfirm' => 'Meg kell erősítenie, hogy biztosan le szeretné tiltani ezt a fiókot.',
-);
-
-/** Español (formal) (Español (formal))
- * @author Dferg
- */
-$messages['es-formal'] = array(
-	'disableaccount' => 'Deshabilitar una cuenta de usuario',
-	'disableaccount-user' => 'Nombre de usuario:',
-	'disableaccount-confirm' => "Deshabilitar esta cuenta de usuario.
-El usuario no podrá iniciar sesión, restablecer su contraseña o recibir notificaciones por correo electrónico.
-Si el usuario está conectado, será desconectado de inmediato.
-''Tenga en cuenta que la desactivación de una cuenta no es reversible sin intervención del administrador de sistema''.",
-	'disableaccount-mustconfirm' => 'Tiene usted que confirmar que desea desactivar esta cuenta.',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  * @author පසිඳු කාවින්ද
@@ -407,6 +387,19 @@ Si el usuario está conectado, será desconectado de inmediato.
 	'disableaccount-success' => 'La cuenta de usuario «$1» ha sido deshabilitada definitivamente.',
 );
 
+/** Español (formal) (Español (formal))
+ * @author Dferg
+ */
+$messages['es-formal'] = array(
+	'disableaccount' => 'Deshabilitar una cuenta de usuario',
+	'disableaccount-user' => 'Nombre de usuario:',
+	'disableaccount-confirm' => "Deshabilitar esta cuenta de usuario.
+El usuario no podrá iniciar sesión, restablecer su contraseña o recibir notificaciones por correo electrónico.
+Si el usuario está conectado, será desconectado de inmediato.
+''Tenga en cuenta que la desactivación de una cuenta no es reversible sin intervención del administrador de sistema''.",
+	'disableaccount-mustconfirm' => 'Tiene usted que confirmar que desea desactivar esta cuenta.',
+);
+
 /** Estonian (eesti)
  * @author Pikne
  */
@@ -652,6 +645,13 @@ Ha a felhasználó bárhol be van jelentkezve, ki lesz jelentkeztetve.
 	'disableaccount-mustconfirm' => 'Meg kell erősítened, hogy biztosan le szeretnéd tiltani ezt a fiókot.',
 	'disableaccount-nosuchuser' => 'Nem létezik „$1” nevű felhasználói fiók.',
 	'disableaccount-success' => '„$1” felhasználói fiókja véglegesen le lett tiltva.',
+);
+
+/** Magyar (magázó) (Magyar (magázó))
+ * @author Dani
+ */
+$messages['hu-formal'] = array(
+	'disableaccount-mustconfirm' => 'Meg kell erősítenie, hogy biztosan le szeretné tiltani ezt a fiókot.',
 );
 
 /** Interlingua (interlingua)
@@ -900,7 +900,8 @@ $messages['ltg'] = array(
 	'disableaccount-user' => 'Slāgvuords:',
 );
 
-/** Literary Chinese (文言) */
+/** Literary Chinese (文言)
+ */
 $messages['lzh'] = array(
 	'right-disableaccount' => '停簿',
 	'disableaccount' => '停簿',
@@ -1401,7 +1402,8 @@ $messages['sr-ec'] = array(
 	'disableaccount-success' => 'Кориснички налог „$1“ је трајно онемогућен.',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'right-disableaccount' => 'Onemogućavanje naloga',
 	'disableaccount' => 'Onemogući korisnički nalog',
@@ -1641,7 +1643,8 @@ $messages['yo'] = array(
 	'disableaccount-user' => 'Orúkọ oníṣe:',
 );
 
-/** Cantonese (粵語) */
+/** Cantonese (粵語)
+ */
 $messages['yue'] = array(
 	'right-disableaccount' => '停用戶口',
 	'disableaccount' => '停用一個用戶戶口',
@@ -1695,4 +1698,3 @@ $messages['zh-hant'] = array(
 $messages['zh-tw'] = array(
 	'right-disableaccount' => '禁用帳號',
 );
-
