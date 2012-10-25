@@ -1473,8 +1473,10 @@ $messages['sw'] = array(
 /** Tamil (தமிழ்)
  * @author Aswn
  * @author Karthi.dr
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'disableaccount-desc' => 'தனிப்பட்ட கணக்குகளை முடக்க நிருவாகிகளை அனுமதிக்கும்',
 	'right-disableaccount' => 'கணக்குகளை முடக்கு',
 	'disableaccount' => 'பயனர் கணக்கை முடக்கு',
 	'disableaccount-user' => 'பயனர் பெயர்:',
