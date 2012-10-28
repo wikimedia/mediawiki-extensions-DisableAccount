@@ -387,7 +387,7 @@ Si el usuario está conectado, será desconectado de inmediato.
 	'disableaccount-success' => 'La cuenta de usuario «$1» ha sido deshabilitada definitivamente.',
 );
 
-/** Español (formal) (Español (formal))
+/** español (formal) (español (formal))
  * @author Dferg
  */
 $messages['es-formal'] = array(
