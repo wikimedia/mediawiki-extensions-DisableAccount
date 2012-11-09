@@ -47,6 +47,7 @@ class SpecialDisableAccount extends SpecialPage {
 	}
 
 	static function submit( $fields ) {
+		global $wgOut, $wgUser;
 		$user = User::newFromName( $fields['account'] );
 
 		$user->setPassword( null );
@@ -57,7 +58,12 @@ class SpecialDisableAccount extends SpecialPage {
 		$user->saveSettings();
 		$user->invalidateCache();
 
-		global $wgOut;
+		$logEntry = new ManualLogEntry( 'block', 'disableaccount' );
+		$logEntry->setPerformer( $wgUser );
+		$logEntry->setTarget( $user->getUserPage() );
+		$logId = $logEntry->insert();
+		$logEntry->publish( $logId );
+
 		$wgOut->addWikiMsg( 'disableaccount-success', $user->getName() );
 
 		return true;

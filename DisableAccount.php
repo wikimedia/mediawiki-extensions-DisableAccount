@@ -22,3 +22,10 @@ $wgSpecialPages['DisableAccount'] = 'SpecialDisableAccount';
 
 // Add permission required to use Special:DisableAccount
 $wgAvailableRights[] = 'disableaccount';
+
+// Log
+$wgLogActionsHandlers['block/disableaccount'] = 'disableAccountText';
+
+function disableAccountText( $type, $action, $target ) {
+	return wfMessage( 'logentry-block-disableaccount', $target );
+}

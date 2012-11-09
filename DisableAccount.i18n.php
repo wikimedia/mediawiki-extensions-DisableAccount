@@ -16,6 +16,7 @@ If the user is currently logged in anywhere, they will be immediately logged out
 	'disableaccount-mustconfirm' => 'You must confirm that you wish to disable this account.',
 	'disableaccount-nosuchuser' => 'The user account "$1" does not exist.',
 	'disableaccount-success' => 'The user account "$1" has been permanently disabled.',
+	'logentry-block-disableaccount' => 'disabled the account of [[$1]].',
 );
 
 /** Message documentation (Message documentation)
@@ -43,6 +44,7 @@ The confirmation message for this checkbox is:
 * $1 - username',
 	'disableaccount-success' => 'Used as success message. Parameters:
 * $1 - username',
+	'logentry-block-disableaccount' => '{{Logentry}}',
 );
 
 /** Afrikaans (Afrikaans)
