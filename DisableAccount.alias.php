@@ -42,6 +42,11 @@ $specialPageAliases['ht'] = array(
 	'DisableAccount' => array( 'DeaktiveKont' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'DisableAccount' => array( 'DisabilitaAccount' ),
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $specialPageAliases['km'] = array(
 	'DisableAccount' => array( 'បិទគណនី' ),
