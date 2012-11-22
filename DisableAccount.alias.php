@@ -92,6 +92,11 @@ $specialPageAliases['pt-br'] = array(
 	'DisableAccount' => array( 'Desativar_conta' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'DisableAccount' => array( 'DisabilitaAccount' ),
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $specialPageAliases['sr-ec'] = array(
 	'DisableAccount' => array( 'Онемогући_налог' ),
