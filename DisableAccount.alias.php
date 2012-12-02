@@ -59,7 +59,7 @@ $specialPageAliases['ko'] = array(
 
 /** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
-	'DisableAccount' => array( 'DialosegiAkont' ),
+	'DisableAccount' => array( 'DialosegyAcont' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
