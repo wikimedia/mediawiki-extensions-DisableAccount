@@ -24,7 +24,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'DisableAccount' => array( 'HesabiMeqefilne' ),
+	'DisableAccount' => array( 'HesabiMenke' ),
 );
 
 /** Galician (galego) */
