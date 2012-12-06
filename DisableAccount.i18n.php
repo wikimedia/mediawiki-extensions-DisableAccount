@@ -873,11 +873,12 @@ Es de gebroeker op dit memènt is aangemeld, weurt heer metein aafgemeld.
 );
 
 /** Lingala (lingála)
+ * @author Eruedin
  * @author Moyogo
  */
 $messages['ln'] = array(
 	'disableaccount' => 'Kotendisa kónti ya mosáleli',
-	'disableaccount-user' => 'Nkómbó ya mosáleli :',
+	'disableaccount-user' => 'Nkómbó ya mosáleli:',
 );
 
 /** Lithuanian (lietuvių)
