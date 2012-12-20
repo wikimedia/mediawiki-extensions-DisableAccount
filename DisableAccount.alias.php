@@ -107,6 +107,11 @@ $specialPageAliases['tr'] = array(
 	'DisableAccount' => array( 'HesabıDevreDışıBırak' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'DisableAccount' => array( 'Tắt_tài_khoản' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'DisableAccount' => array( '禁用账户' ),
