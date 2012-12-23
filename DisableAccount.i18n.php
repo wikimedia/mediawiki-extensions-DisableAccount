@@ -688,6 +688,13 @@ Jika pengguna saat ini sedang masuk di mana saja, mereka akan segera dikeluarkan
 	'disableaccount-success' => 'Akun pengguna "$1" telah dinonaktifkan secara permanen.',
 );
 
+/** Icelandic (íslenska)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['is'] = array(
+	'disableaccount-user' => 'Notandanafn:',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
