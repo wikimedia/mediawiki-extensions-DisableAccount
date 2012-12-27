@@ -116,3 +116,8 @@ $specialPageAliases['vi'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'DisableAccount' => array( '禁用账户' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'DisableAccount' => array( '禁用用戶' ),
+);
