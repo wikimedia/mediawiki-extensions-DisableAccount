@@ -101,6 +101,13 @@ $messages['az'] = array(
 	'disableaccount-user' => 'İstifadəçi adı:',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['azb'] = array(
+	'disableaccount-user' => 'ایستیفاده‌چی آدی:',
+);
+
 /** Bashkir (башҡортса)
  * @author Assele
  * @author Рустам Нурыев
