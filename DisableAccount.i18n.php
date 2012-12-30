@@ -1084,6 +1084,13 @@ Als de gebruiker op dit moment is aangemeld, wordt deze per direct afgemeld.
 	'disableaccount-success' => 'De gebruiker "$1" is permanent uitgeschakeld.',
 );
 
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'disableaccount-mustconfirm' => 'Je moet bevestigen dat je deze gebruiker wilt uitschakelen.',
+);
+
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
