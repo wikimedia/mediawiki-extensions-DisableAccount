@@ -495,7 +495,7 @@ $messages['frp'] = array(
 	'disableaccount-desc' => 'Pèrmèt ux administrators de dèsactivar des comptos endividuèls.',
 	'right-disableaccount' => 'Dèsactivar des comptos',
 	'disableaccount' => 'Dèsactivar un compto usanciér',
-	'disableaccount-user' => 'Nom d’usanciér :',
+	'disableaccount-user' => 'Nom d’utilisator :',
 	'disableaccount-confirm' => "Dèsactivar cél compto usanciér.
 L’usanciér porrat pas més sè branchiér, ni tornar inicialisar son contresegno, ni recêvre des notificacions per mèssageria èlèctronica.
 Se l’usanciér est orendrêt branchiê a quârqu’un sens, serat dèbranchiê d’abôrd.
@@ -1595,6 +1595,13 @@ $messages['tt-cyrl'] = array(
 $messages['tyv'] = array(
 	'disableaccount-user' => 'Aжыглакчының ады',
 	'disableaccount-nosuchuser' => '"$1" деп бүрүткел бижик чок.',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'disableaccount-user' => 'ئىشلەتكۇچى ئىسمى:',
 );
 
 /** Ukrainian (українська)
