@@ -22,6 +22,7 @@ If the user is currently logged in anywhere, they will be immediately logged out
  * @author EugeneZelenko
  * @author Nike
  * @author Purodha
+ * @author Shirayuki
  * @author Umherirrender
  */
 $messages['qqq'] = array(
@@ -29,7 +30,8 @@ $messages['qqq'] = array(
 	'right-disableaccount' => '{{doc-right|disableaccount}}',
 	'disableaccount' => 'Name of the special page',
 	'disableaccount-user' => '{{Identical|Username}}',
-	'disableaccount-confirm' => 'A system administrator here is one having access to the system the wiki is running on beyond that of a sysop or a bureaucrat. In Wikimedia terminology they have \'shell access\'. This message refers to "no return without direct database changes."',
+	'disableaccount-confirm' => '{{doc-singularthey}}
+A system administrator here is one having access to the system the wiki is running on beyond that of a sysop or a bureaucrat. In Wikimedia terminology they have \'shell access\'. This message refers to "no return without direct database changes."',
 );
 
 /** Afrikaans (Afrikaans)
