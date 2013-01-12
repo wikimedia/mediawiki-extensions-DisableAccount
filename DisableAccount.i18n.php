@@ -380,6 +380,7 @@ Se la uzulo nun estas salutinta ie ajn, li estas tuj malsalutigitota.
 
 /** Spanish (español)
  * @author DJ Nietzsche
+ * @author Dferg
  * @author Sanbec
  */
 $messages['es'] = array(
@@ -390,7 +391,7 @@ $messages['es'] = array(
 	'disableaccount-confirm' => "Deshabilitar esta cuenta de usuario.
 El usuario no podrá iniciar sesión, restablecer su contraseña o recibir notificaciones por correo electrónico.
 Si el usuario está conectado, será desconectado de inmediato.
-'' Tenga en cuenta que la desactivación de una cuenta no es reversible sin intervención del administrador de sistema ''.",
+''Tenga en cuenta que la desactivación de una cuenta no es reversible sin intervención de un administrador del sistema''.",
 	'disableaccount-mustconfirm' => 'Tienes que confirmar que quieres desactivar esta cuenta.',
 	'disableaccount-nosuchuser' => 'La cuenta de usuario «$1» no existe.',
 	'disableaccount-success' => 'La cuenta de usuario «$1» ha sido deshabilitada definitivamente.',
