@@ -47,6 +47,11 @@ $specialPageAliases['ht'] = array(
 	'DisableAccount' => array( 'DeaktiveKont' ),
 );
 
+/** Indonesian (Bahasa Indonesia) */
+$specialPageAliases['id'] = array(
+	'DisableAccount' => array( 'Nonaktifkan_akun', 'NonaktifkanAkun' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'DisableAccount' => array( 'DisabilitaAccount' ),
@@ -82,7 +87,7 @@ $specialPageAliases['ml'] = array(
 	'DisableAccount' => array( 'അംഗത്വംസജ്ജമല്ലാതാക്കുക' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'DisableAccount' => array( 'Slå_av_konto' ),
 );
