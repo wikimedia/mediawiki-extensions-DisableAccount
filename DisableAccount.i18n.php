@@ -739,7 +739,7 @@ $messages['ja'] = array(
 	'disableaccount-desc' => '管理者が個々のアカウントを無効化できるようにする',
 	'right-disableaccount' => 'アカウントを無効化',
 	'disableaccount' => '利用者アカウントを無効化',
-	'disableaccount-user' => '利用者名：',
+	'disableaccount-user' => '利用者名:',
 	'disableaccount-confirm' => "この利用者アカウントを無効化します。
 無効化された利用者は、ログイン、パスワードの再設定、通知メールの受信ができなくなります。
 もしこの利用者がどこかでログインしている場合、それらはただちにログアウトされます。
