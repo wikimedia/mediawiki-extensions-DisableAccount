@@ -26,7 +26,7 @@ If the user is currently logged in anywhere, they will be immediately logged out
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'disableaccount-desc' => '{{desc}}',
+	'disableaccount-desc' => '{{desc|name=Disable Account|url=http://www.mediawiki.org/wiki/Extension:DisableAccount}}',
 	'right-disableaccount' => '{{doc-right|disableaccount}}',
 	'disableaccount' => 'Name of the special page',
 	'disableaccount-user' => '{{Identical|Username}}',
