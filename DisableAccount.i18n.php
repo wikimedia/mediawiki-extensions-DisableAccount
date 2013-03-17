@@ -32,6 +32,10 @@ $messages['qqq'] = array(
 	'disableaccount-user' => '{{Identical|Username}}',
 	'disableaccount-confirm' => '{{doc-singularthey}}
 A system administrator here is one having access to the system the wiki is running on beyond that of a sysop or a bureaucrat. In Wikimedia terminology they have \'shell access\'. This message refers to "no return without direct database changes."',
+	'disableaccount-nosuchuser' => 'Used as result of username validation. Parameters:
+* $1 - username',
+	'disableaccount-success' => 'Used as success message. Parameters:
+* $1 - username',
 );
 
 /** Afrikaans (Afrikaans)
