@@ -57,6 +57,11 @@ $specialPageAliases['it'] = array(
 	'DisableAccount' => array( 'DisabilitaAccount' ),
 );
 
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = array(
+	'DisableAccount' => array( 'アカウント無効化' ),
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $specialPageAliases['km'] = array(
 	'DisableAccount' => array( 'បិទគណនី' ),
