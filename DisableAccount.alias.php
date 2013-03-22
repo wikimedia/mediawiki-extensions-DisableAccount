@@ -27,6 +27,11 @@ $specialPageAliases['diq'] = array(
 	'DisableAccount' => array( 'HesabiMenke' ),
 );
 
+/** Esperanto (Esperanto) */
+$specialPageAliases['eo'] = array(
+	'DisableAccount' => array( 'Malŝalti_konton' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'DisableAccount' => array( 'غیرفعال_کردن_حساب' ),
