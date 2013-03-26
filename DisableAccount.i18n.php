@@ -28,7 +28,7 @@ If the user is currently logged in anywhere, they will be immediately logged out
 $messages['qqq'] = array(
 	'disableaccount-desc' => '{{desc|name=Disable Account|url=http://www.mediawiki.org/wiki/Extension:DisableAccount}}',
 	'right-disableaccount' => '{{doc-right|disableaccount}}',
-	'disableaccount' => 'Name of the special page',
+	'disableaccount' => '{{doc-special|DisableAccount|unlisted=1}}',
 	'disableaccount-user' => '{{Identical|Username}}',
 	'disableaccount-confirm' => '{{doc-singularthey}}
 A system administrator here is one having access to the system the wiki is running on beyond that of a sysop or a bureaucrat. In Wikimedia terminology they have \'shell access\'. This message refers to "no return without direct database changes."',
