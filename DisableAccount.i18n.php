@@ -326,9 +326,10 @@ Sofern der Benutzer momentan angemeldet ist, wird er umgehend abgemeldet.
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
-	'disableaccount-user' => 'Namey karberi:',
+	'disableaccount-user' => 'Nameyê karberi:',
 );
 
 /** Lower Sorbian (dolnoserbski)
