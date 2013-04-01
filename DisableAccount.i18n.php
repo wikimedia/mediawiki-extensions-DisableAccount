@@ -31,7 +31,14 @@ $messages['qqq'] = array(
 	'disableaccount' => '{{doc-special|DisableAccount|unlisted=1}}',
 	'disableaccount-user' => '{{Identical|Username}}',
 	'disableaccount-confirm' => '{{doc-singularthey}}
-A system administrator here is one having access to the system the wiki is running on beyond that of a sysop or a bureaucrat. In Wikimedia terminology they have \'shell access\'. This message refers to "no return without direct database changes."',
+A system administrator here is one having access to the system the wiki is running on beyond that of a sysop or a bureaucrat. In Wikimedia terminology they have \'shell access\'. This message refers to "no return without direct database changes."
+
+Used as label for the checkbox.
+
+The confirmation message for this checkbox is:
+* {{msg-mw|Disableaccount-mustconfirm}}',
+	'disableaccount-mustconfirm' => 'Used as confirmation message for the checkbox which has the following label:
+* {{msg-mw|Disableaccount-confirm}}',
 	'disableaccount-nosuchuser' => 'Used as result of username validation. Parameters:
 * $1 - username',
 	'disableaccount-success' => 'Used as success message. Parameters:
