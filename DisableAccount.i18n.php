@@ -315,6 +315,7 @@ Hvis brugeren er logget ind et sted, vil vedkommende blive logget ud øjeblikkel
 );
 
 /** German (Deutsch)
+ * @author Geitost
  * @author Kghbln
  */
 $messages['de'] = array(
@@ -323,9 +324,9 @@ $messages['de'] = array(
 	'disableaccount' => 'Ein Benutzerkonto deaktivieren',
 	'disableaccount-user' => 'Benutzername:',
 	'disableaccount-confirm' => "Deaktivieren dieses Benutzerkontos.
-Der Benutzer wird nicht mehr in der Lage sein sich anzumelden, das Passwort zurückzusetzen oder E-Mail-Benachrichtigungen zu empfangen.
+Der Benutzer wird nicht mehr in der Lage sein, sich anzumelden, das Passwort zurückzusetzen oder E-Mail-Benachrichtigungen zu empfangen.
 Sofern der Benutzer momentan angemeldet ist, wird er umgehend abgemeldet.
-''Es ist zu beachten, das die Deaktivierung eines Benutzerkontos nicht mehr ohne das Eingreifen eines Systemadministrators rückgängig gemacht werden kann.''",
+''Es ist zu beachten, dass die Deaktivierung eines Benutzerkontos nicht mehr ohne das Eingreifen eines Systemadministrators rückgängig gemacht werden kann.''",
 	'disableaccount-mustconfirm' => 'Die Deaktivierung dieses Benutzerkontos muss nun bestätigt werden.',
 	'disableaccount-nosuchuser' => 'Das Benutzerkonto „$1“ ist nicht vorhanden.',
 	'disableaccount-success' => 'Das Benutzerkonto „$1“ wurde dauerhaft deaktiviert.',
