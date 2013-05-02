@@ -1188,10 +1188,11 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  */
 $messages['pt'] = array(
 	'disableaccount-desc' => 'Permite que os administradores desactivem contas individuais.',
-	'right-disableaccount' => 'Desactivar contas',
+	'right-disableaccount' => 'Desativar contas',
 	'disableaccount' => 'Desactivar uma conta',
 	'disableaccount-user' => 'Nome de utilizador:',
 	'disableaccount-confirm' => "Desactivar esta conta.
