@@ -521,6 +521,23 @@ Se l’usanciér est orendrêt branchiê a quârqu’un sens, serat dèbranchiê
 	'disableaccount-success' => 'Lo compto usanciér « $1 » at étâ dèsactivâ por de bon.',
 );
 
+/** Northern Frisian (Nordfriisk)
+ * @author Murma174
+ */
+$messages['frr'] = array(
+	'disableaccount-desc' => 'Administratooren kön enkelt brükerkontos stallei.',
+	'right-disableaccount' => 'brükerkontos stallei',
+	'disableaccount' => 'Lei en brükerkonto stal',
+	'disableaccount-user' => 'Brükernööm:',
+	'disableaccount-confirm' => "Det brükerkonto stallei.
+Di brüker koon ham do ei muar uunmelde, det paaswurd feranre of e-mail-noorachten fu.
+Wan di brüker jüst uunmeldet as, woort hi ufmeldet.
+''Seenk diaram, dat bluas en '''süsteem-administraator''' det konto weder aktiwiare koon!''",
+	'disableaccount-mustconfirm' => 'Det stalleien faan det brükerkonto skel dü nü noch ans gudkään.',
+	'disableaccount-nosuchuser' => 'Det brükerkonto „$1“ jaft at ei.',
+	'disableaccount-success' => 'Det brükerkonto „$1“ as nü üüb düür stallaanj.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
