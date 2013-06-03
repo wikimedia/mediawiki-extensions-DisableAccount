@@ -81,7 +81,7 @@ $messages['ar'] = array(
 	'disableaccount-success' => 'تم تعطيل حساب المستخدم "$1" بشكل دائم.',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Chaipau
  */
 $messages['as'] = array(
@@ -394,6 +394,7 @@ Se la uzulo nun estas salutinta ie ajn, li estas tuj malsalutigitota.
 /** Spanish (español)
  * @author DJ Nietzsche
  * @author Dferg
+ * @author MarcoAurelio
  * @author Sanbec
  */
 $messages['es'] = array(
@@ -412,6 +413,7 @@ Si el usuario está conectado, será desconectado de inmediato.
 
 /** español (formal) (español (formal))
  * @author Dferg
+ * @author MarcoAurelio
  */
 $messages['es-formal'] = array(
 	'disableaccount' => 'Deshabilitar una cuenta de usuario',
@@ -1058,7 +1060,7 @@ $messages['myv'] = array(
 	'disableaccount-user' => 'Совицянь леметь:',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  * @author Sjurhamre
  */
@@ -1124,7 +1126,7 @@ $messages['nl-informal'] = array(
 	'disableaccount-mustconfirm' => 'Je moet bevestigen dat je deze gebruiker wilt uitschakelen.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1134,7 +1136,7 @@ $messages['nn'] = array(
 	'disableaccount-success' => 'Brukarkontoen «$1» er permanent deaktivert.',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
