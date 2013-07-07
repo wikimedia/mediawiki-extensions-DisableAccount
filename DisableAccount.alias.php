@@ -107,6 +107,11 @@ $specialPageAliases['nb'] = array(
 	'DisableAccount' => array( 'Slå_av_konto' ),
 );
 
+/** Low Saxon (Netherlands) (Nedersaksies) */
+$specialPageAliases['nds-nl'] = array(
+	'DisableAccount' => array( 'Gebruker_uutschakelen' ),
+);
+
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'DisableAccount' => array( 'GebruikerUitschakelen' ),
