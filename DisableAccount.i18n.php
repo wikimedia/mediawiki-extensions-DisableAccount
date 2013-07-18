@@ -279,6 +279,13 @@ Pokud je uživatel kdekoli přihlášen, bude okamžitě odhlášen.
 	'disableaccount-success' => 'Uživatelský účet „$1“ byl natrvalo deaktivován.',
 );
 
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'disableaccount-user' => 'польꙃєватєлꙗ имѧ :',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  */
@@ -1220,7 +1227,7 @@ Se neste momento o utilizador estiver autenticado algures, sairá de imediato.
 ''Note que a desactivação de uma conta não pode ser revertida sem intervenção de um administrador de sistema.''",
 	'disableaccount-mustconfirm' => 'Tem de confirmar que pretende desactivar esta conta.',
 	'disableaccount-nosuchuser' => 'A conta de utilizador "$1" não existe.',
-	'disableaccount-success' => 'A conta de utilizador "$1" foi desactivada permanentemente.',
+	'disableaccount-success' => 'A conta de utilizador "$1" foi desativada permanentemente.',
 );
 
 /** Brazilian Portuguese (português do Brasil)
