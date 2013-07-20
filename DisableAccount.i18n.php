@@ -1219,13 +1219,13 @@ $messages['ps'] = array(
 $messages['pt'] = array(
 	'disableaccount-desc' => 'Permite que os administradores desactivem contas individuais.',
 	'right-disableaccount' => 'Desativar contas',
-	'disableaccount' => 'Desactivar uma conta',
+	'disableaccount' => 'Desativar uma conta de usuário',
 	'disableaccount-user' => 'Nome de utilizador:',
-	'disableaccount-confirm' => "Desactivar esta conta.
-O utilizador ficará impossibilitado de se autenticar, de reiniciar a palavra-chave e de receber notificações por correio electrónico.
+	'disableaccount-confirm' => "Desativar esta conta.
+O utilizador ficará impossibilitado de se autenticar, de reiniciar a palavra-chave e de receber notificações por correio eletrónico.
 Se neste momento o utilizador estiver autenticado algures, sairá de imediato.
-''Note que a desactivação de uma conta não pode ser revertida sem intervenção de um administrador de sistema.''",
-	'disableaccount-mustconfirm' => 'Tem de confirmar que pretende desactivar esta conta.',
+''Note que a desativação de uma conta não pode ser revertida sem intervenção de um administrador de sistema.''",
+	'disableaccount-mustconfirm' => 'Tem de confirmar que pretende desativar esta conta.',
 	'disableaccount-nosuchuser' => 'A conta de utilizador "$1" não existe.',
 	'disableaccount-success' => 'A conta de utilizador "$1" foi desativada permanentemente.',
 );
