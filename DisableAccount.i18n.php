@@ -1232,6 +1232,7 @@ Se neste momento o utilizador estiver autenticado algures, sairá de imediato.
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
+ * @author Luckas
  */
 $messages['pt-br'] = array(
 	'disableaccount-desc' => 'Permite que os administradores desativem contas individuais.',
@@ -1239,7 +1240,7 @@ $messages['pt-br'] = array(
 	'disableaccount' => 'Desativar uma conta',
 	'disableaccount-user' => 'Nome de usuário:',
 	'disableaccount-confirm' => "Desativar esta conta.
-O usuário ficará impossibilitado de se autenticar, de reiniciar a palavra-chave e de receber notificações por e-mail.
+O usuário ficará impossibilitado de se autenticar, de reiniciar a senha e de receber notificações por e-mail.
 Se neste momento o usuário estiver autenticado em algum lugar, ele sairá de imediato.
 ''Note que a desativação de uma conta não pode ser revertida sem intervenção de um administrador.''",
 	'disableaccount-mustconfirm' => 'Você deve confirmar que pretende desativar esta conta.',
