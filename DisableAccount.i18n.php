@@ -866,8 +866,8 @@ $messages['ko'] = array(
 만약 이 사용자가 로그인되어 있다면, 즉시 로그아웃될 것이니다.
 '''계정을 비활성화하는 것은 시스템 관리자의 도움 없이는 되돌릴 수 없습니다.'''",
 	'disableaccount-mustconfirm' => '이 계정을 비활성화할 것인지 반드시 확인하여야 합니다.',
-	'disableaccount-nosuchuser' => '계정 "$1"이 존재하지 않습니다.',
-	'disableaccount-success' => '계정 "$1"이 영구히 비활성화되었습니다.',
+	'disableaccount-nosuchuser' => '"$1" 계정이 존재하지 않습니다.',
+	'disableaccount-success' => '"$1" 계정이 영구적으로 비활성화되었습니다.',
 );
 
 /** Karachay-Balkar (къарачай-малкъар)
