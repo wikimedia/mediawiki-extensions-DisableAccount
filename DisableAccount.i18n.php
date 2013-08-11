@@ -753,17 +753,18 @@ $messages['is'] = array(
 
 /** Italian (italiano)
  * @author Beta16
+ * @author Nemo bis
  */
 $messages['it'] = array(
-	'disableaccount-desc' => 'Consente agli amministratori di disattivare gli account individuali.',
-	'right-disableaccount' => 'Disabilitare gli account',
-	'disableaccount' => 'Disabilitare account utente',
+	'disableaccount-desc' => 'Consente agli amministratori di disattivare singole utenze.',
+	'right-disableaccount' => 'Disabilitare le utenze',
+	'disableaccount' => "Disabilitare un'utenza",
 	'disableaccount-user' => 'Nome utente:',
-	'disableaccount-confirm' => "Disabilitare permanentemente questo account utente.
-L'utente non sarà in grado di accedere, reimpostare la password o ricevere notifiche via e-mail.
-Tutte le attuali connessioni dell'utente, saranno immediatamente terminate.
-''Si noti che la disattivazione di un account non è reversibile senza l'intervento dell'amministratore di sistema''.",
-	'disableaccount-mustconfirm' => 'Devi confermare che vuoi disabilitare questo account.',
+	'disableaccount-confirm' => "Disabilitare permanentemente questa utenza.
+L'utente non sarà in grado di accedere, reimpostare la password o ricevere notifiche via email.
+Tutte le attuali connessioni dell'utente saranno immediatamente terminate.
+''Si noti che la disattivazione di un'utenza non è reversibile senza l'intervento di un amministratore di sistema''.",
+	'disableaccount-mustconfirm' => 'Devi confermare che vuoi disabilitare questa utenza.',
 	'disableaccount-nosuchuser' => 'L\'account utente "$1" non esiste.',
 	'disableaccount-success' => 'L\'account utente "$1" è stato disabilitato definitivamente.',
 );

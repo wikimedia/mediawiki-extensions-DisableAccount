@@ -17,6 +17,11 @@ $specialPageAliases['ar'] = array(
 	'DisableAccount' => array( 'تعطيل_حساب' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'DisableAccount' => array( '禁止賬戶' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'DisableAccount' => array( 'Benutzerkonto_deaktivieren' ),
