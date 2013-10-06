@@ -1428,6 +1428,7 @@ Ak je používateľ momentálne niekde prihlásený, bude okamžite odhlásený.
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'disableaccount-desc' => 'Omogoča administratorjem onemogočiti posamezne račune.',
@@ -1437,7 +1438,7 @@ $messages['sl'] = array(
 	'disableaccount-confirm' => "Onemogočite ta uporabniški račun.
 Uporabnik se ne bo mogel prijaviti, ponastaviti svojega gesla ali prejemati e-poštnih obvestil.
 Če je uporabnik trenutno kjer koli prijavljen, bo nemudoma odjavljen.
-''Pomnite, da povrnitev onemogočitve računa ni mogoča brez posredovanja sistemskega upravljavca.''",
+''Vedite, da onemogočenja računa brez posredovanja sistemskega upravljavca ni mogoče razveljaviti.''",
 	'disableaccount-mustconfirm' => 'Potrditi morate, da želite onemogočiti ta račun.',
 	'disableaccount-nosuchuser' => 'Uporabniški račun »$1« ne obstaja.',
 	'disableaccount-success' => 'Uporabniški račun »$1« je trajno onemogočen.',
