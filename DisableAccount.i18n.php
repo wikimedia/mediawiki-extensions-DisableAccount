@@ -1220,7 +1220,7 @@ $messages['ps'] = array(
 $messages['pt'] = array(
 	'disableaccount-desc' => 'Permite que os administradores desactivem contas individuais.',
 	'right-disableaccount' => 'Desativar contas',
-	'disableaccount' => 'Desativar uma conta de usuário',
+	'disableaccount' => 'Desativar uma conta de utilizador',
 	'disableaccount-user' => 'Nome de utilizador:',
 	'disableaccount-confirm' => "Desativar esta conta.
 O utilizador ficará impossibilitado de se autenticar, de reiniciar a palavra-chave e de receber notificações por correio eletrónico.
