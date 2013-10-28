@@ -304,6 +304,7 @@ Os yw'r defnyddiwr wedi mewngofnodi rhywle ar hyn o bryd, bydd yn cael ei allgof
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Kaare
  * @author Sarrus
  */
@@ -313,9 +314,9 @@ $messages['da'] = array(
 	'disableaccount' => 'Deaktivere en brugerkonto',
 	'disableaccount-user' => 'Brugernavn:',
 	'disableaccount-confirm' => "Deaktiver denne brugerkonto.
-Denne bruger vil ikke være i stand til at logge ind, nulstille sit password eller modtage emailnotifikationer.
-Hvis brugeren er logget ind et sted, vil vedkommende blive logget ud øjeblikkeligt.
-''Bemærk at deaktivering af en konto ikke kan fortrydes uden systemadministrators indgriben.''",
+Denne bruger vil ikke være i stand til at logge på, nulstille sin adgangskode eller modtage e-mailnotifikationer.
+Hvis brugeren er logget på et sted, vil vedkommende blive logget af øjeblikkeligt.
+''Bemærk at deaktivering af en konto ikke kan fortrydes uden en systemadministrators indgriben.''",
 	'disableaccount-mustconfirm' => 'Du skal bekræfte, at du ønsker at deaktivere denne konto.',
 	'disableaccount-nosuchuser' => 'Brugerkontoen "$1" findes ikke.',
 	'disableaccount-success' => 'Brugerkontoen "$1" er blevet permanent deaktiveret.',
@@ -1143,6 +1144,15 @@ $messages['nn'] = array(
 	'disableaccount-mustconfirm' => 'Du lyt stadfesta at du ynskjer å deaktivera denne kontoen.',
 	'disableaccount-nosuchuser' => 'Brukarkontoen «$1» finst ikkje.',
 	'disableaccount-success' => 'Brukarkontoen «$1» er permanent deaktivert.',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'right-disableaccount' => 'Desactivar dels comptes',
+	'disableaccount' => "Desactivar un compte d'utilizaire",
+	'disableaccount-user' => "Nom d'utilizaire :",
 );
 
 /** Oriya (ଓଡ଼ିଆ)
