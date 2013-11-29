@@ -239,6 +239,7 @@ Ako je korisnik negdje u međuvremenu prijavljen, bit će automatski odmah odjav
 
 /** Catalan (català)
  * @author El libre
+ * @author Papapep
  * @author SMP
  */
 $messages['ca'] = array(
@@ -251,7 +252,7 @@ Si l'usuari està fent servir el compte actualment serà immediatament desconnec
 ''Tingueu en compte que la desactivació d'un compte no és una operació reversible sense la intervenció d'algú amb accés al servidor del sistema.''",
 	'disableaccount-mustconfirm' => 'Has de confirmar que vols desactivar aquest compte.',
 	'disableaccount-nosuchuser' => 'El compte d\'usuari/a "$1" no existeix.',
-	'disableaccount-success' => 'El compte d\'usuari/a "$1" ha estat permanentment deshabilitat.',
+	'disableaccount-success' => 'S\'ha inhabilitat permanentment el compte d\'usuari/a "$1".',
 );
 
 /** Sorani Kurdish (کوردی)
