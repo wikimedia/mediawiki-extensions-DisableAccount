@@ -262,7 +262,7 @@ $messages['ckb'] = array(
 	'disableaccount-user' => 'ناوی بەکارهێنەری:',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Jkjk
  * @author Mormegil
  */
@@ -280,7 +280,7 @@ Pokud je uživatel kdekoli přihlášen, bude okamžitě odhlášen.
 	'disableaccount-success' => 'Uživatelský účet „$1“ byl natrvalo deaktivován.',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
