@@ -343,9 +343,12 @@ Sofern der Benutzer momentan angemeldet ist, wird er umgehend abgemeldet.
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Marmase
  * @author Mirzali
  */
 $messages['diq'] = array(
+	'right-disableaccount' => 'Hesabi dewrera vec',
+	'disableaccount' => 'Na hesaba karberi dewrera vec',
 	'disableaccount-user' => 'Nameyê karberi:',
 );
 
