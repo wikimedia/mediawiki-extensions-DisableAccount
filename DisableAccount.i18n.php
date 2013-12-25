@@ -255,6 +255,13 @@ Si l'usuari està fent servir el compte actualment serà immediatament desconnec
 	'disableaccount-success' => 'S\'ha inhabilitat permanentment el compte d\'usuari/a "$1".',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'disableaccount-nosuchuser' => '«$1» ишта декъашхочун дӀаяздар дац.',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Asoxor
  */
