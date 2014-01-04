@@ -16,7 +16,7 @@ If the user is currently logged in anywhere, they will be immediately logged out
 	'disableaccount-mustconfirm' => 'You must confirm that you wish to disable this account.',
 	'disableaccount-nosuchuser' => 'The user account "$1" does not exist.',
 	'disableaccount-success' => 'The user account "$1" has been permanently disabled.',
-	'logentry-block-disableaccount' => 'disabled the account of [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|disabled the account}} of {{GENDER:$4|$3}}.',
 );
 
 /** Message documentation (Message documentation)
