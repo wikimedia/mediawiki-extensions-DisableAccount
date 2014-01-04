@@ -2,11 +2,13 @@
 
 class SpecialDisableAccount extends SpecialPage {
 	function __construct() {
-		parent::__construct( 'DisableAccount', 'disableaccount',
-					true, array( $this, 'show' ) );
+		parent::__construct( 'DisableAccount', 'disableaccount' );
 	}
 
-	public function show( $par ) {
+	public function execute( $par ) {
+		$this->setHeaders();
+		$this->checkPermissions();
+
 		$formFields = array(
 			'account' => array(
 				'type' => 'text',
