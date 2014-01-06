@@ -107,6 +107,7 @@ Si l'usuariu ta conectáu n'ayuri, se-y desconectará darréu.
 	'disableaccount-mustconfirm' => 'Tienes de confirmar que quies desactivar esta cuenta.',
 	'disableaccount-nosuchuser' => 'La cuenta d\'usuariu "$1" nun esiste.',
 	'disableaccount-success' => 'La cuenta d\'usuariu "$1" se desactivó de mou permanente.',
+	'logentry-block-disableaccount' => 'desactivó la cuenta de [[$1]].',
 );
 
 /** Azerbaijani (azərbaycanca)
@@ -331,6 +332,7 @@ Hvis brugeren er logget på et sted, vil vedkommende blive logget af øjeblikkel
 	'disableaccount-mustconfirm' => 'Du skal bekræfte, at du ønsker at deaktivere denne konto.',
 	'disableaccount-nosuchuser' => 'Brugerkontoen "$1" findes ikke.',
 	'disableaccount-success' => 'Brugerkontoen "$1" er blevet permanent deaktiveret.',
+	'logentry-block-disableaccount' => 'deaktiverede kontoen for [[$1]].',
 );
 
 /** German (Deutsch)
@@ -416,6 +418,7 @@ Se la uzulo nun estas salutinta ie ajn, li estas tuj malsalutigitota.
 );
 
 /** Spanish (español)
+ * @author Ciencia Al Poder
  * @author DJ Nietzsche
  * @author Dferg
  * @author MarcoAurelio
@@ -433,6 +436,7 @@ Si el usuario está conectado, será desconectado de inmediato.
 	'disableaccount-mustconfirm' => 'Tienes que confirmar que quieres desactivar esta cuenta.',
 	'disableaccount-nosuchuser' => 'La cuenta de usuario «$1» no existe.',
 	'disableaccount-success' => 'La cuenta de usuario «$1» ha sido deshabilitada definitivamente.',
+	'logentry-block-disableaccount' => 'Deshabilitó la cuenta de usuario [[$1]].',
 );
 
 /** español (formal) (español (formal))
@@ -944,6 +948,7 @@ Wann e Benotzer elo iergendwou ageloggt ass da gëtt hien direkt ausgeloggt.
 	'disableaccount-mustconfirm' => 'Dir musst confirméieren datt Dir dëse Kont desaktivéiere wëllt.',
 	'disableaccount-nosuchuser' => 'De Benotzerkont "$1" gëtt et net.',
 	'disableaccount-success' => 'De Benotzerkont "$1" gouf definitiv desaktivéiert.',
+	'logentry-block-disableaccount' => 'huet de Benotzerkont vum [[$1]] desaktivéiert.',
 );
 
 /** Limburgish (Limburgs)
@@ -1689,6 +1694,7 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author Andrijko Z.
+ * @author Andriykopanytsia
  * @author Yuriy Apostol
  * @author Тест
  */
@@ -1704,6 +1710,7 @@ $messages['uk'] = array(
 	'disableaccount-mustconfirm' => 'Ви повинні підтвердити, що ви хочете відключити цей обліковий запис.',
 	'disableaccount-nosuchuser' => 'Облікового запису користувача "$1" не існує.',
 	'disableaccount-success' => 'Обліковий запис користувача "$1" відключено назавжди.',
+	'logentry-block-disableaccount' => 'вимкнено для облікового запису [[$1]].',
 );
 
 /** Urdu (اردو)
@@ -1738,6 +1745,7 @@ Nếu người dùng đã dăng nhập vào bất cứ wiki nào trong hệ th�
 	'disableaccount-mustconfirm' => 'Bạn phải xác nhận rằng bạn muốn vô hiệu hóa tài khoản này.',
 	'disableaccount-nosuchuser' => 'Tài khoản người dùng “$1” không tồn tại.',
 	'disableaccount-success' => 'Tài khoản người dùng “$1” đã bị vô hiệu hóa vĩnh viễn.',
+	'logentry-block-disableaccount' => 'đã tắt tài khoản [[$1]].',
 );
 
 /** Volapük (Volapük)
