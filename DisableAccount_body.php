@@ -20,10 +20,9 @@ class SpecialDisableAccount extends SpecialPage {
 			),
 		);
 
-		$htmlForm = new HTMLForm( $formFields, 'disableaccount' );
+		$htmlForm = new HTMLForm( $formFields, $this->getContext(), 'disableaccount' );
 
 		$htmlForm->setSubmitCallback( array( __CLASS__, 'submit' ) );
-		$htmlForm->setTitle( $this->getTitle() );
 
 		$htmlForm->show();
 	}
