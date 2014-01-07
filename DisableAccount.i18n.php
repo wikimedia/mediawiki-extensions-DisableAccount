@@ -356,13 +356,14 @@ Sofern der Benutzer momentan angemeldet ist, wird er umgehend abgemeldet.
 );
 
 /** Zazaki (Zazaki)
+ * @author Asmen
  * @author Erdemaslancan
  * @author Marmase
  * @author Mirzali
  */
 $messages['diq'] = array(
-	'right-disableaccount' => 'Hesabi dewrera vec',
-	'disableaccount' => 'Na hesaba karberi dewrera vec',
+	'right-disableaccount' => 'Hesaban dewre ra vece',
+	'disableaccount' => 'Yew hesabê karberi dewre ra vece',
 	'disableaccount-user' => 'Nameyê karberi:',
 );
 
@@ -796,6 +797,7 @@ Tutte le attuali connessioni dell'utente saranno immediatamente terminate.
 	'disableaccount-mustconfirm' => 'Devi confermare che vuoi disabilitare questa utenza.',
 	'disableaccount-nosuchuser' => 'L\'account utente "$1" non esiste.',
 	'disableaccount-success' => 'L\'account utente "$1" è stato disabilitato definitivamente.',
+	'logentry-block-disableaccount' => "disabilitata l'utenza di [[$1]].",
 );
 
 /** Japanese (日本語)
