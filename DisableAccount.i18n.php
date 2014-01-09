@@ -1580,6 +1580,7 @@ Om användaren är inloggad någonstans, kommer den att omedelbart loggas ut.
 	'disableaccount-mustconfirm' => 'Du måste bekräfta att du vill inaktivera detta konto.',
 	'disableaccount-nosuchuser' => 'Användarkontot "$1" existerar inte.',
 	'disableaccount-success' => 'Användarkontot "$1" har inaktiverats permanent.',
+	'logentry-block-disableaccount' => 'inaktiverade [[$1]]s konto.',
 );
 
 /** Swahili (Kiswahili)
