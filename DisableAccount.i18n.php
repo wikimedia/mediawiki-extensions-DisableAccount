@@ -572,6 +572,7 @@ Wan di brüker jüst uunmeldet as, woort hi ufmeldet.
 	'disableaccount-mustconfirm' => 'Det stalleien faan det brükerkonto skel dü nü noch ans gudkään.',
 	'disableaccount-nosuchuser' => 'Det brükerkonto „$1“ jaft at ei.',
 	'disableaccount-success' => 'Det brükerkonto „$1“ as nü üüb düür stallaanj.',
+	'logentry-block-disableaccount' => 'hää det konto faan [[$1]] deaktiwiaret.',
 );
 
 /** Galician (galego)
@@ -1259,19 +1260,21 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Hamilton Abreu
  * @author Luckas
+ * @author Vitorvicentevalente
  */
 $messages['pt'] = array(
 	'disableaccount-desc' => 'Permite que os administradores desactivem contas individuais.',
-	'right-disableaccount' => 'Desativar contas',
-	'disableaccount' => 'Desativar uma conta de utilizador',
+	'right-disableaccount' => 'Desactivar contas',
+	'disableaccount' => 'Desactivar uma conta de utilizador',
 	'disableaccount-user' => 'Nome de utilizador:',
-	'disableaccount-confirm' => "Desativar esta conta.
-O utilizador ficará impossibilitado de se autenticar, de reiniciar a palavra-chave e de receber notificações por correio eletrónico.
+	'disableaccount-confirm' => "Desactivar esta conta.
+O utilizador ficará impossibilitado de se autenticar, de reiniciar a palavra-chave e de receber notificações por correio electrónico.
 Se neste momento o utilizador estiver autenticado algures, sairá de imediato.
-''Note que a desativação de uma conta não pode ser revertida sem intervenção de um administrador de sistema.''",
-	'disableaccount-mustconfirm' => 'Tem de confirmar que pretende desativar esta conta.',
+''Note que a desactivação de uma conta não pode ser revertida sem intervenção de um administrador de sistema.''",
+	'disableaccount-mustconfirm' => 'Tem de confirmar que pretende desactivar esta conta.',
 	'disableaccount-nosuchuser' => 'A conta de utilizador "$1" não existe.',
-	'disableaccount-success' => 'A conta de utilizador "$1" foi desativada permanentemente.',
+	'disableaccount-success' => 'A conta de utilizador "$1" foi desactivada permanentemente.',
+	'logentry-block-disableaccount' => 'conta de [[$1]] desactivada.',
 );
 
 /** Brazilian Portuguese (português do Brasil)
