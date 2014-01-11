@@ -1380,6 +1380,7 @@ $messages['ru'] = array(
 	'disableaccount-mustconfirm' => 'Вы должны подтвердить, что вы хотите отключить эту учётную запись.',
 	'disableaccount-nosuchuser' => 'Не существует учётной записи участника «$1».',
 	'disableaccount-success' => 'Учетная запись участника «$1» была отключена навсегда.',
+	'logentry-block-disableaccount' => 'отключил учётную запись [[$1]].',
 );
 
 /** Rusyn (русиньскый)
