@@ -643,7 +643,7 @@ $messages['he'] = array(
 	'disableaccount-mustconfirm' => 'עליכם לאשר שאתם רוצים לבטל חשבון זה.',
 	'disableaccount-nosuchuser' => 'חשבון המשתמש "$1" אינו קיים.',
 	'disableaccount-success' => 'חשבון המשתמש "$1" בוטל.',
-	'logentry-block-disableaccount' => '{{GENDER:$2|כיבה|כיבתה}} את החשבון של [[$1]].', # Fuzzy
+	'logentry-block-disableaccount' => 'כיבה את החשבון של [[$1]].',
 );
 
 /** Hindi (हिन्दी)
@@ -888,6 +888,7 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
@@ -902,6 +903,7 @@ $messages['ko'] = array(
 	'disableaccount-mustconfirm' => '이 계정을 비활성화할 것인지 반드시 확인하여야 합니다.',
 	'disableaccount-nosuchuser' => '"$1" 계정이 존재하지 않습니다.',
 	'disableaccount-success' => '"$1" 계정이 영구적으로 비활성화되었습니다.',
+	'logentry-block-disableaccount' => '[[$1]]계정을 폐지.',
 );
 
 /** Karachay-Balkar (къарачай-малкъар)
