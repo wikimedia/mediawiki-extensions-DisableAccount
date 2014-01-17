@@ -207,6 +207,7 @@ $messages['bn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Fulup
  */
 $messages['br'] = array(
@@ -221,6 +222,7 @@ M'emañ kevreet bremañ an implijer un tu bennak e vo digevreet kerkent.
 	'disableaccount-mustconfirm' => "Rankout a rit kadarnaat e fell deoc'h diweredekaat ar gont-mañ.",
 	'disableaccount-nosuchuser' => 'N\'eus ket eus ar gont implijer "$1".',
 	'disableaccount-success' => 'Diweredekaat eo bet ar gont implijer "$1" da vat.',
+	'logentry-block-disableaccount' => 'diweredekaat kont [[$1]].',
 );
 
 /** Bosnian (bosanski)
