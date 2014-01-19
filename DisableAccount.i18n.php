@@ -1366,6 +1366,7 @@ Ce l'utende jè collegate jndr'à stu mumende, allore avène mise fore. <br />
 	'disableaccount-mustconfirm' => 'Tu a confermà ce vuè ccu disabbilete stu cunde utende.',
 	'disableaccount-nosuchuser' => '\'U cunde utende "$1" non g\'esiste.',
 	'disableaccount-success' => '\'U cunde utende "$1" ha state disabbilitate pe sembre.',
+	'logentry-block-disableaccount' => "disabbilite 'u cunde de [[$1]].",
 );
 
 /** Russian (русский)
