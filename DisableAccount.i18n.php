@@ -592,6 +592,7 @@ Se o usuario está conectado, sairá ao anonimato inmediatamente.
 	'disableaccount-mustconfirm' => 'Ten que confirmar que quere desactivar esta conta.',
 	'disableaccount-nosuchuser' => 'A conta de usuario "$1" non existe.',
 	'disableaccount-success' => 'Esta conta de usuario, "$1", foi desactivada permanentemente.',
+	'logentry-block-disableaccount' => 'desactivou a conta de [[$1]].',
 );
 
 /** Swiss German (Alemannisch)
