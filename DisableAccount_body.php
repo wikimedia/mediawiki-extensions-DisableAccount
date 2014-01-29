@@ -60,6 +60,7 @@ class SpecialDisableAccount extends SpecialPage {
 		$logEntry = new ManualLogEntry( 'block', 'disableaccount' );
 		$logEntry->setPerformer( $wgUser );
 		$logEntry->setTarget( $user->getUserPage() );
+		$logEntry->setParameters( array( '4::targetUsername' => $user->getName() ) );
 		$logId = $logEntry->insert();
 		$logEntry->publish( $logId );
 
