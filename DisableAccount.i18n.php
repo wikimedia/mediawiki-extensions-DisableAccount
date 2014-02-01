@@ -44,7 +44,9 @@ The confirmation message for this checkbox is:
 * $1 - username',
 	'disableaccount-success' => 'Used as success message. Parameters:
 * $1 - username',
-	'logentry-block-disableaccount' => '{{Logentry}}',
+	'logentry-block-disableaccount' => '{{Logentry}}
+Additional parameters:
+* $4 - username, for GENDER support',
 );
 
 /** Afrikaans (Afrikaans)
@@ -290,7 +292,7 @@ Pokud je uživatel kdekoli přihlášen, bude okamžitě odhlášen.
 	'disableaccount-mustconfirm' => 'Musíte potvrdit, že si přejete deaktivovat tento účet.',
 	'disableaccount-nosuchuser' => 'Uživatelský účet „$1“ neexistuje.',
 	'disableaccount-success' => 'Uživatelský účet „$1“ byl natrvalo deaktivován.',
-	'logentry-block-disableaccount' => '{{GENDER:$1|deaktivoval|deaktivovala}} účet [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|deaktivoval|deaktivovala}} účet {{GENDER:$4|uživatele|uživatelky}} $3.',
 );
 
 /** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
@@ -354,7 +356,7 @@ Sofern der Benutzer momentan angemeldet ist, wird er umgehend abgemeldet.
 	'disableaccount-mustconfirm' => 'Die Deaktivierung dieses Benutzerkontos muss nun bestätigt werden.',
 	'disableaccount-nosuchuser' => 'Das Benutzerkonto „$1“ ist nicht vorhanden.',
 	'disableaccount-success' => 'Das Benutzerkonto „$1“ wurde dauerhaft deaktiviert.',
-	'logentry-block-disableaccount' => 'deaktivierte das Benutzerkonto von [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|deaktivierte}} das Benutzerkonto von {{GENDER:$4|$3}}.',
 );
 
 /** Zazaki (Zazaki)
@@ -500,7 +502,7 @@ $messages['fa'] = array(
 	'disableaccount-mustconfirm' => 'شما باید تأیید کنید که مایل به غیرفعال‌کردن این حساب کاربری هستید.',
 	'disableaccount-nosuchuser' => 'حساب کاربری "$1" وجود ندارد.',
 	'disableaccount-success' => 'حساب کاربری "$1" برای همیشه غیر فعال شده است.',
-	'logentry-block-disableaccount' => 'حساب غیرفعال [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|حساب غیرفعال شده}} از {{GENDER:$4|$3}}.',
 );
 
 /** Finnish (suomi)
@@ -524,6 +526,7 @@ Jos käyttäjä on tällä hetkellä sisäänkirjautuneena, käyttäjä kirjataa
 
 /** French (français)
  * @author Cquoi
+ * @author Gomoko
  * @author IAlex
  * @author Peter17
  */
@@ -539,7 +542,7 @@ Si l’utilisateur est actuellement identifié quelque part, il sera immédiatem
 	'disableaccount-mustconfirm' => 'Vous devez confirmer que vous souhaitez désactiver ce compte.',
 	'disableaccount-nosuchuser' => "Le compte utilisateur « $1 » n'existe pas.",
 	'disableaccount-success' => 'Le compte utilisateur « $1 » a été définitivement désactivé.',
-	'logentry-block-disableaccount' => 'désactivé le compte de [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|a désactivé}} le compte de {{GENDER:$4|$3}}.',
 );
 
 /** Franco-Provençal (arpetan)
@@ -592,7 +595,7 @@ Se o usuario está conectado, sairá ao anonimato inmediatamente.
 	'disableaccount-mustconfirm' => 'Ten que confirmar que quere desactivar esta conta.',
 	'disableaccount-nosuchuser' => 'A conta de usuario "$1" non existe.',
 	'disableaccount-success' => 'Esta conta de usuario, "$1", foi desactivada permanentemente.',
-	'logentry-block-disableaccount' => 'desactivou a conta de [[$1]].',
+	'logentry-block-disableaccount' => 'desactivou a conta de [[$1]].', # Fuzzy
 );
 
 /** Swiss German (Alemannisch)
@@ -646,7 +649,7 @@ $messages['he'] = array(
 	'disableaccount-mustconfirm' => 'עליכם לאשר שאתם רוצים לבטל חשבון זה.',
 	'disableaccount-nosuchuser' => 'חשבון המשתמש "$1" אינו קיים.',
 	'disableaccount-success' => 'חשבון המשתמש "$1" בוטל.',
-	'logentry-block-disableaccount' => 'כיבה את החשבון של [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2||כיבה|כיבתה}} את החשבון של {{GENDER:$4|$3}}.',
 );
 
 /** Hindi (हिन्दी)
@@ -788,6 +791,7 @@ $messages['is'] = array(
 /** Italian (italiano)
  * @author Beta16
  * @author Nemo bis
+ * @author Rosh
  */
 $messages['it'] = array(
 	'disableaccount-desc' => 'Consente agli amministratori di disattivare singole utenze.',
@@ -801,7 +805,7 @@ Tutte le attuali connessioni dell'utente saranno immediatamente terminate.
 	'disableaccount-mustconfirm' => 'Devi confermare che vuoi disabilitare questa utenza.',
 	'disableaccount-nosuchuser' => 'L\'account utente "$1" non esiste.',
 	'disableaccount-success' => 'L\'account utente "$1" è stato disabilitato definitivamente.',
-	'logentry-block-disableaccount' => "disabilitata l'utenza di [[$1]].",
+	'logentry-block-disableaccount' => "$1 {{GENDER:$2|disabilitato l'account}} di  {{GENDER:$4|   $3 }}.",
 );
 
 /** Japanese (日本語)
@@ -822,7 +826,7 @@ $messages['ja'] = array(
 	'disableaccount-mustconfirm' => 'このアカウントを本当に無効化しようとしているのかを確認する必要があります。',
 	'disableaccount-nosuchuser' => '利用者アカウント「$1」は存在しません。',
 	'disableaccount-success' => '利用者アカウント「$1」は、永久に無効化されています。',
-	'logentry-block-disableaccount' => '[[$1]] のアカウントを無効化',
+	'logentry-block-disableaccount' => '$1 が {{GENDER:$4|$3}} のアカウントを{{GENDER:$2|無効化}}',
 );
 
 /** Javanese (Basa Jawa)
@@ -956,7 +960,7 @@ Wann e Benotzer elo iergendwou ageloggt ass da gëtt hien direkt ausgeloggt.
 	'disableaccount-mustconfirm' => 'Dir musst confirméieren datt Dir dëse Kont desaktivéiere wëllt.',
 	'disableaccount-nosuchuser' => 'De Benotzerkont "$1" gëtt et net.',
 	'disableaccount-success' => 'De Benotzerkont "$1" gouf definitiv desaktivéiert.',
-	'logentry-block-disableaccount' => 'huet de Benotzerkont vum [[$1]] desaktivéiert.',
+	'logentry-block-disableaccount' => '$1 huet de {{GENDER:$2|Benotzerkont}} vum {{GENDER:$4|$3}} desaktivéiert.',
 );
 
 /** Limburgish (Limburgs)
@@ -1034,7 +1038,7 @@ $messages['mk'] = array(
 	'disableaccount-mustconfirm' => 'Мора да потврдите дека сакате да ја оневозможите сметкава.',
 	'disableaccount-nosuchuser' => 'Корисничката сметка „$1“ не постои.',
 	'disableaccount-success' => 'Корисничката сметка „$1“ е трајно оневозможена.',
-	'logentry-block-disableaccount' => 'оневозможена сметката на [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|ја оневозможи сметката}} на {{GENDER:$4|$3}}.',
 );
 
 /** Malayalam (മലയാളം)
@@ -1369,7 +1373,7 @@ Ce l'utende jè collegate jndr'à stu mumende, allore avène mise fore. <br />
 	'disableaccount-mustconfirm' => 'Tu a confermà ce vuè ccu disabbilete stu cunde utende.',
 	'disableaccount-nosuchuser' => '\'U cunde utende "$1" non g\'esiste.',
 	'disableaccount-success' => '\'U cunde utende "$1" ha state disabbilitate pe sembre.',
-	'logentry-block-disableaccount' => "disabbilite 'u cunde de [[$1]].",
+	'logentry-block-disableaccount' => "$1 {{GENDER:$2|disabbilite 'u cunde}} de {{GENDER:$4|$3}}.",
 );
 
 /** Russian (русский)
@@ -1388,7 +1392,7 @@ $messages['ru'] = array(
 	'disableaccount-mustconfirm' => 'Вы должны подтвердить, что вы хотите отключить эту учётную запись.',
 	'disableaccount-nosuchuser' => 'Не существует учётной записи участника «$1».',
 	'disableaccount-success' => 'Учетная запись участника «$1» была отключена навсегда.',
-	'logentry-block-disableaccount' => 'отключил учётную запись [[$1]].',
+	'logentry-block-disableaccount' => '$1 отключил{{GENDER:$2||а}} учётную запись {{GENDER:$4|$3}}.',
 );
 
 /** Rusyn (русиньскый)
@@ -1498,6 +1502,7 @@ Uporabnik se ne bo mogel prijaviti, ponastaviti svojega gesla ali prejemati e-po
 	'disableaccount-mustconfirm' => 'Potrditi morate, da želite onemogočiti ta račun.',
 	'disableaccount-nosuchuser' => 'Uporabniški račun »$1« ne obstaja.',
 	'disableaccount-success' => 'Uporabniški račun »$1« je trajno onemogočen.',
+	'logentry-block-disableaccount' => 'je onemogočil(-a) račun [[$1]].', # Fuzzy
 );
 
 /** Albanian (shqip)
@@ -1725,7 +1730,7 @@ $messages['uk'] = array(
 	'disableaccount-mustconfirm' => 'Ви повинні підтвердити, що ви хочете відключити цей обліковий запис.',
 	'disableaccount-nosuchuser' => 'Облікового запису користувача "$1" не існує.',
 	'disableaccount-success' => 'Обліковий запис користувача "$1" відключено назавжди.',
-	'logentry-block-disableaccount' => 'вимкнено для облікового запису [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|вимкнув|вимкнула}} обліковий запис {{GENDER:$4|$3}}.',
 );
 
 /** Urdu (اردو)
@@ -1747,6 +1752,7 @@ $messages['vep'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
+ * @author Withoutaname
  */
 $messages['vi'] = array(
 	'disableaccount-desc' => 'Cho phép bảo quản viên vô hiệu hóa tài khoản.',
@@ -1760,7 +1766,7 @@ Nếu người dùng đã dăng nhập vào bất cứ wiki nào trong hệ th�
 	'disableaccount-mustconfirm' => 'Bạn phải xác nhận rằng bạn muốn vô hiệu hóa tài khoản này.',
 	'disableaccount-nosuchuser' => 'Tài khoản người dùng “$1” không tồn tại.',
 	'disableaccount-success' => 'Tài khoản người dùng “$1” đã bị vô hiệu hóa vĩnh viễn.',
-	'logentry-block-disableaccount' => 'đã tắt tài khoản [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2}}đã tắt tài khoản {{GENDER:$4}}$3.',
 );
 
 /** Volapük (Volapük)
