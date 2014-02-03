@@ -345,7 +345,7 @@ Hvis brugeren er logget på et sted, vil vedkommende blive logget af øjeblikkel
  * @author Metalhead64
  */
 $messages['de'] = array(
-	'disableaccount-desc' => 'Ermöglicht es Administratoren einzelne Benutzerkonten zu deaktivieren',
+	'disableaccount-desc' => 'Ermöglicht die Deaktivierung einzelner Benutzerkonten',
 	'right-disableaccount' => 'Benutzerkonto deaktivieren',
 	'disableaccount' => 'Ein Benutzerkonto deaktivieren',
 	'disableaccount-user' => 'Benutzername:',
@@ -805,7 +805,7 @@ Tutte le attuali connessioni dell'utente saranno immediatamente terminate.
 	'disableaccount-mustconfirm' => 'Devi confermare che vuoi disabilitare questa utenza.',
 	'disableaccount-nosuchuser' => 'L\'account utente "$1" non esiste.',
 	'disableaccount-success' => 'L\'account utente "$1" è stato disabilitato definitivamente.',
-	'logentry-block-disableaccount' => "$1 {{GENDER:$2|disabilitato l'account}} di  {{GENDER:$4|   $3 }}.",
+	'logentry-block-disableaccount' => "$1 ha {{GENDER:$2|disabilitato l'utenza}} di {{GENDER:$4|$3}}.",
 );
 
 /** Japanese (日本語)
@@ -910,7 +910,7 @@ $messages['ko'] = array(
 	'disableaccount-mustconfirm' => '이 계정을 비활성화할 것인지 반드시 확인하여야 합니다.',
 	'disableaccount-nosuchuser' => '"$1" 계정이 존재하지 않습니다.',
 	'disableaccount-success' => '"$1" 계정이 영구적으로 비활성화되었습니다.',
-	'logentry-block-disableaccount' => '[[$1]]계정을 폐지.',
+	'logentry-block-disableaccount' => '$1 사용자가 {{GENDER:$4|$3}}의 계정을 {{GENDER:$2|폐지했습니다}}.',
 );
 
 /** Karachay-Balkar (къарачай-малкъар)
