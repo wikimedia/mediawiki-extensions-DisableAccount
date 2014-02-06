@@ -1074,6 +1074,7 @@ Jika pengguna ini sedang log masuk di mana-mana, dia akan log keluar serta-merta
 	'disableaccount-mustconfirm' => 'Anda perlu mengesahkan bahawa anda ingin melumpuhkan akaun ini.',
 	'disableaccount-nosuchuser' => 'Akaun pengguna "$1" tidak wujud.',
 	'disableaccount-success' => 'Akaun pengguna "$1" telah dilumpuhkan selama-lamanya.',
+	'logentry-block-disableaccount' => '$1 telah {{GENDER:$2|mematikan akaun}} {{GENDER:$4|$3}}.',
 );
 
 /** Maltese (Malti)
