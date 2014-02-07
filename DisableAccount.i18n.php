@@ -1286,7 +1286,7 @@ Se neste momento o utilizador estiver autenticado algures, sairá de imediato.
 	'disableaccount-mustconfirm' => 'Tem de confirmar que pretende desactivar esta conta.',
 	'disableaccount-nosuchuser' => 'A conta de utilizador "$1" não existe.',
 	'disableaccount-success' => 'A conta de utilizador "$1" foi desactivada permanentemente.',
-	'logentry-block-disableaccount' => 'conta de [[$1]] desactivada.',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|desactivou a conta}} de {{GENDER:$4|$3}}',
 );
 
 /** Brazilian Portuguese (português do Brasil)
