@@ -1584,6 +1584,7 @@ $messages['su'] = array(
 
 /** Swedish (svenska)
  * @author Boivie
+ * @author Lokal Profil
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -1598,7 +1599,7 @@ Om användaren är inloggad någonstans, kommer den att omedelbart loggas ut.
 	'disableaccount-mustconfirm' => 'Du måste bekräfta att du vill inaktivera detta konto.',
 	'disableaccount-nosuchuser' => 'Användarkontot "$1" existerar inte.',
 	'disableaccount-success' => 'Användarkontot "$1" har inaktiverats permanent.',
-	'logentry-block-disableaccount' => 'inaktiverade [[$1]]s konto.',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|inaktiverade}} {{GENDER:$4|$3}}s konto.',
 );
 
 /** Swahili (Kiswahili)
