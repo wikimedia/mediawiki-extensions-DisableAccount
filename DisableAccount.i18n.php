@@ -1158,6 +1158,7 @@ $messages['ne'] = array(
 /** Dutch (Nederlands)
  * @author Arent
  * @author Siebrand
+ * @author Sjoerddebruin
  */
 $messages['nl'] = array(
 	'disableaccount-desc' => 'Maakt het voor beheerders mogelijk individuele gebruikers uit te schakelen',
@@ -1171,7 +1172,7 @@ Als de gebruiker op dit moment is aangemeld, wordt deze per direct afgemeld.
 	'disableaccount-mustconfirm' => 'U moet bevestigen dat u deze gebruiker wilt uitschakelen.',
 	'disableaccount-nosuchuser' => 'De gebruiker "$1" bestaat niet.',
 	'disableaccount-success' => 'De gebruiker "$1" is permanent uitgeschakeld.',
-	'logentry-block-disableaccount' => 'heeft het account van [[$1]] uitgeschakeld.',
+	'logentry-block-disableaccount' => '$1 heeft {{GENDER:$2|het account uitgeschakeld}} van {{GENDER:$4|$3}}.',
 );
 
 /** Nederlands (informeel)‎ (Nederlands (informeel)‎)
