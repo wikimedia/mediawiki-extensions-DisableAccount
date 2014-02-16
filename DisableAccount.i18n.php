@@ -936,6 +936,7 @@ Wann dä Metmaacher ööhnzwoh enjelogg es, flüsh hä tirag_eruß.
 	'disableaccount-mustconfirm' => 'Do moß bestäätije, dat De däm Metmaacher singe Zohjang op Duur stell lääje wells.',
 	'disableaccount-nosuchuser' => 'Ene Metmaacher „$1“ ham_mer nit.',
 	'disableaccount-success' => 'Däm Metmaacher „$1“ singe Zohjang es op Duur stell jelaat.',
+	'logentry-block-disableaccount' => '{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1  hät {{GENDER:$4|däm|däm|däm Metmaacher|dä|däm}} $3 {{GENDER:$4|singe|singe|singe|iere|singe}} Zohjang desch jemaat.',
 );
 
 /** Kurdish (Latin script) (Kurdî (latînî)‎)
