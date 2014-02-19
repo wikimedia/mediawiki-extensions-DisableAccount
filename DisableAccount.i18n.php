@@ -1813,6 +1813,7 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
  * @author PhiLiP
  * @author Yfdyh000
  * @author 阿pp
@@ -1828,7 +1829,7 @@ $messages['zh-hans'] = array(
 	'disableaccount-mustconfirm' => '请确认您的确要禁用此账户。',
 	'disableaccount-nosuchuser' => '用户账户“$1”不存在。',
 	'disableaccount-success' => '用户账户“$1”已被永久禁用。',
-	'logentry-block-disableaccount' => '已停用账户[[$1]]。',
+	'logentry-block-disableaccount' => '$1{{GENDER:$2|停用了}}{{GENDER:$4|$3}}的账户。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
