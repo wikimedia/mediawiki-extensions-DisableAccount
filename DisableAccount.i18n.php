@@ -1433,9 +1433,11 @@ $messages['sah'] = array(
 
 /** Scots (Scots)
  * @author Avicennasis
+ * @author John Reid
  */
 $messages['sco'] = array(
 	'disableaccount-user' => 'Uisername:',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|disabled the account}} o {{GENDER:$4|$3}}.',
 );
 
 /** Serbo-Croatian (srpskohrvatski / српскохрватски)
