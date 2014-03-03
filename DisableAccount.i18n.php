@@ -1173,7 +1173,7 @@ Als de gebruiker op dit moment is aangemeld, wordt deze per direct afgemeld.
 	'disableaccount-mustconfirm' => 'U moet bevestigen dat u deze gebruiker wilt uitschakelen.',
 	'disableaccount-nosuchuser' => 'De gebruiker "$1" bestaat niet.',
 	'disableaccount-success' => 'De gebruiker "$1" is permanent uitgeschakeld.',
-	'logentry-block-disableaccount' => '$1 heeft het account uitgeschakeld van $3.', # Fuzzy
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|heeft}} het account van {{GENDER:$4|$3}} uitgeschakeld.',
 );
 
 /** Nederlands (informeel)‎ (Nederlands (informeel)‎)
