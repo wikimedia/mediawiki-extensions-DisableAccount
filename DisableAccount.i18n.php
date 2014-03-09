@@ -441,7 +441,7 @@ Si el usuario está conectado, será desconectado de inmediato.
 	'disableaccount-mustconfirm' => 'Tienes que confirmar que quieres desactivar esta cuenta.',
 	'disableaccount-nosuchuser' => 'La cuenta de usuario «$1» no existe.',
 	'disableaccount-success' => 'La cuenta de usuario «$1» ha sido deshabilitada definitivamente.',
-	'logentry-block-disableaccount' => 'Deshabilitó la cuenta de usuario [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|deshabilitó la cuenta}} de {{GENDER:$4|$3}}.',
 );
 
 /** español (formal) (español (formal))
