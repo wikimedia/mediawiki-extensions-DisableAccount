@@ -266,6 +266,7 @@ Si l'usuari està fent servir el compte actualment serà immediatament desconnec
  * @author Умар
  */
 $messages['ce'] = array(
+	'disableaccount-user' => 'Декъашхочун цӀе:',
 	'disableaccount-nosuchuser' => '«$1» ишта декъашхочун дӀаяздар дац.',
 );
 
