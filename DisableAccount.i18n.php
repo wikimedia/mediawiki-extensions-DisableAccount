@@ -224,7 +224,7 @@ M'emañ kevreet bremañ an implijer un tu bennak e vo digevreet kerkent.
 	'disableaccount-mustconfirm' => "Rankout a rit kadarnaat e fell deoc'h diweredekaat ar gont-mañ.",
 	'disableaccount-nosuchuser' => 'N\'eus ket eus ar gont implijer "$1".',
 	'disableaccount-success' => 'Diweredekaat eo bet ar gont implijer "$1" da vat.',
-	'logentry-block-disableaccount' => 'diweredekaat kont [[$1]].',
+	'logentry-block-disableaccount' => '$1 {{GENDER:$2|en deus|he deus}} diweredekaet kont {{GENDER:$4|$3}}.',
 );
 
 /** Bosnian (bosanski)
