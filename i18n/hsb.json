@@ -12,5 +12,5 @@
     "disableaccount-mustconfirm": "Dyrbiš wobkrućić, zo chceš tute konto znjemóžnić.",
     "disableaccount-nosuchuser": "Wužiwarske konto \"$1\" njeeksistuje.",
     "disableaccount-success": "Wužiwarske konto \"$1\" bu na přeco znjemóžnjene.",
-    "logentry-block-disableaccount": "jo konto wužywarja [[$1]] znjemóžnił."
+    "logentry-block-disableaccount": "$1 je konto wužiwarja {{GENDER:$4|$3}} {{GENDER:$2|znjemóžnił|znjemóžniła}}."
 }
