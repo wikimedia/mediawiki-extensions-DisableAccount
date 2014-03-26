@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "AnakngAraw"
+        ]
+    },
+    "disableaccount-desc": "Pahintulutan ang mga tagapangasiwa na huwag paganahin ang pang-isahang mga akawnt.",
+    "right-disableaccount": "Huwag paganahin ang mga akawnt",
+    "disableaccount": "Huwag paganahin ang akawnt ng tagagamit",
+    "disableaccount-user": "Pangalan ng tagagamit:",
+    "disableaccount-confirm": "Huwag paganahin ang akawnt ng tagagamit na ito.\nAng tagagamit ay hindi na makalalagdang papasok, makapagpapalit ng hudyat, o makatatanggap ng mga pabatid sa e-liham.\nKung ang tagagamit ay kasalukuyang nakalagdang papasok saan man, kaagad silang ilalagdang palabas.\n''Tandaan na maibabalik lamang sa dati ang hindi pagpapagana ng isang akawnt sa pamamagitan ng tulong ng tagapangasiwa.\"",
+    "disableaccount-mustconfirm": "Dapat mong tiyakin na nais mong huwag paganahin ang akawnt na ito.",
+    "disableaccount-nosuchuser": "Hindi umiiral ang akawnt ng tagagamit na \"$1\".",
+    "disableaccount-success": "Pamalagiang hindi na pinagagana ang akawnt ng tagagamit na \"$1\"."
+}

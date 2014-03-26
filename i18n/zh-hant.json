@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Anakmalaysia",
+            "Mark85296341"
+        ]
+    },
+    "disableaccount-desc": "允許管理員禁用個人賬戶。",
+    "right-disableaccount": "禁用帳號",
+    "disableaccount": "禁用用戶賬戶",
+    "disableaccount-user": "用戶名：",
+    "disableaccount-confirm": "禁用此使用者帳號。\n該使用者將無法登入、重設其密碼或收到電子郵件通知。如果用戶目前仍保持登入，其帳號將會被強制登出。\n''留意若無系統管理員的干預，被禁用的帳號不可重新啟用。''",
+    "disableaccount-mustconfirm": "請確認您的確要禁用此賬戶。",
+    "disableaccount-nosuchuser": "用戶賬戶「$1」不存在。",
+    "disableaccount-success": "用戶賬戶「$1」已被永久禁用。"
+}

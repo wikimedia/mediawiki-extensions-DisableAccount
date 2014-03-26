@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Hamilton Abreu",
+            "Luckas",
+            "Vitorvicentevalente"
+        ]
+    },
+    "disableaccount-desc": "Permite que os administradores desactivem contas individuais.",
+    "right-disableaccount": "Desactivar contas",
+    "disableaccount": "Desactivar uma conta de utilizador",
+    "disableaccount-user": "Nome de utilizador:",
+    "disableaccount-confirm": "Desactivar esta conta.\nO utilizador ficará impossibilitado de se autenticar, de reiniciar a palavra-chave e de receber notificações por correio electrónico.\nSe neste momento o utilizador estiver autenticado algures, sairá de imediato.\n''Note que a desactivação de uma conta não pode ser revertida sem intervenção de um administrador de sistema.''",
+    "disableaccount-mustconfirm": "Tem de confirmar que pretende desactivar esta conta.",
+    "disableaccount-nosuchuser": "A conta de utilizador \"$1\" não existe.",
+    "disableaccount-success": "A conta de utilizador \"$1\" foi desactivada permanentemente.",
+    "logentry-block-disableaccount": "$1 {{GENDER:$2|desactivou a conta}} de {{GENDER:$4|$3}}"
+}

@@ -12,7 +12,7 @@ $wgExtensionCredits['other'][] = array(
 
 $dir = __DIR__ . '/';
 
-// Internationlization files
+$wgMessagesDirs['DisableAccount'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['DisableAccount'] = $dir . 'DisableAccount.i18n.php';
 $wgExtensionMessagesFiles['DisableAccountAliases'] = $dir . 'DisableAccount.alias.php';
 
