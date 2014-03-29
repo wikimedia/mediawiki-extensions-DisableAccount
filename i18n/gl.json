@@ -12,5 +12,5 @@
     "disableaccount-mustconfirm": "Ten que confirmar que quere desactivar esta conta.",
     "disableaccount-nosuchuser": "A conta de usuario \"$1\" non existe.",
     "disableaccount-success": "Esta conta de usuario, \"$1\", foi desactivada permanentemente.",
-    "logentry-block-disableaccount": "desactivou a conta de [[$1]]."
+    "logentry-block-disableaccount": "$1 {{GENDER:$2|desactivou a conta}} de {{GENDER:$4|$3}}."
 }
