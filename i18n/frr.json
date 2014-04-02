@@ -12,5 +12,5 @@
     "disableaccount-mustconfirm": "Det stalleien faan det brükerkonto skel dü nü noch ans gudkään.",
     "disableaccount-nosuchuser": "Det brükerkonto „$1“ jaft at ei.",
     "disableaccount-success": "Det brükerkonto „$1“ as nü üüb düür stallaanj.",
-    "logentry-block-disableaccount": "hää det konto faan [[$1]] deaktiwiaret."
+    "logentry-block-disableaccount": "$1 {{GENDER:$2|hää}} det brükerkonto faan {{GENDER:$4|$3}} deaktiwiaret."
 }
