@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Meursault2004",
-            "NoiX180"
-        ]
-    },
-    "disableaccount-desc": "Nglilakaké pangurus nutup akun individu",
-    "right-disableaccount": "Tutup akun",
-    "disableaccount": "Nonaktifaké akun panganggo",
-    "disableaccount-user": "Jeneng panganggo:",
-    "disableaccount-mustconfirm": "Sampéyan kudu mesthèkaké yèn Sampéyan pancèn pingin matèni akun iki.",
-    "disableaccount-nosuchuser": "Akun panganggo \"$1\" ora ana.",
-    "disableaccount-success": "Akun panganggo \"$1\" wis dipatèni permanèn."
+	"@metadata": {
+		"authors": [
+			"Meursault2004",
+			"NoiX180"
+		]
+	},
+	"disableaccount-desc": "Nglilakaké pangurus nutup akun individu",
+	"right-disableaccount": "Tutup akun",
+	"disableaccount": "Nonaktifaké akun panganggo",
+	"disableaccount-user": "Jeneng panganggo:",
+	"disableaccount-mustconfirm": "Sampéyan kudu mesthèkaké yèn Sampéyan pancèn pingin matèni akun iki.",
+	"disableaccount-nosuchuser": "Akun panganggo \"$1\" ora ana.",
+	"disableaccount-success": "Akun panganggo \"$1\" wis dipatèni permanèn."
 }

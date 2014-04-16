@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Iltever"
-        ]
-    },
-    "disableaccount": "Къошулуучуну тергеу джазыуун джукълатыу",
-    "disableaccount-user": "Къошулуучуну аты"
+	"@metadata": {
+		"authors": [
+			"Iltever"
+		]
+	},
+	"disableaccount": "Къошулуучуну тергеу джазыуун джукълатыу",
+	"disableaccount-user": "Къошулуучуну аты"
 }

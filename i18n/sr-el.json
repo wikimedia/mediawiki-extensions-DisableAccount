@@ -1,12 +1,10 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "right-disableaccount": "Onemogućavanje naloga",
-    "disableaccount": "Onemogući korisnički nalog",
-    "disableaccount-user": "Korisničko ime:",
-    "disableaccount-confirm": "Onemogući ovaj korisnički nalog.\nOvaj član neće moći da se prijavi, poništi lozinku i prima obaveštenja preko e-pošte.\nAko je korisnik trenutno prijavljen, odmah će biti odjavljen.\n''Onemogućavanje naloga nije moguće bez posredovanja sistemskog administratora.''",
-    "disableaccount-mustconfirm": "Morate potvrditi da želite da onemogućite ovaj nalog.",
-    "disableaccount-nosuchuser": "Korisnički nalog „$1“ ne postoji.",
-    "disableaccount-success": "Korisnički nalog „$1“ je trajno onemogućen."
+	"@metadata": [],
+	"right-disableaccount": "Onemogućavanje naloga",
+	"disableaccount": "Onemogući korisnički nalog",
+	"disableaccount-user": "Korisničko ime:",
+	"disableaccount-confirm": "Onemogući ovaj korisnički nalog.\nOvaj član neće moći da se prijavi, poništi lozinku i prima obaveštenja preko e-pošte.\nAko je korisnik trenutno prijavljen, odmah će biti odjavljen.\n''Onemogućavanje naloga nije moguće bez posredovanja sistemskog administratora.''",
+	"disableaccount-mustconfirm": "Morate potvrditi da želite da onemogućite ovaj nalog.",
+	"disableaccount-nosuchuser": "Korisnički nalog „$1“ ne postoji.",
+	"disableaccount-success": "Korisnički nalog „$1“ je trajno onemogućen."
 }
