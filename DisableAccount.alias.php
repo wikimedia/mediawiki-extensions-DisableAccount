@@ -160,5 +160,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'DisableAccount' => array( '禁用用戶' ),
+	'DisableAccount' => array( '禁用賬戶' ),
 );
