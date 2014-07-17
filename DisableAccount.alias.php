@@ -143,6 +143,11 @@ $specialPageAliases['sr-ec'] = array(
 	'DisableAccount' => array( 'Онемогући_налог' ),
 );
 
+/** Swedish (svenska) */
+$specialPageAliases['sv'] = array(
+	'DisableAccount' => array( 'Inaktivera_konto' ),
+);
+
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'DisableAccount' => array( 'HesabıDevreDışıBırak' ),
