@@ -3,7 +3,8 @@
 		"authors": [
 			"Christian List",
 			"Kaare",
-			"Sarrus"
+			"Sarrus",
+			"Thomsen"
 		]
 	},
 	"disableaccount-desc": "Giver administratorer mulighed for at deaktivere individuelle konti.",
@@ -14,5 +15,5 @@
 	"disableaccount-mustconfirm": "Du skal bekræfte, at du ønsker at deaktivere denne konto.",
 	"disableaccount-nosuchuser": "Brugerkontoen \"$1\" findes ikke.",
 	"disableaccount-success": "Brugerkontoen \"$1\" er blevet permanent deaktiveret.",
-	"logentry-block-disableaccount": "deaktiverede kontoen for [[$1]]."
+	"logentry-block-disableaccount": "$1 {{GENDER:$2|deaktiverede kontoen}} for {{GENDER:$4|$3}}."
 }
