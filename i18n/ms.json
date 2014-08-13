@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Kurniasan"
+			"Kurniasan",
+			"Pizza1016"
 		]
 	},
-	"disableaccount-desc": "Membolehkan pentadbir mematikan akaun individu.",
+	"disableaccount-desc": "Membolehkan penyelia untuk mematikan akaun perseorangan",
 	"right-disableaccount": "Mematikan akaun",
 	"disableaccount": "Lumpuhkan akaun pengguna",
 	"disableaccount-user": "Nama pengguna:",
