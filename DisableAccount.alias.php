@@ -58,7 +58,7 @@ $specialPageAliases['gl'] = array(
 	'DisableAccount' => array( 'Desactivar_a_conta' ),
 );
 
-/** 湘语 (湘语) */
+/** Xiang Chinese (湘语) */
 $specialPageAliases['hsn'] = array(
 	'DisableAccount' => array( '关闭账户' ),
 );
