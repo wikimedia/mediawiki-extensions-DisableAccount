@@ -153,6 +153,11 @@ $specialPageAliases['tr'] = array(
 	'DisableAccount' => array( 'HesabıDevreDışıBırak' ),
 );
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = array(
+	'DisableAccount' => array( 'کھاتہ_غیر_فعال' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'DisableAccount' => array( 'Tắt_tài_khoản' ),
