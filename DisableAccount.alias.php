@@ -140,7 +140,7 @@ $specialPageAliases['scn'] = array(
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $specialPageAliases['sr-ec'] = array(
-	'DisableAccount' => array( 'Онемогући_налог' ),
+	'DisableAccount' => array( 'ОнемогућиНалог', 'Онемогући_налог' ),
 );
 
 /** Swedish (svenska) */
