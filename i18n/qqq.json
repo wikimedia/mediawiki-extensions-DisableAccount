@@ -8,7 +8,7 @@
 			"Umherirrender"
 		]
 	},
-	"disableaccount-desc": "{{desc|name=Disable Account|url=http://www.mediawiki.org/wiki/Extension:DisableAccount}}",
+	"disableaccount-desc": "{{desc|name=Disable Account|url=https://www.mediawiki.org/wiki/Extension:DisableAccount}}",
 	"right-disableaccount": "{{doc-right|disableaccount}}",
 	"disableaccount": "{{doc-special|DisableAccount|unlisted=1}}",
 	"disableaccount-user": "{{Identical|Username}}",
