@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'DisableAccount' => array( 'تعطيل_حساب' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'DisableAccount' => array( 'هیسابی_غیر_پئال_کورتین' ),
+);
+
 /** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
 $specialPageAliases['cdo'] = array(
 	'DisableAccount' => array( '禁止賬戶' ),
