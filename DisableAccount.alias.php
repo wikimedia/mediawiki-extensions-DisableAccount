@@ -108,6 +108,11 @@ $specialPageAliases['lb'] = array(
 	'DisableAccount' => array( 'Benotzerkont_desaktivéieren' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'DisableAccount' => array( 'ناکشتگر_کردن_حساو' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'DisableAccount' => array( 'ОневозможиСметка' ),
