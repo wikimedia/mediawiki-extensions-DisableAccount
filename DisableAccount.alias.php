@@ -33,6 +33,11 @@ $specialPageAliases['cdo'] = array(
 	'DisableAccount' => array( '禁止賬戶' ),
 );
 
+/** Czech (čeština) */
+$specialPageAliases['cs'] = array(
+	'DisableAccount' => array( 'Deaktivovat_účet', 'Deaktivovat_ucet' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'DisableAccount' => array( 'Benutzerkonto_deaktivieren' ),
