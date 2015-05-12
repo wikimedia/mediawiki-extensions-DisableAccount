@@ -18,7 +18,7 @@ $specialPageAliases['ar'] = array(
 	'DisableAccount' => array( 'تعطيل_حساب' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'DisableAccount' => array( 'تعطيل_حساب' ),
 );
@@ -113,7 +113,7 @@ $specialPageAliases['lb'] = array(
 	'DisableAccount' => array( 'Benotzerkont_desaktivéieren' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'DisableAccount' => array( 'ناکشتگر_کردن_حساو' ),
 );
