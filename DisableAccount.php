@@ -13,7 +13,6 @@ $wgExtensionCredits['other'][] = array(
 $dir = __DIR__ . '/';
 
 $wgMessagesDirs['DisableAccount'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['DisableAccount'] = $dir . 'DisableAccount.i18n.php';
 $wgExtensionMessagesFiles['DisableAccountAliases'] = $dir . 'DisableAccount.alias.php';
 
 // Special page classes
