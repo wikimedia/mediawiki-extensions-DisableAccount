@@ -1,5 +1,4 @@
 {
-	"@doc": "DisableAccount extension: quick extension to disable an account.",
 	"@doc": "Written by Andrew Garrett, 2010-12-02",
 	"name": "Disable Account",
 	"author": [
@@ -28,5 +27,6 @@
 	"AutoloadClasses": {
 		"SpecialDisableAccount": "DisableAccount_body.php",
 		"DisableAccountLogFormatter": "DisableAccountLogFormatter.php"
-	}
+	},
+	"manifest_version": 1
 }
