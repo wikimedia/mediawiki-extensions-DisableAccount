@@ -115,7 +115,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'DisableAccount' => array( 'ناکشتگر_کردن_حساو' ),
+	'DisableAccount' => array( 'ناکونئشتگأر_کئردئن_حئساڤ' ),
 );
 
 /** Macedonian (македонски) */
