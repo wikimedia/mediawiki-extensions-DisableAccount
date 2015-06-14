@@ -113,7 +113,7 @@ $specialPageAliases['lb'] = array(
 	'DisableAccount' => array( 'Benotzerkont_desaktivéieren' ),
 );
 
-/** Northern Luri (لوری مینجایی) */
+/** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'DisableAccount' => array( 'ناکونئشتگأر_کئردئن_حئساڤ' ),
 );
