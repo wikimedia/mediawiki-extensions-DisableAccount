@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * @todo This should use FormSpecialPage
+ */
 class SpecialDisableAccount extends SpecialPage {
 	function __construct() {
 		parent::__construct( 'DisableAccount', 'disableaccount' );
@@ -12,7 +14,7 @@ class SpecialDisableAccount extends SpecialPage {
 		$formFields = array(
 			'account' => array(
 				'type' => 'text',
-				'validation-callback' => array( __CLASS__, 'validateUser' ),
+				'required' => true,
 				'label-message' => 'disableaccount-user',
 			),
 			'confirm' => array(
@@ -29,16 +31,6 @@ class SpecialDisableAccount extends SpecialPage {
 		$htmlForm->show();
 	}
 
-	static function validateUser( $field, $allFields ) {
-		$u = User::newFromName( $field );
-
-		if ( $u && $u->getID() != 0 ) {
-			return true;
-		} else {
-			return wfMessage( 'disableaccount-nosuchuser', array( $field ) )->parse();
-		}
-	}
-
 	static function checkConfirmation( $field, $allFields ) {
 		if ( $field ) {
 			return true;
@@ -49,7 +41,12 @@ class SpecialDisableAccount extends SpecialPage {
 
 	static function submit( $fields ) {
 		global $wgOut, $wgUser;
+
 		$user = User::newFromName( $fields['account'] );
+
+		if ( !$user || $user->getId() === 0 ) {
+			return wfMessage( 'disableaccount-nosuchuser', $fields['account'] )->text();
+		}
 
 		$user->setPassword( null );
 		$user->setEmail( null );
