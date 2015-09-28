@@ -4,11 +4,13 @@
 			"Cquoi",
 			"Gomoko",
 			"IAlex",
-			"Peter17"
+			"Peter17",
+			"Orlodrim"
 		]
 	},
 	"disableaccount-desc": "Permet aux administrateurs de désactiver des comptes individuels.",
 	"right-disableaccount": "Désactiver des comptes",
+	"action-disableaccount": "désactiver des comptes",
 	"disableaccount": "Désactiver un compte utilisateur",
 	"disableaccount-user": "Nom d’utilisateur :",
 	"disableaccount-confirm": "Désactiver ce compte utilisateur.\nL’utilisateur ne pourra plus s’identifier, ni réinitialiser son mot de passe, ni recevoir des notifications par courrier électronique.\nSi l’utilisateur est actuellement identifié quelque part, il sera immédiatement déconnecté.\n''Notez que la désactivation d’un compte n’est pas réversible sans intervention d’un administrateur système.''",

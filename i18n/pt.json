@@ -3,11 +3,13 @@
 		"authors": [
 			"Hamilton Abreu",
 			"Luckas",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Jkb8"
 		]
 	},
 	"disableaccount-desc": "Permite que os administradores desactivem contas individuais.",
 	"right-disableaccount": "Desactivar contas",
+	"action-disableaccount": "Desactivar contas",
 	"disableaccount": "Desactivar uma conta de utilizador",
 	"disableaccount-user": "Nome de utilizador:",
 	"disableaccount-confirm": "Desactivar esta conta.\nO utilizador ficará impossibilitado de se autenticar, de reiniciar a palavra-chave e de receber notificações por correio electrónico.\nSe neste momento o utilizador estiver autenticado algures, sairá de imediato.\n''Note que a desactivação de uma conta não pode ser revertida sem intervenção de um administrador de sistema.''",

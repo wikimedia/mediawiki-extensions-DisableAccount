@@ -9,6 +9,7 @@
 	},
 	"disableaccount-desc": "使管理员可以禁用单个帐户。",
 	"right-disableaccount": "禁用账户",
+	"action-disableaccount": "禁用账户",
 	"disableaccount": "禁用用户账户",
 	"disableaccount-user": "用户名：",
 	"disableaccount-confirm": "禁用此用户账户。\n该用户将无法登录、重置其密码或收到电子邮件通知。如果用户当前仍保持登录，其账户将被强制退出。\n''留意若无系统管理员的干预，被禁用的账户不可重新启用。''",
