@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Garas"
+			"Garas",
+			"Zygimantus"
 		]
 	},
 	"disableaccount-desc": "Leisti administratoriams išjungti atskiras sąskaitas.",
 	"right-disableaccount": "Išjungti sąskaitas",
+	"action-disableaccount": "išjungti sąskaitas",
 	"disableaccount": "Išjungti vartotojo sąskaitą",
 	"disableaccount-user": "Naudotojo vardas:",
 	"disableaccount-mustconfirm": "Jūs turite patvirtinti, kad jūs norite išjungti šią sąskaitą.",
