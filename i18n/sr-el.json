@@ -1,6 +1,10 @@
 {
-	"@metadata": [],
-	"right-disableaccount": "Onemogućavanje naloga",
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"right-disableaccount": "onemogućavanje naloga",
 	"disableaccount": "Onemogući korisnički nalog",
 	"disableaccount-user": "Korisničko ime:",
 	"disableaccount-confirm": "Onemogući ovaj korisnički nalog.\nOvaj član neće moći da se prijavi, poništi lozinku i prima obaveštenja preko e-pošte.\nAko je korisnik trenutno prijavljen, odmah će biti odjavljen.\n''Onemogućavanje naloga nije moguće bez posredovanja sistemskog administratora.''",
