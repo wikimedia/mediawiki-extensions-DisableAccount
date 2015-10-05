@@ -6,6 +6,7 @@
 	},
 	"disableaccount-desc": "Permite que los alministradores desactiven cuentes individuales.",
 	"right-disableaccount": "Desactivar cuentes",
+	"action-disableaccount": "desactivar cuentes",
 	"disableaccount": "Desactivar una cuenta d'usuariu",
 	"disableaccount-user": "Nome d'usuariu:",
 	"disableaccount-confirm": "Desactivar esta cuenta d'usuariu.\nL'usuariu nun podrá entrar al sistema, reaniciar la conseña o recibir avisos per corréu.\nSi l'usuariu ta conectáu n'ayuri, se-y desconectará darréu.\n''Ten en cuenta que desactivar una cuenta nun ye reversible ensin la intervención d'un alministrador del sistema.''",
