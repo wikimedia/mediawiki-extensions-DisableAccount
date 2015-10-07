@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"disableaccount-desc": "Permite aos administradores desactivar contas individuais.",
 	"right-disableaccount": "Desactivar contas",
+	"action-disableaccount": "deshabilitar contas",
 	"disableaccount": "Desactivar unha conta de usuario",
 	"disableaccount-user": "Nome de usuario:",
 	"disableaccount-confirm": "Desactivar esta conta de usuario.\nO usuario non poderá acceder ao sistema, restablecer o contrasinal ou recibir notificacións por correo electrónico.\nSe o usuario está conectado, sairá ao anonimato inmediatamente.\n''Teña en conta que a desactivación dunha conta non é reversible sen a intervención dun administrador do sistema.''",
