@@ -8,6 +8,7 @@
 	},
 	"disableaccount-desc": "Consente agli amministratori di disattivare singole utenze.",
 	"right-disableaccount": "Disabilitare le utenze",
+	"action-disableaccount": "disabilitare le utenze",
 	"disableaccount": "Disabilitare un'utenza",
 	"disableaccount-user": "Nome utente:",
 	"disableaccount-confirm": "Disabilitare permanentemente questa utenza.\nL'utente non sarà in grado di accedere, reimpostare la password o ricevere notifiche via email.\nTutte le attuali connessioni dell'utente saranno immediatamente terminate.\n''Si noti che la disattivazione di un'utenza non è reversibile senza l'intervento di un amministratore di sistema''.",
