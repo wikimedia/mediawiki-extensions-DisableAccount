@@ -5,8 +5,9 @@
 			"Mormegil"
 		]
 	},
-	"disableaccount-desc": "Umožňuje správcům zakázat jednotlivé účty.",
+	"disableaccount-desc": "Umožňuje správcům deaktivovat jednotlivé účty",
 	"right-disableaccount": "Deaktivování účtů",
+	"action-disableaccount": "deaktivovat účty",
 	"disableaccount": "Deaktivace uživatelského účtu",
 	"disableaccount-user": "Uživatelské jméno:",
 	"disableaccount-confirm": "Deaktivovat tento uživatelský účet.\nUživatel se nebude moci přihlásit, požádat o nové heslo, ani dostávat e-mailové notifikace.\nPokud je uživatel kdekoli přihlášen, bude okamžitě odhlášen.\n''Uvědomte si, že deaktivaci účtu nelze vrátit zpět bez pomoci systémového administrátora.''",
