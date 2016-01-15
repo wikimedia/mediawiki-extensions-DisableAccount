@@ -7,6 +7,10 @@ class SpecialDisableAccount extends SpecialPage {
 		parent::__construct( 'DisableAccount', 'disableaccount' );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	public function execute( $par ) {
 		$this->setHeaders();
 		$this->checkPermissions();
