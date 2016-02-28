@@ -8,6 +8,7 @@
 	},
 	"disableaccount-desc": "Omogoča administratorjem onemogočiti posamezne račune.",
 	"right-disableaccount": "Onemogočanje računov",
+	"action-disableaccount": "onemogočitev računov",
 	"disableaccount": "Onemogoči uporabniški račun",
 	"disableaccount-user": "Uporabniško ime:",
 	"disableaccount-confirm": "Onemogočite ta uporabniški račun.\nUporabnik se ne bo mogel prijaviti, ponastaviti svojega gesla ali prejemati e-poštnih obvestil.\nČe je uporabnik trenutno kjerkoli prijavljen, bo nemudoma odjavljen.\n''Vedite, da onemogočenja računa brez posredovanja sistemskega upravljavca ni mogoče razveljaviti.''",
