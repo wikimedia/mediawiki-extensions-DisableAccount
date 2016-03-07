@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chase me ladies, I'm the Cavalry"
+			"Chase me ladies, I'm the Cavalry",
+			"Andibing"
 		]
 	},
 	"disableaccount-desc": "Allows administrators to disable individual accounts",
 	"right-disableaccount": "Disable accounts",
+	"action-disableaccount": "disable accounts",
 	"disableaccount": "Disable a user account",
 	"disableaccount-user": "User name:",
 	"disableaccount-confirm": "Disable this user account.\nThe user will not be able to log in, reset their password, or receive email notifications.\nIf the user is currently logged in anywhere, they will be immediately logged out.\n''Note that disabling an account is not reversible without system administrator intervention.''",
