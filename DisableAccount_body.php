@@ -46,15 +46,28 @@ class SpecialDisableAccount extends SpecialPage {
 	static function submit( $fields ) {
 		global $wgOut, $wgUser;
 
-		$user = User::newFromName( $fields['account'] );
+		// While we're not actually turning the user into a "system" user, it
+		// has the same end result: all passwords and other authentication
+		// credentials removed or set to something invalid, email blanked,
+		// token invalidated, and existing sessions dropped. So let's just use
+		// that if possible instead of duplicating all the code.
+		if ( is_callable( 'User::newSystemUser' ) ) {
+			$user = User::newSystemUser( $fields['account'], [ 'create' => false, 'steal' => true ] );
+			if ( !$user ) {
+				return wfMessage( 'disableaccount-nosuchuser', $fields['account'] )->text();
+			}
+		} else {
+			$user = User::newFromName( $fields['account'] );
 
-		if ( !$user || $user->getId() === 0 ) {
-			return wfMessage( 'disableaccount-nosuchuser', $fields['account'] )->text();
+			if ( !$user || $user->getId() === 0 ) {
+				return wfMessage( 'disableaccount-nosuchuser', $fields['account'] )->text();
+			}
+
+			$user->setPassword( null );
+			$user->setEmail( null );
+			$user->setToken();
 		}
 
-		$user->setPassword( null );
-		$user->setEmail( null );
-		$user->setToken();
 		$user->addGroup( 'inactive' );
 
 		$user->saveSettings();
