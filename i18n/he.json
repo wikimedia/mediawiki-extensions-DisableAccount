@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Guycn2"
 		]
 	},
 	"disableaccount-desc": "אפשרות שמפעילים יבטלו חשבונות מסוימים",
-	"right-disableaccount": "ביטול חשבונות",
+	"right-disableaccount": "השבתה (ביטול) של חשבונות",
 	"action-disableaccount": "לכבות חשבונות",
 	"disableaccount": "ביטול חשבון משתמש",
 	"disableaccount-user": "שם משתמש:",
