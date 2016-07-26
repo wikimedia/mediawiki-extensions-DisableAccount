@@ -16,5 +16,5 @@
 	"disableaccount-mustconfirm": "이 계정을 비활성화할 것인지 반드시 확인하여야 합니다.",
 	"disableaccount-nosuchuser": "\"$1\" 계정이 존재하지 않습니다.",
 	"disableaccount-success": "\"$1\" 계정이 영구적으로 비활성화되었습니다.",
-	"logentry-block-disableaccount": "$1 사용자가 {{GENDER:$4|$3}}의 계정을 {{GENDER:$2|비활성화했습니다}}."
+	"logentry-block-disableaccount": "$1님이 {{GENDER:$4|$3}}의 {{GENDER:$2|계정을 비활성화했습니다}}."
 }
