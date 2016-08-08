@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Unai Fdz. de Betoño"
+			"Unai Fdz. de Betoño",
+			"Sator"
 		]
 	},
 	"right-disableaccount": "Kontuak ezgaitu",
 	"disableaccount": "Lankide-kontua ezgaitu",
-	"disableaccount-user": "Lankide izena:"
+	"disableaccount-user": "Lankide izena:",
+	"disableaccount-nosuchuser": "''$1'' erabiltzailea ez da existitzen."
 }
