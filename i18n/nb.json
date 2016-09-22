@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nghtwlkr",
-			"Sjurhamre"
+			"Sjurhamre",
+			"Jon Harald Søby"
 		]
 	},
 	"disableaccount-desc": "Lar administratorer deaktivere individuelle kontoer",
