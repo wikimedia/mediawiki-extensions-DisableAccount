@@ -4,10 +4,12 @@
 			"Asmen",
 			"Erdemaslancan",
 			"Marmase",
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
 	"right-disableaccount": "Hesaban dewre ra vece",
+	"action-disableaccount": "Hesabi dewre ra vec",
 	"disableaccount": "Yew hesabê karberi dewre ra vece",
 	"disableaccount-user": "Nameyê karberi:"
 }
