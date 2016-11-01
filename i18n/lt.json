@@ -13,5 +13,5 @@
 	"disableaccount": "Išjungti vartotojo sąskaitą",
 	"disableaccount-user": "Naudotojo vardas:",
 	"disableaccount-mustconfirm": "Jūs turite patvirtinti, kad jūs norite išjungti šią sąskaitą.",
-	"disableaccount-nosuchuser": "Naudotojo paskyra \"$1\" neegzistuoja."
+	"disableaccount-nosuchuser": "Naudotojo paskyra „$1“ neegzistuoja."
 }
