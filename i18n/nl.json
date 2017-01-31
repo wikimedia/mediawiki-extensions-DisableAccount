@@ -3,11 +3,13 @@
 		"authors": [
 			"Arent",
 			"Siebrand",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Mainframe98"
 		]
 	},
 	"disableaccount-desc": "Maakt het voor beheerders mogelijk individuele gebruikers uit te schakelen",
 	"right-disableaccount": "Gebruikers uitschakelen",
+	"action-disableaccount": "accounts uit te schakelen",
 	"disableaccount": "Een gebruikersaccount uitschakelen",
 	"disableaccount-user": "Gebruikersnaam:",
 	"disableaccount-confirm": "Deze gebruiker uitschakelen.\nDe gebruiker kan niet langer aanmelden, het wachtwoord opnieuw instellen of e-mails ontvangen.\nAls de gebruiker op dit moment is aangemeld, wordt deze per direct afgemeld.\n''Het uitschakelen van een gebruiker is niet terug te draaien zonder hulp van een systeembeheerder.''",
