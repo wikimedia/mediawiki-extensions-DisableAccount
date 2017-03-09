@@ -23,7 +23,10 @@ class BlockDisabledAccounts extends Maintenance {
 		$ids = $dbr->selectFieldValues(
 			'user_groups',
 			'ug_user',
-			array( 'ug_group' => 'inactive' ),
+			array(
+				'ug_group' => 'inactive',
+				'ug_expiry IS NULL OR ug_expiry >= ' . $dbr->addQuotes( $dbr->timestamp() )
+			),
 			__METHOD__
 		);
 
