@@ -6,6 +6,7 @@
 	},
 	"disableaccount-desc": "Administratooren kön enkelt brükerkontos stallei.",
 	"right-disableaccount": "Brükerkontos stallei",
+	"action-disableaccount": "brükerkontos stal tu leien",
 	"disableaccount": "Lei en brükerkonto stal",
 	"disableaccount-user": "Brükernööm:",
 	"disableaccount-confirm": "Det brükerkonto stallei.\nDi brüker koon ham do ei muar uunmelde, det paaswurd feranre of e-mail-noorachten fu.\nWan di brüker jüst uunmeldet as, woort hi ufmeldet.\n''Seenk diaram, dat bluas en '''süsteem-administraator''' det konto weder aktiwiare koon!''",
