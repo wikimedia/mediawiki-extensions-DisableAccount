@@ -4,186 +4,185 @@
  *
  * @file
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'DisableAccount' => array( 'DisableAccount' ),
-);
+$specialPageAliases['en'] = [
+	'DisableAccount' => [ 'DisableAccount' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'DisableAccount' => array( 'تعطيل_حساب' ),
-);
+$specialPageAliases['ar'] = [
+	'DisableAccount' => [ 'تعطيل_حساب' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'DisableAccount' => array( 'تعطيل_حساب' ),
-);
+$specialPageAliases['arz'] = [
+	'DisableAccount' => [ 'تعطيل_حساب' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'DisableAccount' => array( 'هیسابی_غیر_پئال_کورتین' ),
-);
+$specialPageAliases['bgn'] = [
+	'DisableAccount' => [ 'هیسابی_غیر_پئال_کورتین' ],
+];
 
 /** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
-$specialPageAliases['cdo'] = array(
-	'DisableAccount' => array( '禁止賬戶' ),
-);
+$specialPageAliases['cdo'] = [
+	'DisableAccount' => [ '禁止賬戶' ],
+];
 
 /** Czech (čeština) */
-$specialPageAliases['cs'] = array(
-	'DisableAccount' => array( 'Deaktivovat_účet', 'Deaktivovat_ucet' ),
-);
+$specialPageAliases['cs'] = [
+	'DisableAccount' => [ 'Deaktivovat_účet', 'Deaktivovat_ucet' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'DisableAccount' => array( 'Benutzerkonto_deaktivieren' ),
-);
+$specialPageAliases['de'] = [
+	'DisableAccount' => [ 'Benutzerkonto_deaktivieren' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'DisableAccount' => array( 'HesabiMenKe' ),
-);
+$specialPageAliases['diq'] = [
+	'DisableAccount' => [ 'HesabiMenKe' ],
+];
 
 /** Greek (Ελληνικά) */
-$specialPageAliases['el'] = array(
-	'DisableAccount' => array( 'ΑπενεργοποίησηΛογαριασμού' ),
-);
+$specialPageAliases['el'] = [
+	'DisableAccount' => [ 'ΑπενεργοποίησηΛογαριασμού' ],
+];
 
 /** Esperanto (Esperanto) */
-$specialPageAliases['eo'] = array(
-	'DisableAccount' => array( 'Malŝalti_konton' ),
-);
+$specialPageAliases['eo'] = [
+	'DisableAccount' => [ 'Malŝalti_konton' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'DisableAccount' => array( 'غیرفعال_کردن_حساب' ),
-);
+$specialPageAliases['fa'] = [
+	'DisableAccount' => [ 'غیرفعال_کردن_حساب' ],
+];
 
 /** Galician (galego) */
-$specialPageAliases['gl'] = array(
-	'DisableAccount' => array( 'Desactivar_a_conta' ),
-);
+$specialPageAliases['gl'] = [
+	'DisableAccount' => [ 'Desactivar_a_conta' ],
+];
 
 /** Xiang Chinese (湘语) */
-$specialPageAliases['hsn'] = array(
-	'DisableAccount' => array( '关闭账户' ),
-);
+$specialPageAliases['hsn'] = [
+	'DisableAccount' => [ '关闭账户' ],
+];
 
 /** Haitian (Kreyòl ayisyen) */
-$specialPageAliases['ht'] = array(
-	'DisableAccount' => array( 'DeaktiveKont' ),
-);
+$specialPageAliases['ht'] = [
+	'DisableAccount' => [ 'DeaktiveKont' ],
+];
 
 /** Indonesian (Bahasa Indonesia) */
-$specialPageAliases['id'] = array(
-	'DisableAccount' => array( 'Nonaktifkan_akun', 'NonaktifkanAkun' ),
-);
+$specialPageAliases['id'] = [
+	'DisableAccount' => [ 'Nonaktifkan_akun', 'NonaktifkanAkun' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'DisableAccount' => array( 'DisabilitaAccount' ),
-);
+$specialPageAliases['it'] = [
+	'DisableAccount' => [ 'DisabilitaAccount' ],
+];
 
 /** Japanese (日本語) */
-$specialPageAliases['ja'] = array(
-	'DisableAccount' => array( 'アカウント無効化' ),
-);
+$specialPageAliases['ja'] = [
+	'DisableAccount' => [ 'アカウント無効化' ],
+];
 
 /** Khmer (ភាសាខ្មែរ) */
-$specialPageAliases['km'] = array(
-	'DisableAccount' => array( 'បិទគណនី' ),
-);
+$specialPageAliases['km'] = [
+	'DisableAccount' => [ 'បិទគណនី' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'DisableAccount' => array( '계정비활성화' ),
-);
+$specialPageAliases['ko'] = [
+	'DisableAccount' => [ '계정비활성화' ],
+];
 
 /** Cornish (kernowek) */
-$specialPageAliases['kw'] = array(
-	'DisableAccount' => array( 'DialosegiAkont' ),
-);
+$specialPageAliases['kw'] = [
+	'DisableAccount' => [ 'DialosegiAkont' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'DisableAccount' => array( 'Benotzerkont_desaktivéieren' ),
-);
+$specialPageAliases['lb'] = [
+	'DisableAccount' => [ 'Benotzerkont_desaktivéieren' ],
+];
 
 /** Northern Luri (لۊری شومالی) */
-$specialPageAliases['lrc'] = array(
-	'DisableAccount' => array( 'ناکونئشتگأر_کئردئن_حئساڤ' ),
-);
+$specialPageAliases['lrc'] = [
+	'DisableAccount' => [ 'ناکونئشتگأر_کئردئن_حئساڤ' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'DisableAccount' => array( 'ОневозможиСметка' ),
-);
+$specialPageAliases['mk'] = [
+	'DisableAccount' => [ 'ОневозможиСметка' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'DisableAccount' => array( 'അംഗത്വംസജ്ജമല്ലാതാക്കുക' ),
-);
+$specialPageAliases['ml'] = [
+	'DisableAccount' => [ 'അംഗത്വംസജ്ജമല്ലാതാക്കുക' ],
+];
 
 /** Norwegian Bokmål (norsk bokmål) */
-$specialPageAliases['nb'] = array(
-	'DisableAccount' => array( 'Slå_av_konto' ),
-);
+$specialPageAliases['nb'] = [
+	'DisableAccount' => [ 'Slå_av_konto' ],
+];
 
 /** Low Saxon (Netherlands) (Nedersaksies) */
-$specialPageAliases['nds-nl'] = array(
-	'DisableAccount' => array( 'Gebruker_uutschakelen' ),
-);
+$specialPageAliases['nds-nl'] = [
+	'DisableAccount' => [ 'Gebruker_uutschakelen' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'DisableAccount' => array( 'GebruikerUitschakelen' ),
-);
+$specialPageAliases['nl'] = [
+	'DisableAccount' => [ 'GebruikerUitschakelen' ],
+];
 
 /** Brazilian Portuguese (português do Brasil) */
-$specialPageAliases['pt-br'] = array(
-	'DisableAccount' => array( 'Desativar_conta' ),
-);
+$specialPageAliases['pt-br'] = [
+	'DisableAccount' => [ 'Desativar_conta' ],
+];
 
 /** Sicilian (sicilianu) */
-$specialPageAliases['scn'] = array(
-	'DisableAccount' => array( 'DisabilitaAccount' ),
-);
+$specialPageAliases['scn'] = [
+	'DisableAccount' => [ 'DisabilitaAccount' ],
+];
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
-$specialPageAliases['sr-ec'] = array(
-	'DisableAccount' => array( 'ОнемогућиНалог', 'Онемогући_налог' ),
-);
+$specialPageAliases['sr-ec'] = [
+	'DisableAccount' => [ 'ОнемогућиНалог', 'Онемогући_налог' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'DisableAccount' => array( 'Inaktivera_konto' ),
-);
+$specialPageAliases['sv'] = [
+	'DisableAccount' => [ 'Inaktivera_konto' ],
+];
 
 /** Turkish (Türkçe) */
-$specialPageAliases['tr'] = array(
-	'DisableAccount' => array( 'HesabıDevreDışıBırak' ),
-);
+$specialPageAliases['tr'] = [
+	'DisableAccount' => [ 'HesabıDevreDışıBırak' ],
+];
 
 /** Urdu (اردو) */
-$specialPageAliases['ur'] = array(
-	'DisableAccount' => array( 'کھاتہ_غیر_فعال' ),
-);
+$specialPageAliases['ur'] = [
+	'DisableAccount' => [ 'کھاتہ_غیر_فعال' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'DisableAccount' => array( 'Tắt_tài_khoản' ),
-);
+$specialPageAliases['vi'] = [
+	'DisableAccount' => [ 'Tắt_tài_khoản' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'DisableAccount' => array( '停用账户', '禁用账户' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'DisableAccount' => [ '停用账户', '禁用账户' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'DisableAccount' => array( '停用帳號' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'DisableAccount' => [ '停用帳號' ],
+];

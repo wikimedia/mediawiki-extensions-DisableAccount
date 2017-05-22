@@ -15,22 +15,22 @@ class SpecialDisableAccount extends SpecialPage {
 		$this->setHeaders();
 		$this->checkPermissions();
 
-		$formFields = array(
-			'account' => array(
+		$formFields = [
+			'account' => [
 				'type' => 'text',
 				'required' => true,
 				'label-message' => 'disableaccount-user',
-			),
-			'confirm' => array(
+			],
+			'confirm' => [
 				'type' => 'toggle',
-				'validation-callback' => array( __CLASS__, 'checkConfirmation' ),
+				'validation-callback' => [ __CLASS__, 'checkConfirmation' ],
 				'label-message' => 'disableaccount-confirm',
-			),
-		);
+			],
+		];
 
 		$htmlForm = new HTMLForm( $formFields, $this->getContext(), 'disableaccount' );
 
-		$htmlForm->setSubmitCallback( array( __CLASS__, 'submit' ) );
+		$htmlForm->setSubmitCallback( [ __CLASS__, 'submit' ] );
 
 		$htmlForm->show();
 	}
@@ -76,7 +76,7 @@ class SpecialDisableAccount extends SpecialPage {
 		$logEntry = new ManualLogEntry( 'block', 'disableaccount' );
 		$logEntry->setPerformer( $wgUser );
 		$logEntry->setTarget( $user->getUserPage() );
-		$logEntry->setParameters( array( '4::targetUsername' => $user->getName() ) );
+		$logEntry->setParameters( [ '4::targetUsername' => $user->getName() ] );
 		$logId = $logEntry->insert();
 		$logEntry->publish( $logId );
 

@@ -4,7 +4,7 @@ $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {
 	$IP = __DIR__ . '/../..';
 }
-require_once( "$IP/maintenance/Maintenance.php" );
+require_once "$IP/maintenance/Maintenance.php";
 
 /**
  * Script to migrate disabled accounts to blocked accounts. This will also remove these users
@@ -23,10 +23,10 @@ class BlockDisabledAccounts extends Maintenance {
 		$ids = $dbr->selectFieldValues(
 			'user_groups',
 			'ug_user',
-			array(
+			[
 				'ug_group' => 'inactive',
 				'ug_expiry IS NULL OR ug_expiry >= ' . $dbr->addQuotes( $dbr->timestamp() )
-			),
+			],
 			__METHOD__
 		);
 
@@ -54,7 +54,8 @@ class BlockDisabledAccounts extends Maintenance {
 			}
 		}
 
-		$this->output( "Total $disabledCount users in 'inactive' group. Successfully migrated $success users\n" );
+		$this->output( "Total $disabledCount users in 'inactive' group. " .
+			"Successfully migrated $success users\n" );
 	}
 
 	/*
@@ -88,7 +89,7 @@ class BlockDisabledAccounts extends Maintenance {
 
 		if ( is_array( $success ) ) {
 			$logAction = $alreadyBlocked ? 'reblock' : 'block';
-			$logParams = array();
+			$logParams = [];
 			$logParams['5::duration'] = 'infinity';
 			$logParams['6::flags'] = 'noemail,nousertalk';
 
@@ -97,7 +98,7 @@ class BlockDisabledAccounts extends Maintenance {
 			$logEntry->setComment( $reason );
 			$logEntry->setPerformer( $scriptUser );
 			$logEntry->setParameters( $logParams );
-			$logEntry->setRelations( array( 'ipb_id' => array( $success['id'] ) ) );
+			$logEntry->setRelations( [ 'ipb_id' => [ $success['id'] ] ] );
 			$logId = $logEntry->insert();
 			$logEntry->publish( $logId );
 			return true;
