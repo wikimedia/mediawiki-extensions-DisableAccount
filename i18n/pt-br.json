@@ -4,10 +4,11 @@
 			"Giro720",
 			"Luckas",
 			"OTAVIO1981",
-			"!Silent"
+			"!Silent",
+			"Felipe L. Ewald"
 		]
 	},
-	"disableaccount-desc": "Permite que os administradores desativem contas individuais.",
+	"disableaccount-desc": "Permite que os administradores desativem contas individuais",
 	"right-disableaccount": "Desativar contas",
 	"action-disableaccount": "desativar contas",
 	"disableaccount": "Desativar uma conta",
@@ -16,5 +17,5 @@
 	"disableaccount-mustconfirm": "Você deve confirmar que pretende desativar esta conta.",
 	"disableaccount-nosuchuser": "A conta de usuário \"$1\" não existe.",
 	"disableaccount-success": "A conta de usuário \"$1\" foi desativada permanentemente.",
-	"logentry-block-disableaccount": "$1 {{GENDER:$2|desativou a conta}} de {{GENDER:$4|$3}}"
+	"logentry-block-disableaccount": "$1 {{GENDER:$2|desativou a conta}} de {{GENDER:$4|$3}}."
 }
