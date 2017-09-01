@@ -79,7 +79,12 @@ class BlockDisabledAccounts extends Maintenance {
 
 		$block->setTarget( $user );
 		$block->setBlocker( $scriptUser );
-		$block->mReason = $wgContLang->truncate( $reason, 255 );
+		if ( class_exists( CommentStore::class ) ) {
+			// CommentStore handles truncation
+			$block->mReason = $reason;
+		} else {
+			$block->mReason = $wgContLang->truncate( $reason, 255 );
+		}
 		$block->mExpiry = 'infinity';
 		$block->prevents( 'sendemail', true );
 		$block->prevents( 'editownusertalk', true );
