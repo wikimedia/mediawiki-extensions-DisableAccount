@@ -19,7 +19,7 @@ class BlockDisabledAccounts extends Maintenance {
 	}
 
 	public function execute() {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$ids = $dbr->selectFieldValues(
 			'user_groups',
 			'ug_user',
