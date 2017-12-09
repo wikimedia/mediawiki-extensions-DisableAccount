@@ -3,12 +3,11 @@
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationProtected" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic" />
-		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch" />
-		<exclude name="MediaWiki.Files.ClassMatchesFilename.WrongCase" />
+	</rule>
+	<rule ref="MediaWiki.Files.ClassMatchesFilename.WrongCase">
+		<exclude-pattern>*/maintenance/*</exclude-pattern>
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc" />
-	<arg name="encoding" value="utf8" />
-	<exclude-pattern>vendor</exclude-pattern>
-	<exclude-pattern>node_modules</exclude-pattern>
+	<arg name="encoding" value="UTF-8" />
 </ruleset>
