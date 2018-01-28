@@ -16,6 +16,8 @@ class BlockDisabledAccounts extends Maintenance {
 		parent::__construct();
 		$this->addOption( 'reason', 'Block reason', false, true );
 		$this->setBatchSize( 10 );
+
+		$this->requireExtension( 'Disable Account' );
 	}
 
 	public function execute() {
