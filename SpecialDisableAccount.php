@@ -28,7 +28,7 @@ class SpecialDisableAccount extends SpecialPage {
 			],
 		];
 
-		$htmlForm = new HTMLForm( $formFields, $this->getContext(), 'disableaccount' );
+		$htmlForm = HTMLForm::factory( 'ooui', $formFields, $this->getContext(), 'disableaccount' );
 
 		$htmlForm->setSubmitCallback( [ __CLASS__, 'submit' ] );
 
