@@ -85,7 +85,7 @@ class BlockDisabledAccounts extends Maintenance {
 			// CommentStore handles truncation
 			$block->mReason = $reason;
 		} else {
-			$block->mReason = $wgContLang->truncate( $reason, 255 );
+			$block->mReason = $wgContLang->truncateForDatabase( $reason, 255 );
 		}
 		$block->mExpiry = 'infinity';
 		$block->prevents( 'sendemail', true );
