@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"Vlad5250"
 		]
 	},
+	"right-disableaccount": "Отключване на сметки",
 	"disableaccount-user": "Потребителско име:",
 	"disableaccount-nosuchuser": "Потребителската сметка \"$1\" не съществува."
 }
