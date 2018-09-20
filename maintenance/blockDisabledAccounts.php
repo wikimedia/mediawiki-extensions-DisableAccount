@@ -22,7 +22,7 @@ class BlockDisabledAccounts extends Maintenance {
 
 	public function execute() {
 		$dbr = wfGetDB( DB_REPLICA );
-		$ids = $dbr->selectFieldValues(
+		$inactive = $dbr->selectFieldValues(
 			'user_groups',
 			'ug_user',
 			[
@@ -32,9 +32,21 @@ class BlockDisabledAccounts extends Maintenance {
 			__METHOD__
 		);
 
+		$nulledDetails = $dbr->selectFieldValues(
+			'user',
+			'user_id',
+			[
+				'user_password' => '',
+				'user_email' => '',
+			],
+			__METHOD__
+		);
+
+		$ids = array_unique( array_merge( $inactive, $nulledDetails ) );
+
 		$disabledCount = count( $ids );
 		if ( $disabledCount === 0 ) {
-			$this->output( "No users in 'inactive' group.\n" );
+			$this->output( "No users in 'inactive' group, or with a blank password and email.\n" );
 			return;
 		}
 
