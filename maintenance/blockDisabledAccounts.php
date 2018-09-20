@@ -68,8 +68,8 @@ class BlockDisabledAccounts extends Maintenance {
 			}
 		}
 
-		$this->output( "Total $disabledCount users in 'inactive' group. " .
-			"Successfully migrated $success users\n" );
+		$this->output( "Total $disabledCount users in 'inactive' group, or with " .
+			"a blank password and email. Successfully migrated $success users\n" );
 	}
 
 	/*
