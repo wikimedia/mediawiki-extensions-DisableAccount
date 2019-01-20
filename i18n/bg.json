@@ -6,7 +6,10 @@
 			"ShockD"
 		]
 	},
+	"disableaccount-desc": "Позволява на администраторите да деактивират отделни сметки.",
 	"right-disableaccount": "Деактивиране на сметки",
+	"action-disableaccount": "деактивиране на сметки",
+	"disableaccount": "Деактивиране на потребителска сметка",
 	"disableaccount-user": "Потребителско име:",
-	"disableaccount-nosuchuser": "Потребителската сметка \"$1\" не съществува."
+	"disableaccount-nosuchuser": "Потребителската сметка „$1“ не съществува."
 }
