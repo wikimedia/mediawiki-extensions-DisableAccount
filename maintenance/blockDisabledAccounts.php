@@ -100,8 +100,8 @@ class BlockDisabledAccounts extends Maintenance {
 			$block->mReason = $wgContLang->truncateForDatabase( $reason, 255 );
 		}
 		$block->mExpiry = 'infinity';
-		$block->prevents( 'sendemail', true );
-		$block->prevents( 'editownusertalk', true );
+		$block->isEmailBlocked( true );
+		$block->isUsertalkEditAllowed( false );
 
 		// Try to update block if user is already blocked. Otherwise, attempt to insert a new one.
 		$success = $alreadyBlocked ? $block->update() : $block->insert();
