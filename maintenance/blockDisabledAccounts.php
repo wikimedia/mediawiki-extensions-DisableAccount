@@ -81,9 +81,8 @@ class BlockDisabledAccounts extends Maintenance {
 	 * @return bool true on success, false on failure
 	 */
 	private function doBlockAndLog( User $user ) {
-		global $wgContLang;
 		$block = $user->getBlock();
-		$alreadyBlocked = ( $block === null ) ? false : true;
+		$alreadyBlocked = ( $block !== null );
 
 		if ( $block === null ) {
 			$block = new Block();
@@ -93,12 +92,7 @@ class BlockDisabledAccounts extends Maintenance {
 
 		$block->setTarget( $user );
 		$block->setBlocker( $scriptUser );
-		if ( class_exists( CommentStore::class ) ) {
-			// CommentStore handles truncation
-			$block->mReason = $reason;
-		} else {
-			$block->mReason = $wgContLang->truncateForDatabase( $reason, 255 );
-		}
+		$block->setReason( $reason );
 		$block->mExpiry = 'infinity';
 		$block->isEmailBlocked( true );
 		$block->isUsertalkEditAllowed( false );

@@ -6,7 +6,7 @@
 	],
 	"license-name": "GPL-2.0-or-later",
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": ">= 1.33.0"
 	},
 	"url": "https://www.mediawiki.org/wiki/Extension:DisableAccount",
 	"descriptionmsg": "disableaccount-desc",
