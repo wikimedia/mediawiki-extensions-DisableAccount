@@ -43,8 +43,8 @@ class SpecialDisableAccount extends SpecialPage {
 		}
 	}
 
-	static function submit( $fields ) {
-		global $wgOut, $wgUser;
+	static function submit( $fields, $form ) {
+		global $wgOut;
 
 		// While we're not actually turning the user into a "system" user, it
 		// has the same end result: all passwords and other authentication
@@ -74,7 +74,7 @@ class SpecialDisableAccount extends SpecialPage {
 		$user->invalidateCache();
 
 		$logEntry = new ManualLogEntry( 'block', 'disableaccount' );
-		$logEntry->setPerformer( $wgUser );
+		$logEntry->setPerformer( $form->getUser() );
 		$logEntry->setTarget( $user->getUserPage() );
 		$logEntry->setParameters( [ '4::targetUsername' => $user->getName() ] );
 		$logId = $logEntry->insert();
