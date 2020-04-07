@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher",
-			"Milicevic01",
-			"Сербијана",
 			"Acamicamacaraca",
-			"BadDog"
+			"BadDog",
+			"Milicevic01",
+			"Rancher",
+			"Сербијана"
 		]
 	},
 	"disableaccount-desc": "Омогућава администраторима да онемогуће појединачне налоге.",

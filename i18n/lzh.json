@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"right-disableaccount": "停簿",
 	"disableaccount": "停簿",
 	"disableaccount-user": "簿名：",

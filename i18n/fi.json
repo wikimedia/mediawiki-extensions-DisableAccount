@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"01miki10",
 			"Crt",
 			"Nike",
-			"Olli",
-			"01miki10"
+			"Olli"
 		]
 	},
 	"disableaccount-desc": "Järjestelmänvalvojat voivat poistaa käytöstä yksittäisiä tilejä.",

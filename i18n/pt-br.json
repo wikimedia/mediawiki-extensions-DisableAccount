@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"!Silent",
+			"Felipe L. Ewald",
 			"Giro720",
 			"Luckas",
-			"OTAVIO1981",
-			"!Silent",
-			"Felipe L. Ewald"
+			"OTAVIO1981"
 		]
 	},
 	"disableaccount-desc": "Permite que os administradores desativem contas individuais",

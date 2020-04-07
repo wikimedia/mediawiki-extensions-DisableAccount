@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Arent",
+			"Mainframe98",
 			"Siebrand",
-			"Sjoerddebruin",
-			"Mainframe98"
+			"Sjoerddebruin"
 		]
 	},
 	"disableaccount-desc": "Maakt het voor beheerders mogelijk individuele gebruikers uit te schakelen",

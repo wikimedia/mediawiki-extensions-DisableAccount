@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hwangjy9",
 			"Kwj2772",
 			"Priviet",
-			"아라",
-			"Hwangjy9"
+			"아라"
 		]
 	},
 	"disableaccount-desc": "관리자가 개별 계정을 비활성화할 수 있게 합니다",
