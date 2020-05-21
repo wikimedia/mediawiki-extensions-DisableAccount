@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Meursault2004",
+			"N219",
 			"NoiX180"
 		]
 	},
-	"disableaccount-desc": "Nglilakaké pangurus nutup akun individu",
+	"disableaccount-desc": "Nglilakaké panata kanggo nutup akun individu",
 	"right-disableaccount": "Tutup akun",
 	"disableaccount": "Nonaktifaké akun panganggo",
 	"disableaccount-user": "Jeneng panganggo:",
