@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {
 	$IP = __DIR__ . '/../../..';
@@ -52,13 +54,16 @@ class BlockDisabledAccounts extends Maintenance {
 
 		$counter = 0;
 		$success = 0;
+
+		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
+
 		$users = UserArray::newFromIDs( $ids );
 
 		$this->output( "Starting migration...\n" );
 		foreach ( $users as $user ) {
 			if ( $counter >= $this->mBatchSize ) {
 				$counter = 0;
-				wfWaitForSlaves();
+				$lbFactory->waitForReplication();
 			}
 
 			$counter++;
