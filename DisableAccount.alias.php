@@ -157,6 +157,11 @@ $specialPageAliases['sr-ec'] = [
 	'DisableAccount' => [ 'ОнемогућиНалог', 'Онемогући_налог' ],
 ];
 
+/** Serbian (Latin script) (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'DisableAccount' => [ 'OnemogućiNalog', 'Onemogući_nalog' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'DisableAccount' => [ 'Inaktivera_konto' ],
