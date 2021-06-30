@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * @todo This should use FormSpecialPage
  */
@@ -68,7 +71,8 @@ class SpecialDisableAccount extends SpecialPage {
 			$user->setToken();
 		}
 
-		$user->addGroup( 'inactive' );
+		MediaWikiServices::getInstance()->getUserGroupManager()
+			->addUserToGroup( $user, 'inactive' );
 
 		$user->saveSettings();
 		$user->invalidateCache();

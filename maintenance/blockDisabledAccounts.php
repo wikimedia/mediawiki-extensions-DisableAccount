@@ -68,7 +68,8 @@ class BlockDisabledAccounts extends Maintenance {
 
 			$counter++;
 			if ( $this->doBlockAndLog( $user ) ) {
-				$user->removeGroup( 'inactive' );
+				MediaWikiServices::getInstance()->getUserGroupManager()
+					->removeUserFromGroup( $user, 'inactive' );
 				$success++;
 			}
 		}
