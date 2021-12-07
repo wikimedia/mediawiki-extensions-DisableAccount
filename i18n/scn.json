@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"disableaccount-user": "Nomu utenti:",
+	"disableaccount-nosuchuser": "Lu cuntu utenti \"$1\" nun esisti."
+}
