@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Block\DatabaseBlock;
 use MediaWiki\MediaWikiServices;
 
 $IP = getenv( 'MW_INSTALL_PATH' );
@@ -91,7 +92,7 @@ class BlockDisabledAccounts extends Maintenance {
 		$alreadyBlocked = ( $block !== null );
 
 		if ( $block === null ) {
-			$block = new Block();
+			$block = new DatabaseBlock();
 		}
 		$reason = $this->getOption( 'reason', 'Convert disabled account to blocked account' );
 		$scriptUser = User::newFromName( 'Maintenance script' );
