@@ -128,5 +128,5 @@ class BlockDisabledAccounts extends Maintenance {
 	}
 }
 
-$maintClass = 'BlockDisabledAccounts';
+$maintClass = BlockDisabledAccounts::class;
 require_once RUN_MAINTENANCE_IF_MAIN;
