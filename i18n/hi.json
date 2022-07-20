@@ -3,10 +3,11 @@
 		"authors": [
 			"Ansumang",
 			"Kumar",
+			"Saurmandal",
 			"रोहित रावत"
 		]
 	},
-	"disableaccount-desc": "व्यक्तिगत खातों को निष्क्रिय करने की प्रबन्धकों को अनुमति दें",
+	"disableaccount-desc": "प्रबंधकों को खाते हटाने की अनुमति देता है",
 	"right-disableaccount": "निष्क्रिय खातों",
 	"disableaccount": "कोई उपयोगकर्ता खाते को निष्क्रिय करें",
 	"disableaccount-user": "सदस्य नाम:",
