@@ -6,10 +6,11 @@
 			"PhiLiP",
 			"Tranve",
 			"Yfdyh000",
-			"阿pp"
+			"阿pp",
+			"Lakejason0"
 		]
 	},
-	"disableaccount-desc": "使管理员可以禁用单个帐户",
+	"disableaccount-desc": "使管理员可以禁用单个账户",
 	"right-disableaccount": "禁用账号",
 	"action-disableaccount": "禁用账号",
 	"disableaccount": "禁用用户账号",
