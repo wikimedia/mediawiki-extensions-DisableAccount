@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"disableaccount-nosuchuser": "The user account '$1' does not exist.",
+	"disableaccount-success": "The user account '$1' has been permanently disabled."
+}
