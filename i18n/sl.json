@@ -16,5 +16,5 @@
 	"disableaccount-mustconfirm": "Potrditi morate, da želite onemogočiti ta račun.",
 	"disableaccount-nosuchuser": "Uporabniški račun »$1« ne obstaja.",
 	"disableaccount-success": "Uporabniški račun »$1« je trajno onemogočen.",
-	"logentry-block-disableaccount": "$1 je {{GENDER:$2|onemogočil|onemogočila|onemogočil/a}} račun {{GENDER:$4|$3}}."
+	"logentry-block-disableaccount": "$1 je {{GENDER:$2|onemogočil|onemogočila|onemogočil_a}} račun {{GENDER:$4|$3}}."
 }
