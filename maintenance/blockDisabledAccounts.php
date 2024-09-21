@@ -24,7 +24,7 @@ class BlockDisabledAccounts extends Maintenance {
 	}
 
 	public function execute() {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$inactive = $dbr->selectFieldValues(
 			'user_groups',
 			'ug_user',
