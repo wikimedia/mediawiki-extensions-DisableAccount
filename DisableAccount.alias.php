@@ -182,12 +182,17 @@ $specialPageAliases['vi'] = [
 	'DisableAccount' => [ 'Tắt_tài_khoản' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = [
-	'DisableAccount' => [ '停用账户', '禁用账户' ],
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'DisableAccount' => [ 'DisableAccount' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Simplified Chinese (中文（简体）) */
+$specialPageAliases['zh-hans'] = [
+	'DisableAccount' => [ '禁用账号', '停用账户', '禁用账户' ],
+];
+
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'DisableAccount' => [ '停用帳號' ],
 ];
