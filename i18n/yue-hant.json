@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Yueman"
 		]
 	},
 	"disableaccount-desc": "容許管理員停用個別戶口",
@@ -13,5 +14,5 @@
 	"disableaccount-mustconfirm": "你一定要確認你想去停用呢個戶口。",
 	"disableaccount-nosuchuser": "用戶戶口 \"$1\" 唔存在。",
 	"disableaccount-success": "用戶戶口 \"$1\" 已經永久停用咗。",
-	"logentry-block-disableaccount": "$1停用咗$3嘅戶口。"
+	"logentry-block-disableaccount": "$1{{GENDER:$2|停用咗}}{{GENDER:$4|$3}}嘅戶口。"
 }
