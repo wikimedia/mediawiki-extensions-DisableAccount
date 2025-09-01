@@ -7,7 +7,8 @@
 			"Tranve",
 			"Yfdyh000",
 			"阿pp",
-			"Lakejason0"
+			"Lakejason0",
+			"SaoMikoto"
 		]
 	},
 	"disableaccount-desc": "使管理员可以禁用单个账户",
@@ -19,5 +20,5 @@
 	"disableaccount-mustconfirm": "请确认您的确要禁用此账号。",
 	"disableaccount-nosuchuser": "用户账号“$1”不存在。",
 	"disableaccount-success": "用户账号“$1”已被永久禁用。",
-	"logentry-block-disableaccount": "$1{{GENDER:$2|停用了}}{{GENDER:$4|$3}}的账号。"
+	"logentry-block-disableaccount": "$1{{GENDER:$2|禁用了}}{{GENDER:$4|$3}}的账号。"
 }
