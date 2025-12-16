@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Daud I.F. Argana",
-			"IvanLanin"
+			"IvanLanin",
+			"Penyuwangi"
 		]
 	},
-	"disableaccount-desc": "Memungkinkan administrator untuk menonaktifkan akun individu",
-	"right-disableaccount": "Menonaktifkan akun",
-	"action-disableaccount": "menonaktifkan akun",
-	"disableaccount": "Penonaktifan akun pengguna",
+	"disableaccount-desc": "Memungkinkan pengurus untuk mematikan akun individu",
+	"right-disableaccount": "Matikan akun",
+	"action-disableaccount": "mematikan akun",
+	"disableaccount": "Matikan akun pengguna",
 	"disableaccount-user": "Nama pengguna:",
-	"disableaccount-confirm": "Nonaktifkan akun pengguna ini.\nPengguna tidak akan dapat masuk, menyetel ulang sandi mereka, atau menerima surel pemberitahuan.\nJika pengguna saat ini sedang masuk di mana saja, mereka akan segera dikeluarkan.\n''Perhatikan bahwa penonaktifan akun tidak dapat dibatalkan tanpa campur tangan administrator sistem.''",
-	"disableaccount-mustconfirm": "Anda harus mengonfirmasikan bahwa Anda ingin menonaktifkan akun ini.",
+	"disableaccount-confirm": "Matikan akun pengguna ini.\nPengguna tidak akan dapat masuk log, mengatur ulang sandi mereka, atau menerima surel pemberitahuan.\nJika pengguna saat ini sedang masuk log di mana saja, mereka akan segera dikeluarkan.\n''Perhatikan bahwa pematian akun tidak dapat dibatalkan tanpa campur tangan pengurus sistem.''",
+	"disableaccount-mustconfirm": "Anda harus konfirmasi bahwa Anda ingin mematikan akun ini.",
 	"disableaccount-nosuchuser": "Akun pengguna \"$1\" tidak ada.",
-	"disableaccount-success": "Akun pengguna \"$1\" telah dinonaktifkan secara permanen.",
-	"logentry-block-disableaccount": "$1 {{GENDER:$2|menonaktifkan akun}} {{GENDER:$4|$3}}."
+	"disableaccount-success": "Akun pengguna \"$1\" telah dimatikan secara permanen.",
+	"logentry-block-disableaccount": "$1 {{GENDER:$2|mematikan akun}} {{GENDER:$4|$3}}."
 }
