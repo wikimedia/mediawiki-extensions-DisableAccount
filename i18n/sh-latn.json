@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"disableaccount-desc": "Omogućava administratorima da onemoguće pojedinačne račune.",
@@ -13,5 +14,5 @@
 	"disableaccount-mustconfirm": "Morate potvrditi da želite onemogućiti ovaj račun.",
 	"disableaccount-nosuchuser": "Korisnički račun \"$1\" ne postoji.",
 	"disableaccount-success": "Korisnički račun \"$1\" je trajno onemogućen.",
-	"logentry-block-disableaccount": "$1 {{GENDER:$2|je onemogućio|je onemogućila}} nalog {{GENDER:$4|$3}}."
+	"logentry-block-disableaccount": "$1 {{GENDER:$2|je onemogućio|je onemogućila}} račun {{GENDER:$4|$3}}."
 }
