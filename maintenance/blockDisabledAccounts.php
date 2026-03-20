@@ -105,8 +105,9 @@ class BlockDisabledAccounts extends Maintenance {
 		$block->isEmailBlocked( true );
 		$block->isUsertalkEditAllowed( false );
 
+		$blockStore = MediaWikiServices::getInstance()->getDatabaseBlockStore();
 		// Try to update block if user is already blocked. Otherwise, attempt to insert a new one.
-		$success = $alreadyBlocked ? $block->update() : $block->insert();
+		$success = $alreadyBlocked ? $blockStore->updateBlock( $block ) : $blockStore->insertBlock( $block );
 
 		if ( is_array( $success ) ) {
 			$logAction = $alreadyBlocked ? 'reblock' : 'block';
