@@ -7,7 +7,12 @@ use MediaWiki\MediaWikiServices;
  */
 class SpecialDisableAccount extends SpecialPage {
 	function __construct() {
-		parent::__construct( 'DisableAccount', 'disableaccount' );
+		parent::__construct( 'DisableAccount' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'disableaccount';
 	}
 
 	public function doesWrites() {
