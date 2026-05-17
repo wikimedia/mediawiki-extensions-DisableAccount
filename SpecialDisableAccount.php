@@ -1,6 +1,9 @@
 <?php
 
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\User\User;
 
 /**
  * @todo This should use FormSpecialPage

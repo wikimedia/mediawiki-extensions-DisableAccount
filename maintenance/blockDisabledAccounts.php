@@ -3,6 +3,8 @@
 use MediaWiki\Block\DatabaseBlock;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
+use MediaWiki\User\User;
+use MediaWiki\User\UserArray;
 
 $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {

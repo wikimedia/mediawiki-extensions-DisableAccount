@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Logging\LogFormatter;
+
 class DisableAccountLogFormatter extends LogFormatter {
 	protected function getMessageParameters() {
 		$params = parent::getMessageParameters();
