@@ -1,15 +1,17 @@
 <?php
 
 use MediaWiki\HTMLForm\HTMLForm;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\User\User;
+use MediaWiki\User\UserGroupManager;
 
 /**
  * @todo This should use FormSpecialPage
  */
 class SpecialDisableAccount extends SpecialPage {
-	function __construct() {
+	public function __construct(
+		private readonly UserGroupManager $userGroupManager,
+	) {
 		parent::__construct( 'DisableAccount' );
 	}
 
@@ -34,29 +36,36 @@ class SpecialDisableAccount extends SpecialPage {
 			],
 			'confirm' => [
 				'type' => 'toggle',
-				'validation-callback' => [ __CLASS__, 'checkConfirmation' ],
+				'validation-callback' => $this->checkConfirmation( ... ),
 				'label-message' => 'disableaccount-confirm',
 			],
 		];
 
 		$htmlForm = HTMLForm::factory( 'ooui', $formFields, $this->getContext(), 'disableaccount' );
 
-		$htmlForm->setSubmitCallback( [ __CLASS__, 'submit' ] );
+		$htmlForm->setSubmitCallback( $this->submit( ... ) );
 
 		$htmlForm->show();
 	}
 
-	static function checkConfirmation( $field, $allFields ) {
+	/**
+	 * @param mixed $field
+	 * @return string|true
+	 */
+	private function checkConfirmation( $field ) {
 		if ( $field ) {
 			return true;
 		} else {
-			return wfMessage( 'disableaccount-mustconfirm' )->parse();
+			return $this->msg( 'disableaccount-mustconfirm' )->parse();
 		}
 	}
 
-	static function submit( $fields, $form ) {
-		global $wgOut;
-
+	/**
+	 * @param array $fields
+	 * @param HTMLForm $form
+	 * @return string|true
+	 */
+	private function submit( $fields, $form ) {
 		// While we're not actually turning the user into a "system" user, it
 		// has the same end result: all passwords and other authentication
 		// credentials removed or set to something invalid, email blanked,
@@ -65,13 +74,13 @@ class SpecialDisableAccount extends SpecialPage {
 		if ( is_callable( 'User::newSystemUser' ) ) {
 			$user = User::newSystemUser( $fields['account'], [ 'create' => false, 'steal' => true ] );
 			if ( !$user ) {
-				return wfMessage( 'disableaccount-nosuchuser', $fields['account'] )->text();
+				return $this->msg( 'disableaccount-nosuchuser', $fields['account'] )->text();
 			}
 		} else {
 			$user = User::newFromName( $fields['account'] );
 
 			if ( !$user || $user->getId() === 0 ) {
-				return wfMessage( 'disableaccount-nosuchuser', $fields['account'] )->text();
+				return $this->msg( 'disableaccount-nosuchuser', $fields['account'] )->text();
 			}
 
 			$user->setPassword( null );
@@ -79,8 +88,7 @@ class SpecialDisableAccount extends SpecialPage {
 			$user->setToken();
 		}
 
-		MediaWikiServices::getInstance()->getUserGroupManager()
-			->addUserToGroup( $user, 'inactive' );
+		$this->userGroupManager->addUserToGroup( $user, 'inactive' );
 
 		$user->saveSettings();
 		$user->invalidateCache();
@@ -92,7 +100,7 @@ class SpecialDisableAccount extends SpecialPage {
 		$logId = $logEntry->insert();
 		$logEntry->publish( $logId );
 
-		$wgOut->addWikiMsg( 'disableaccount-success', $user->getName() );
+		$this->getOutput()->addWikiMsg( 'disableaccount-success', $user->getName() );
 
 		return true;
 	}

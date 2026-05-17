@@ -26,7 +26,12 @@
 		"disableaccount"
 	],
 	"SpecialPages": {
-		"DisableAccount": "SpecialDisableAccount"
+		"DisableAccount": {
+			"class": "SpecialDisableAccount",
+			"services": [
+				"UserGroupManager"
+			]
+		}
 	},
 	"AutoloadClasses": {
 		"SpecialDisableAccount": "SpecialDisableAccount.php",
