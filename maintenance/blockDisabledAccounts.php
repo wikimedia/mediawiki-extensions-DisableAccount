@@ -1,7 +1,6 @@
 <?php
 
 use MediaWiki\Block\DatabaseBlock;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWiki\User\UserArray;
@@ -27,7 +26,7 @@ class BlockDisabledAccounts extends Maintenance {
 	}
 
 	public function execute() {
-		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
+		$dbr = $this->getServiceContainer()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$inactive = $dbr->selectFieldValues(
 			'user_groups',
 			'ug_user',
@@ -59,7 +58,7 @@ class BlockDisabledAccounts extends Maintenance {
 		$counter = 0;
 		$success = 0;
 
-		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
+		$lbFactory = $this->getServiceContainer()->getDBLoadBalancerFactory();
 
 		$users = UserArray::newFromIDs( $ids );
 
@@ -72,7 +71,7 @@ class BlockDisabledAccounts extends Maintenance {
 
 			$counter++;
 			if ( $this->doBlockAndLog( $user ) ) {
-				MediaWikiServices::getInstance()->getUserGroupManager()
+				$this->getServiceContainer()->getUserGroupManager()
 					->removeUserFromGroup( $user, 'inactive' );
 				$success++;
 			}
@@ -107,7 +106,7 @@ class BlockDisabledAccounts extends Maintenance {
 		$block->isEmailBlocked( true );
 		$block->isUsertalkEditAllowed( false );
 
-		$blockStore = MediaWikiServices::getInstance()->getDatabaseBlockStore();
+		$blockStore = $this->getServiceContainer()->getDatabaseBlockStore();
 		// Try to update block if user is already blocked. Otherwise, attempt to insert a new one.
 		$success = $alreadyBlocked ? $blockStore->updateBlock( $block ) : $blockStore->insertBlock( $block );
 
