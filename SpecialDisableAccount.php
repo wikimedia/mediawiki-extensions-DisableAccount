@@ -22,11 +22,13 @@ class SpecialDisableAccount extends SpecialPage {
 		return 'disableaccount';
 	}
 
-	public function doesWrites() {
+	/** @inheritDoc */
+	public function doesWrites(): bool {
 		return true;
 	}
 
-	public function execute( $par ) {
+	/** @inheritDoc */
+	public function execute( $par ): void {
 		$this->setHeaders();
 		$this->checkPermissions();
 

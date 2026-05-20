@@ -81,7 +81,7 @@ class BlockDisabledAccounts extends Maintenance {
 			"a blank password and email. Successfully migrated $success users\n" );
 	}
 
-	/*
+	/**
 	 * Attempt to block the given user. If user is already blocked, modify
 	 * the existing block. If block was successful, insert log entry as well.
 	 *

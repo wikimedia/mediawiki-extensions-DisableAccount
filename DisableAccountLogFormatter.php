@@ -3,6 +3,7 @@
 use MediaWiki\Logging\LogFormatter;
 
 class DisableAccountLogFormatter extends LogFormatter {
+	/** @inheritDoc */
 	protected function getMessageParameters() {
 		$params = parent::getMessageParameters();
 		if ( count( $params ) == 3 ) {
