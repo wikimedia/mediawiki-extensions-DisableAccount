@@ -3,6 +3,7 @@
 use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\User\User;
+use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserGroupManager;
 
 /**
@@ -10,6 +11,7 @@ use MediaWiki\User\UserGroupManager;
  */
 class SpecialDisableAccount extends SpecialPage {
 	public function __construct(
+		private readonly UserFactory $userFactory,
 		private readonly UserGroupManager $userGroupManager,
 	) {
 		parent::__construct( 'DisableAccount' );
@@ -77,7 +79,7 @@ class SpecialDisableAccount extends SpecialPage {
 				return $this->msg( 'disableaccount-nosuchuser', $fields['account'] )->text();
 			}
 		} else {
-			$user = User::newFromName( $fields['account'] );
+			$user = $this->userFactory->newFromName( $fields['account'] );
 
 			if ( !$user || $user->getId() === 0 ) {
 				return $this->msg( 'disableaccount-nosuchuser', $fields['account'] )->text();

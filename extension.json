@@ -29,6 +29,7 @@
 		"DisableAccount": {
 			"class": "SpecialDisableAccount",
 			"services": [
+				"UserFactory",
 				"UserGroupManager"
 			]
 		}
