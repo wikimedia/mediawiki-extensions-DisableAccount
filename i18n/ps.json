@@ -14,5 +14,5 @@
 	"disableaccount-mustconfirm": "تاسې بايد د دې چارې پخلی وکړئ چې تاسې همدا گڼون ناچارنول غواړئ.",
 	"disableaccount-nosuchuser": "د \"$1\" کارن گڼون نشته.",
 	"disableaccount-success": "د \"$1\" کارن گڼون د تل لپاره ناچارن شو.",
-	"logentry-block-disableaccount": "$1 د {{GENDER:$4|$4}} {{GENDER:$2|گڼون ناچارن کړ}}."
+	"logentry-block-disableaccount": "$1 د {{GENDER:$4|$3}} {{GENDER:$2|گڼون ناچارن کړ}}."
 }
