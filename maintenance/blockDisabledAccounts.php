@@ -97,7 +97,8 @@ class BlockDisabledAccounts extends Maintenance {
 			$block = new DatabaseBlock();
 		}
 		$reason = $this->getOption( 'reason', 'Convert disabled account to blocked account' );
-		$scriptUser = User::newFromName( 'Maintenance script' );
+		$scriptUser = $this->getServiceContainer()->getUserFactory()->newFromName( 'Maintenance script' );
+		'@phan-var User $scriptUser';
 
 		$block->setTarget( $user );
 		$block->setBlocker( $scriptUser );
