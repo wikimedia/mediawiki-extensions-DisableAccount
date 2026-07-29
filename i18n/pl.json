@@ -4,7 +4,8 @@
 			"Rail",
 			"Railfail536",
 			"Sp5uhe",
-			"Woytecr"
+			"Woytecr",
+			"PanWor"
 		]
 	},
 	"disableaccount-desc": "Umożliwia administratorom wyłączanie poszczególnych kont.",
@@ -16,5 +17,5 @@
 	"disableaccount-mustconfirm": "Musisz potwierdzić, że chcesz wyłączyć to konto.",
 	"disableaccount-nosuchuser": "Brak konta użytkownika „$1”.",
 	"disableaccount-success": "Konto użytkownika „$1” zostało trwale wyłączone.",
-	"logentry-block-disableaccount": "$1 {{GENDER:$2|zablokował|zablokowała}} konto {{GENDER:$4|$3}}."
+	"logentry-block-disableaccount": "$1 {{GENDER:$2|zablokował|zablokowała|zablokował(a)}} konto {{GENDER:$4|$3}}."
 }
