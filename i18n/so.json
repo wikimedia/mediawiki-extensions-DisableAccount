@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"disableaccount-desc": "Waxay u oggolaanaysaa maamulayaasha inay damiyaan akoonnada shaqsiyeed",
+	"right-disableaccount": "Dami akoonnada",
+	"action-disableaccount": "dami akoonnada",
+	"disableaccount": "Dami akoonka isticmaalaha",
+	"disableaccount-user": "Magaca isticmaalaha:",
+	"disableaccount-confirm": "Dami akoonkan isticmaalaha.\nIsticmaaluhu ma awoodi doono inuu soo galo, dib u dejiyo furaha sirta ah, ama helo ogeysiisyada iimaylka.\nHaddii isticmaaluhu hadda meel ka soo galay, isla markiiba waa laga saari doonaa.\n''Ogow in daminta akoonka aan dib looga noqon karin haddii aanu maamule nidaamku faragelin.''",
+	"disableaccount-mustconfirm": "Waa inaad xaqiijisaa inaad doonayso inaad damiso akoonkan.",
+	"disableaccount-nosuchuser": "Akoonka isticmaalaha \"$1\" ma jiro.",
+	"disableaccount-success": "Akoonka isticmaalaha \"$1\" si joogto ah ayaa loo damiyay.",
+	"logentry-block-disableaccount": "$1 {{GENDER:$2|damiyay akoonka}} ee {{GENDER:$4|$3}}."
+}
